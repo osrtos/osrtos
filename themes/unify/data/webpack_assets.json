@@ -1,0 +1,24 @@
+{
+  "app": {
+    "js": "app.891c52d1754686d395e4.js",
+    "css": "./app.7b110ee56eb076880e8fc70cd893331d.css"
+  },
+  "": {
+    "png": [
+      "assets/img/bg/marker/marker-bg-green.png",
+      "assets/img/bg/grid/diagonal-left.png",
+      "assets/img/bg/grid/tile-left.png",
+      "assets/img/bg/grid/tile-right.png",
+      "assets/img/bg/grid/wave.png",
+      "assets/img/bg/grid/zigzag-left.png",
+      "assets/img/bg/grid/zigzag-right.png",
+      "assets/img/bg/marker/marker-bg-black.png",
+      "assets/img/bg/grid/diagonal-right.png",
+      "assets/img/bg/marker/marker-bg-primary.png",
+      "assets/img/bg/marker/marker-bg-red.png",
+      "assets/img/bg/marker/marker-bg-white.png",
+      "assets/img/bg/marker/marker-bg-yellow.png",
+      "assets/img/bg/pattern--green.png"
+    ]
+  }
+}

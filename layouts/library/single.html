@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="container g-px-50 g-pt-20 g-pb-70">
+  <h1 class="h1 g-font-weight-300 w-100 g-mb-20">{{- .Title -}}</h1>
+  <div class="row rtos-page rtos-item rtos">
+    <div class="col-md-9">
+      <div class="">
+        {{- .Content -}}
+      </div>
+      <div class="g-mb-20">
+        <h3 class="h5 g-font-weight-300 g-mb-5">
+          <i class="fas fa-link"> </i>
+          <span>Website: <a href="{{ .Param "site-url" }}" target="_blank">{{ .Param "site-url" }}</a></span>
+        </h3>
+        {{ if ( .Param "code-url" )}}
+        <h3 class="h5 g-font-weight-300 g-mb-5">
+          <i
+            class="{{ if ( eq "https://github.com/" (substr (.Param "code-url" ) 0 19))}} fab fa-github{{ else }}fas fa-code-branch{{ end }}">
+          </i>
+          <span>Source code: <a href="{{ .Param "code-url" }}" target="_blank">{{ .Param "code-url" }}</a></span>
+        </h3>
+        {{ end }}
+        <h3 class="h5 g-font-weight-300 g-mb-5">
+          <i class="far fa-copyright"> </i>
+          <span>License: </span>
+          {{ $taxonomy := "licenses" }}
+          {{ with .Param $taxonomy }}
+          {{ range $index, $tag := . }}
+          {{ if (ne $tag "None")}}
+          {{ $tag }}
+          {{ end }}
+          {{- end -}}
+          </ul>
+          {{ end }}
+        </h3>
+      </div>
+      <hr />
+    </div>
+    <div class="col-md-3">
+    </div>
+  </div>
+</section>
+{{ end }}

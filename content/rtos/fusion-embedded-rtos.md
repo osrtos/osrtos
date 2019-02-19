@@ -1,0 +1,37 @@
+---
+title: "Fusion Embedded RTOS"
+date: 2016-11-29T11:36:57+00:00
+slug: "fusion-embedded-rtos"
+version: ""
+site-url: "http://www.unicoi.com/product_suite_pages/fusion_rtos_product_suite.htm"
+code-url: ""
+last-updated: "2015-03-08"
+licenses: 
+- Other
+platforms:
+- ARM
+- PowerPC
+components:
+- None
+libraries:
+- None
+draft: false
+---
+The Fusion Embedded RTOS (Real-Time Operating System) from Unicoi Systems is a Real-Time OS designed and optimized for networking and media-centric processors.
+
+<!--more-->
+
+### Features
+- Name Server
+- Modular Object design
+- Stack Sharing Capabilities
+- Task Profiling
+- Memory Statistics for all objects
+- Data and error logging
+- Command Line interface
+- Small footprint Standard C library
+- Complete Interrupt control
+- Packet Management capabilities
+- I/O Manager
+
+

@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+{{ $mainSections := (slice "library") }}
+{{/* Create a variable with that section to use in multiple places. */}}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{/* Check to see if the section is defined for ranging through it */}}
+{{ $section_count := len $section }}
+{{ if ge $section_count 1 }}
+<section class="container-fluid g-px-50 g-pt-20 g-pb-70">
+  <div class="float-right">
+    <div class="g-mt-10">
+      <a class="btn btn-success" href="https://github.com/osrtos/osrtos">Submit Library / Fix Bugs</a>
+    </div>
+  </div>
+  <h1 class="h1 g-font-weight-300 w-100 g-mb-20">Open Source RTOS Libraries</h1>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover table-fixed">
+      <thead style="background:#eee;">
+        <tr>
+          <th>Name</th>
+          <th>License</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Version</th>
+          <th>Links</th>
+          <th>Last updated</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range sort $section "Title" "asc" }}
+        <tr>
+          <td width="15%">
+            <a href="{{ .URL }}">{{ .Title }}</a>
+          </td>
+          <td width="10%">
+            {{ $taxonomy := "licenses" }}
+            {{ with .Param $taxonomy }}
+            <ul class="list-unstyled" style="margin-bottom:0;">
+              {{ range $index, $tag := . }}
+              {{ if (ne $tag "None")}}
+              <li>
+                {{ $tag }}
+              </li>
+              {{ end }}
+              {{- end -}}
+            </ul>
+            {{ end }}
+          </td>
+          <td width="8%">{{ .Param "lib-type" }}</td>
+          <td>{{ .Summary }}</td>
+          <td width="8%">{{ .Param "version" }}</td>
+          <td width="8%">
+            <ul class="list-unstyled" style="margin-bottom:0;">
+              {{ if ( .Param "code-url" )}}
+              <li><a href="{{ .Param "code-url" }}" target="_blank"><i
+                      class="{{ if ( eq "https://github.com/" (substr (.Param "code-url" ) 0 19))}}fab fa-github{{ else }}fas fa-code-branch{{ end }}"
+                aria-hidden="true"></i> Code</a></li>
+              {{ end }}
+              {{ if ( .Param "site-url" )}}
+              <li><a href="{{ .Param "site-url" }}" target="_blank"><i
+                      class="fas fa-link" aria-hidden="true"></i> Website</a></li>
+              {{ end }}
+            </ul>
+          </td>
+          <td width="8%">{{ .Param "last-updated" }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
