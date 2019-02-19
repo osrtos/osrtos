@@ -4,11 +4,7 @@ title = "OSRTOS"
 theme = "unify"
 
 [taxonomies]
-  license = "licenses"
-  platform = "platforms"
-  component = "components"
-  rtos = "rtos"
-  library = "libraries"
+
 
 [params]
   mainSections = ["rtos"]
