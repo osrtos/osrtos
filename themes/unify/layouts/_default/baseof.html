@@ -9,13 +9,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    {{ .Hugo.Generator }}
-    {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    {{ else }}
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    {{ end }}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}
@@ -34,12 +28,6 @@
       <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
       <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
-
-    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/spf13/hugo/blob/master/tpl/tplimpl/template_embedded.go#L158 */}}
-    {{- template "_internal/opengraph.html" . -}}
-    {{- template "_internal/google_news.html" . -}}
-    {{- template "_internal/schema.html" . -}}
-    {{- template "_internal/twitter_cards.html" . -}}
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}

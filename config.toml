@@ -3,12 +3,16 @@ languageCode = "en-us"
 title = "OSRTOS"
 theme = "unify"
 
+
+googleAnalytics = "UA-46054378-1"
+
 [taxonomies]
 
 
 [params]
   mainSections = ["rtos"]
   favicon = "favicon.ico"
+  env= "production"
 
 [menu]
 
