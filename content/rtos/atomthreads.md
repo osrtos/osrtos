@@ -1,20 +1,20 @@
 ---
-title: "Atomthreads"
-date: 2016-11-29T11:36:57+00:00
-slug: "atomthreads"
-version: "release1.3"
-site-url: "http://atomthreads.com/index.php"
-code-url: "https://github.com/kelvinlawson/atomthreads"
-last-updated: "2017-08-27"
-licenses: 
+code-url: https://github.com/kelvinlawson/atomthreads
+components:
+- None
+date: 2016-11-29 11:36:57
+draft: false
+last-updated: '2017-08-27'
+libraries:
+- None
+licenses:
 - BSD
 platforms:
 - AVR
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://atomthreads.com/index.php
+slug: atomthreads
+title: Atomthreads
+version: release1.3
 ---
 Atomthreads is a free, lightweight, portable, real-time scheduler for embedded systems.
 

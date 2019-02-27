@@ -1,22 +1,22 @@
 ---
-title: "seL4"
-date: 2017-04-29T08:18:58+00:00
-slug: "sel4"
-version: "10.1.1"
-site-url: "http://sel4.systems/"
-code-url: "https://github.com/seL4/seL4"
-last-updated: "2018-11-23"
-licenses: 
+code-url: https://github.com/seL4/seL4
+components:
+- None
+date: 2017-04-29 08:18:58
+draft: false
+last-updated: '2018-11-11'
+libraries:
+- None
+licenses:
 - GPL v2
 platforms:
 - ARM
 - x86
 - RISC-V
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://sel4.systems/
+slug: sel4
+title: seL4
+version: 10.1.1
 ---
 The world's first operating-system kernel with an end-to-end proof of implementation correctness and security enforcement is available as open source.
 

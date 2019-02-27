@@ -4,7 +4,7 @@ date: 2016-11-29T11:36:57+00:00
 slug: "nuttx"
 version: "7.25"
 site-url: "http://nuttx.org/"
-code-url: "https://sourceforge.net/projects/nuttx/"
+code-url: "https://bitbucket.org/nuttx/nuttx/downloads/"
 last-updated: "2018-06-11"
 licenses: 
 - BSD

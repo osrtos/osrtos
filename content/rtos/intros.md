@@ -1,20 +1,20 @@
 ---
-title: "IntrOS"
-date: 2016-12-30T09:12:13+00:00
-slug: "intros"
-version: "v4.0"
-site-url: "https://github.com/stateos/IntrOS"
-code-url: "https://github.com/stateos/IntrOS"
-last-updated: "2018-05-25"
-licenses: 
+code-url: https://github.com/stateos/IntrOS
+components:
+- None
+date: 2016-12-30 09:12:13
+draft: false
+last-updated: '2018-11-20'
+libraries:
+- None
+licenses:
 - GPL v3
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/stateos/IntrOS
+slug: intros
+title: IntrOS
+version: v4.4
 ---
 Free, simple and tiny cooperative operating system (OS) designed for deeply embedded applications.
 

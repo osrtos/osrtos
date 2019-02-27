@@ -1,23 +1,23 @@
 ---
-title: "BRTOS"
-date: 2016-11-29T11:36:57+00:00
-slug: "brtos"
-version: ""
-site-url: "https://github.com/brtos/brtos"
-code-url: "https://github.com/brtos/brtos"
-last-updated: "2017-09-17"
-licenses: 
+code-url: https://github.com/brtos/brtos
+components:
+- None
+date: 2016-11-29 11:36:57
+draft: false
+last-updated: '2018-03-01'
+libraries:
+- None
+licenses:
 - MIT
 platforms:
 - MSP430
 - AVR
 - ColdFire
 - PIC
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/brtos/brtos
+slug: brtos
+title: BRTOS
+version: ''
 ---
 BRTOS is a lightweight preemptive real time operating system designed for low end microcontrollers.
 

@@ -1,20 +1,20 @@
 ---
-title: "AliOS Things"
-date: 2018-01-23T05:35:24+00:00
-slug: "alios-things"
-version: "v1.3.1"
-site-url: "https://github.com/alibaba/AliOS-Things"
-code-url: "https://github.com/alibaba/AliOS-Things"
-last-updated: "2018-05-31"
-licenses: 
+code-url: https://github.com/alibaba/AliOS-Things
+components:
+- None
+date: 2018-01-23 05:35:24
+draft: false
+last-updated: '2019-02-02'
+libraries:
+- None
+licenses:
 - Apache License
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/alibaba/AliOS-Things
+slug: alios-things
+title: AliOS Things
+version: v1.3.4
 ---
 AliOS Things is designed for low power, resource constrained MCU, connectivity SoC, greatly suitable for IoT devices. AliOS Things is not just a RTOS, it contains full stack of software components and tools for building IoT devices.
 

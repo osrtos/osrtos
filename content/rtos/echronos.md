@@ -1,22 +1,22 @@
 ---
-title: "eChronos"
-date: 2017-06-25T20:58:42+00:00
-slug: "echronos"
-version: "v3.0.5"
-site-url: "https://github.com/echronos/echronos"
-code-url: "https://github.com/echronos/echronos"
-last-updated: "2019-01-01"
-licenses: 
+code-url: https://github.com/echronos/echronos
+components:
+- None
+date: 2017-06-25 20:58:42
+draft: false
+last-updated: '2019-01-23'
+libraries:
+- None
+licenses:
 - Other
 platforms:
 - ARM
 - PowerPC
 - POSIX
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/echronos/echronos
+slug: echronos
+title: eChronos
+version: v3.0.5
 ---
 The eChronos RTOS is a real-time operating system (RTOS) originally developed by NICTA and Breakaway Consulting Pty. Ltd. It is intended for tightly resource-constrained devices without memory protection.
 

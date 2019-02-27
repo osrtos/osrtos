@@ -1,20 +1,20 @@
 ---
-title: "LiteOS"
-date: 2018-02-06T03:23:05+00:00
-slug: "liteos"
-version: "v1.1.1"
-site-url: "http://developer.huawei.com/ict/en/site-iot/product/liteos"
-code-url: "https://github.com/LITEOS/LiteOS_Kernel"
-last-updated: "2017-04-01"
-licenses: 
+code-url: https://github.com/LITEOS/LiteOS_Kernel
+components:
+- None
+date: 2018-02-06 03:23:05
+draft: false
+last-updated: '2019-02-20'
+libraries:
+- None
+licenses:
 - BSD
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://developer.huawei.com/ict/en/site-iot/product/liteos
+slug: liteos
+title: LiteOS
+version: LiteOSV200R001C50B038
 ---
 Huawei LiteOS is a lightweight open-source IoT OS and a smart hardware development platform. It simplifies IoT device development and device connectivity, makes services smarter, delivers superb user experience, and provides better data protection. Huawei LiteOS is designed for smart homes, wearables, IoV, and intelligent manufacturing applications.
 

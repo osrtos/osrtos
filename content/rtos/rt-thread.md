@@ -1,20 +1,5 @@
 ---
-title: "RT-Thread"
-date: 2016-11-29T11:36:57+00:00
-slug: "rt-thread"
-version: "v3.0.4"
-site-url: "http://www.rt-thread.org/"
-code-url: "https://github.com/RT-Thread/rt-thread"
-last-updated: "2018-05-31"
-licenses: 
-- Modified  GPL  v2
-platforms:
-- ARM
-- x86
-- MIPS
-- PowerPC
-- RISC-V
-- Andes
+code-url: https://github.com/RT-Thread/rt-thread
 components:
 - FileSystem
 - Network
@@ -23,12 +8,27 @@ components:
 - Runtime Analysis
 - USBHost
 - USBDevice
+date: 2016-11-29 11:36:57
+draft: false
+last-updated: '2019-01-28'
 libraries:
 - Yaffs
 - FatFs
 - lwIP
 - MicroPython
-draft: false
+licenses:
+- Modified  GPL  v2
+platforms:
+- ARM
+- x86
+- MIPS
+- PowerPC
+- RISC-V
+- Andes
+site-url: http://www.rt-thread.org/
+slug: rt-thread
+title: RT-Thread
+version: v3.1.2
 ---
 RT-Thread is an open source real-time operating system for embedded devices from China. RT-Thread RTOS is a scalable real-time operating system: a tiny kernel for ARM Cortex-M0, Cortex-M3/4, or a full feature system in ARM Cortex-A8, ARM Cortex-A9 DualCor
 

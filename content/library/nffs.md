@@ -1,15 +1,15 @@
 ---
-title: "NFFS"
-date: 2017-01-05T13:26:05+00:00
-slug: "nffs"
-lib-type: "File System"
-version: "dev-master"
-site-url: "http://mynewt.apache.org/os/modules/fs/nffs/nffs/"
-code-url: "https://github.com/apache/incubator-mynewt-core/tree/develop/fs/nffs"
-last-updated: "2017-01-05"
-licenses: 
-- Apache License
+code-url: https://github.com/apache/mynewt-nffs
+date: 2017-01-05 13:26:05
 draft: false
+last-updated: '2019-01-02'
+lib-type: File System
+licenses:
+- Apache License
+site-url: https://github.com/apache/mynewt-nffs
+slug: nffs
+title: NFFS
+version: dev-master
 ---
 The Newtron Flash File System (nffs) is an open source file system available by default with the Apache Mynewt OS.
 

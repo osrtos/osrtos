@@ -1,20 +1,20 @@
 ---
-title: "F9 Microkernel"
-date: 2016-11-30T13:54:12+00:00
-slug: "f9-microkernel"
-version: ""
-site-url: "https://github.com/f9micro/f9-kernel"
-code-url: "https://github.com/f9micro/f9-kernel"
-last-updated: "2017-02-02"
-licenses: 
+code-url: https://github.com/f9micro/f9-kernel
+components:
+- None
+date: 2016-11-30 13:54:12
+draft: false
+last-updated: '2017-02-02'
+libraries:
+- None
+licenses:
 - BSD
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/f9micro/f9-kernel
+slug: f9-microkernel
+title: F9 Microkernel
+version: ''
 ---
 F9 microkernel is a microkernel-based (L4-style) kernel to support running real-time and time-sharing applications (for example, wireless communications) for ARM Cortex-M series microprocessors with efficiency (performance + power consumption) and security (memory protection + isolated execution) in mind.
 

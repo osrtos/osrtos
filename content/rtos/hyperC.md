@@ -1,21 +1,21 @@
 ---
-title: "HyperC"
-date: 2019-02-24T09:36:21+08:00
-slug: hyperc
-version: eva3
-site-url: https://socware.net/?p=525
 code-url: https://github.com/socware-net/hyperCOS-evaluate
-last-updated: 2019-02-13
-licenses: 
+components:
+- None
+date: 2019-02-24 01:36:21
+draft: false
+last-updated: '2019-02-13'
+libraries:
+- None
+licenses:
 - Other
 platforms:
 - ARM
 - ARM Cortex
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://socware.net/?p=525
+slug: hyperc
+title: HyperC
+version: eva3
 ---
 
 The hyperC OS is a real time-operating system (RTOS) designed for various IoT applications. All the designs are aimed at the optimization of ARM Cortex CPUs. 

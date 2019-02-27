@@ -1,20 +1,20 @@
 ---
-title: "distortos"
-date: 2016-11-29T11:36:58+00:00
-slug: "distortos"
-version: "v0.5.0"
-site-url: "http://distortos.org/"
-code-url: "https://github.com/DISTORTEC/distortos"
-last-updated: "2017-09-14"
-licenses: 
+code-url: https://github.com/DISTORTEC/distortos
+components:
+- None
+date: 2016-11-29 11:36:58
+draft: false
+last-updated: '2018-07-01'
+libraries:
+- None
+licenses:
 - Mozilla Public License Version 2.0
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://distortos.org/
+slug: distortos
+title: distortos
+version: v0.6.0
 ---
 Distortos is an advanced RTOS written in C++11.
 

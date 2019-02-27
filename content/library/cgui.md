@@ -1,15 +1,15 @@
 ---
-title: "CGUI"
-date: 2016-12-01T10:50:15+00:00
-slug: "cgui"
-lib-type: "GUI"
-version: "2.0.5"
-site-url: "http://cgui.sourceforge.net/"
-code-url: "https://sourceforge.net/projects/cgui/"
-last-updated: "2015-12-15"
-licenses: 
-- GPL
+code-url: https://sourceforge.net/projects/cgui/
+date: 2016-12-01 10:50:15
 draft: false
+last-updated: '2008-06-15'
+lib-type: GUI
+licenses:
+- GPL
+site-url: http://cgui.sourceforge.net/
+slug: cgui
+title: CGUI
+version: 2.0.5
 ---
 CGUI is a library that provides you with a set of C-functions to create GUI applications, i.e. windows and window controls like buttons, check-boxes, menus, input boxes etc.
 

@@ -1,15 +1,15 @@
 ---
-title: "eefs"
-date: 2016-11-29T17:05:51+00:00
-slug: "eefs"
-lib-type: "File System"
-version: "eefs-2.0"
-site-url: "https://github.com/nasa/eefs"
-code-url: "https://github.com/nasa/eefs"
-last-updated: "2014-04-23"
-licenses: 
-- Other
+code-url: https://github.com/nasa/eefs
+date: 2016-11-29 17:05:51
 draft: false
+last-updated: '2014-04-23'
+lib-type: File System
+licenses:
+- Other
+site-url: https://github.com/nasa/eefs
+slug: eefs
+title: eefs
+version: eefs-2.0
 ---
 EEFS is for EEPROM File System Project (EEFS). It is a simple file system for memory devices such as EEPROM, RAM, ROM, etc. Currently it is not intended for block oriented devices such as disks and flash devices.
 

@@ -1,15 +1,15 @@
 ---
-title: "IUP"
-date: 2016-12-01T10:46:51+00:00
-slug: "iup"
-lib-type: "GUI"
-version: "3.25"
-site-url: "http://webserver2.tecgraf.puc-rio.br/iup/"
-code-url: "https://sourceforge.net/projects/iup/"
-last-updated: "2018-05-30"
-licenses: 
-- Other
+code-url: https://sourceforge.net/projects/iup/
+date: 2016-12-01 10:46:51
 draft: false
+last-updated: '2018-05-30'
+lib-type: GUI
+licenses:
+- Other
+site-url: http://webserver2.tecgraf.puc-rio.br/iup/
+slug: iup
+title: IUP
+version: '3.25'
 ---
 IUP is a portable toolkit for building graphical user interfaces. It offers a configuration API in three basic languages: C, Lua and LED. IUP purpose is to allow a program to be executed in different systems without any modification.
 

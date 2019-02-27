@@ -1,23 +1,23 @@
 ---
-title: "BeRTOS"
-date: 2016-11-29T11:36:57+00:00
-slug: "bertos"
-version: ""
-site-url: "http://www.bertos.org/"
-code-url: "https://github.com/develersrl/bertos"
-last-updated: "2017-01-23"
-licenses: 
+code-url: https://github.com/develersrl/bertos
+components:
+- None
+date: 2016-11-29 11:36:57
+draft: false
+last-updated: '2018-08-09'
+libraries:
+- None
+licenses:
 - Modified GPL
 platforms:
 - AVR
 - x86
 - PowerPC
 - x86_64
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://www.bertos.org/
+slug: bertos
+title: BeRTOS
+version: ''
 ---
 BeRTOS is a real time open source operating system supplied with drivers and libraries designed for the rapid development of embedded software.
 

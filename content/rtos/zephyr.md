@@ -1,12 +1,16 @@
 ---
-title: "Zephyr"
-date: 2016-11-29T11:36:58+00:00
-slug: "zephyr"
-version: "zephyr-v1.12.0"
-site-url: "https://www.zephyrproject.org"
-code-url: "https://github.com/zephyrproject-rtos/zephyr"
-last-updated: "2018-06-11"
-licenses: 
+code-url: https://github.com/zephyrproject-rtos/zephyr
+components:
+- BLE
+- FileSystem
+- Command Line Interface
+- Logging
+date: 2016-11-29 11:36:58
+draft: false
+last-updated: '2018-09-11'
+libraries:
+- None
+licenses:
 - Apache License
 platforms:
 - ARM
@@ -15,14 +19,10 @@ platforms:
 - RISC-V
 - ARC
 - Nios II
-components:
-- BLE
-- FileSystem
-- Command Line Interface
-- Logging
-libraries:
-- None
-draft: false
+site-url: https://www.zephyrproject.org
+slug: zephyr
+title: Zephyr
+version: zephyr-v1.13.0
 ---
 The Zephyr™ Project is a scalable, real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind. This Linux Foundation hosted project embraces open source development values and governance on its mission to unite leaders from across the industry to produce a best-in-breed solution.
 

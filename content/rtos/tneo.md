@@ -1,20 +1,20 @@
 ---
-title: "TNeo"
-date: 2016-12-20T09:03:32+00:00
-slug: "tneo"
-version: "v1.08"
-site-url: "https://dmitryfrank.com/projects/tneo"
-code-url: "https://github.com/dimonomid/tneo"
-last-updated: "2017-02-25"
-licenses: 
+code-url: https://github.com/dimonomid/tneo
+components:
+- None
+date: 2016-12-20 09:03:32
+draft: false
+last-updated: '2017-02-25'
+libraries:
+- None
+licenses:
 - Other
 platforms:
 - ARM
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://dmitryfrank.com/projects/tneo
+slug: tneo
+title: TNeo
+version: v1.08
 ---
 TNeo is a well-formed and carefully tested preemptive real-time kernel for 16- and 32-bits MCUs. It is compact and fast.
 

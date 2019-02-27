@@ -1,15 +1,15 @@
 ---
-title: "littlefs"
-date: 2017-12-25T19:14:32+00:00
-slug: "littlefs"
-lib-type: "File System"
-version: "v1.3"
-site-url: "https://github.com/geky/littlefs"
-code-url: "https://github.com/geky/littlefs"
-last-updated: "2018-04-30"
-licenses: 
-- Apache License
+code-url: https://github.com/geky/littlefs
+date: 2017-12-25 19:14:32
 draft: false
+last-updated: '2018-10-20'
+lib-type: File System
+licenses:
+- Apache License
+site-url: https://github.com/geky/littlefs
+slug: littlefs
+title: littlefs
+version: v1.7.0
 ---
 A little fail-safe filesystem designed for embedded systems
 

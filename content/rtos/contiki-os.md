@@ -1,26 +1,26 @@
 ---
-title: "Contiki OS"
-date: 2016-11-29T11:36:57+00:00
-slug: "contiki-os"
-version: "3.0"
-site-url: "http://www.contiki-os.org/"
-code-url: "https://github.com/contiki-os/contiki"
-last-updated: "2017-10-11"
-licenses: 
+code-url: https://github.com/contiki-os/contiki
+components:
+- FileSystem
+- Network
+- 6LoWPAN
+- Command Line Interface
+date: 2016-11-29 11:36:57
+draft: false
+last-updated: '2018-11-03'
+libraries:
+- None
+licenses:
 - BSD
 platforms:
 - MSP430
 - ARM
 - AVR
 - 8051
-components:
-- FileSystem
-- Network
-- 6LoWPAN
-- Command Line Interface
-libraries:
-- None
-draft: false
+site-url: http://www.contiki-os.org/
+slug: contiki-os
+title: Contiki OS
+version: '3.0'
 ---
 Contiki is an open source operating system for the Internet of Things. Contiki connects tiny low-cost, low-power microcontrollers to the Internet.
 

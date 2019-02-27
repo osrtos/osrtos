@@ -1,23 +1,23 @@
 ---
-title: "Mongoose OS"
-date: 2018-01-24T01:43:59+00:00
-slug: "mongoose-os"
-version: "2.3"
-site-url: "https://mongoose-os.com/"
-code-url: "https://github.com/cesanta/mongoose-os"
-last-updated: "2018-06-15"
-licenses: 
-- GPL v2
-platforms:
-- ARM
-- Xtensa
+code-url: https://github.com/cesanta/mongoose-os
 components:
 - FileSystem
 - Network
 - TLS/SSL
+date: 2018-01-24 01:43:59
+draft: false
+last-updated: '2019-02-20'
 libraries:
 - None
-draft: false
+licenses:
+- GPL v2
+platforms:
+- ARM
+- Xtensa
+site-url: https://mongoose-os.com/
+slug: mongoose-os
+title: Mongoose OS
+version: 2.12.0
 ---
 Mongoose OS - an open source Operating System for Internet of Things. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4. Amazon AWS IoT & Google IoT Core integrated. Code in C or JavaScript.
 

@@ -1,21 +1,21 @@
 ---
-title: "Prex"
-date: 2016-11-29T11:36:58+00:00
-slug: "prex"
-version: "0.9.0"
-site-url: "http://prex.sourceforge.net/"
-code-url: "http://prex.sourceforge.net/"
-last-updated: "2009-10-01"
-licenses: 
+code-url: http://prex.sourceforge.net/
+components:
+- None
+date: 2016-11-29 11:36:58
+draft: false
+last-updated: '2009-10-01'
+libraries:
+- None
+licenses:
 - BSD
 platforms:
 - ARM
 - x86
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: http://prex.sourceforge.net/
+slug: prex
+title: Prex
+version: 0.9.0
 ---
 Prex is an open source, royalty-free, real-time operating system for embedded systems. It is designed and implemented for resource-constrained systems that require predictable timing behavior. The highly portable code of Prex is written in 100% ANSI C bas
 
