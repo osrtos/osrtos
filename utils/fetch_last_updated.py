@@ -1,4 +1,5 @@
 import sys
+import os
 from time import sleep
 
 import dateutil.parser
@@ -14,7 +15,8 @@ from svn.exception import SvnException
 
 
 def fetch_github_repo_info(name):
-    g = Github('37b38aeebaa9beccbc29133f10c1740a49519751')
+    token = os.getenv('GITHUB_TOKEN', '')
+    g = Github(token)
 
     last_release_time = None
     last_release_version = None

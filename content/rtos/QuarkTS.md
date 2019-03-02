@@ -1,12 +1,13 @@
 ---
-title: "QuarkTS"
-date: 2019-02-27T16:49:25+08:00
-slug: quark-ts
-version: 4.6.6(j)
-site-url: https://github.com/kmilo17pet/QuarkTS/wiki
 code-url: https://github.com/kmilo17pet/QuarkTS
-last-updated: 2019-02-27
-licenses: 
+components:
+- None
+date: 2019-02-27 08:49:25
+draft: false
+last-updated: '2019-02-26'
+libraries:
+- None
+licenses:
 - LGPL
 platforms:
 - ARM
@@ -18,11 +19,10 @@ platforms:
 - MIPS
 - HCS12
 - x86
-components:
-- None
-libraries:
-- None
-draft: false
+site-url: https://github.com/kmilo17pet/QuarkTS/wiki
+slug: quark-ts
+title: QuarkTS
+version: 4.6.6(j)
 ---
 
 QuarkTS is a simple non-Preemtive Real-Time OS with a quasi-static scheduler for embedded multi-tasking applications. 
