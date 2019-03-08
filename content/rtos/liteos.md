@@ -11,7 +11,7 @@ licenses:
 - BSD
 platforms:
 - ARM
-site-url: http://developer.huawei.com/ict/en/site-iot/product/liteos
+site-url: https://www.huawei.com/minisite/liteos/en/index.html
 slug: liteos
 title: LiteOS
 version: LiteOSV200R001C50B038

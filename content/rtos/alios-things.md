@@ -11,7 +11,7 @@ licenses:
 - Apache License
 platforms:
 - ARM
-site-url: https://github.com/alibaba/AliOS-Things
+site-url: http://aliosthings.io/
 slug: alios-things
 title: AliOS Things
 version: v1.3.4
