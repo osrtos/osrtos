@@ -4,7 +4,7 @@ components:
 - None
 date: 2016-11-29 11:36:57
 draft: false
-last-updated: '2019-04-08'
+last-updated: '2019-06-14'
 libraries:
 - None
 licenses:
@@ -16,7 +16,7 @@ platforms:
 site-url: http://www.erika-enterprise.com/
 slug: erika-enterprise
 title: Erika Enterprise
-version: GH63
+version: GH65
 ---
 Erika Enterprise is the first open-source Free RTOS that has been certified OSEK/VDX compliant!.
 

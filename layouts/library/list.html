@@ -27,7 +27,7 @@
         </tr>
       </thead>
       <tbody>
-        {{ range sort $section "Title" "asc" }}
+        {{ range ($section.ByParam "last-updated").Reverse }}
         <tr>
           <td width="15%">
             <a href="{{ .URL }}">{{ .Title }}</a>
