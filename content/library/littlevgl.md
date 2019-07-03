@@ -22,7 +22,7 @@ LittlevGL is a free and open-source graphics library providing everything you ne
 - Multi language support with UTF-8 decoding
 - Fully customizable graphical elements
 - Hardware independent to use with any microcontroller or display
-- Scalable to operate with few memory (80 kB Flash, 10 kB RAM)
+- Scalable to operate with few memory (at least 64-180 kB Flash, and 16-32 kB RAM)
 - OS, External memory and GPU supported but not required
 - Single frame buffer operation even with advances graphical effects
 - Written in C for maximal compatibility
