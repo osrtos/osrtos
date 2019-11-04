@@ -6,7 +6,7 @@ components:
 - TLS/SSL
 date: 2018-01-24 01:43:59
 draft: false
-last-updated: '2019-05-21'
+last-updated: '2019-07-24'
 libraries:
 - None
 licenses:
@@ -17,7 +17,7 @@ platforms:
 site-url: https://mongoose-os.com/
 slug: mongoose-os
 title: Mongoose OS
-version: 2.14.0
+version: 2.15.0
 ---
 Mongoose OS - an open source Operating System for Internet of Things. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4. Amazon AWS IoT & Google IoT Core integrated. Code in C or JavaScript.
 

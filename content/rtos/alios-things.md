@@ -4,7 +4,7 @@ components:
 - None
 date: 2018-01-23 05:35:24
 draft: false
-last-updated: '2019-03-11'
+last-updated: '2019-09-25'
 libraries:
 - None
 licenses:
@@ -14,7 +14,7 @@ platforms:
 site-url: http://aliosthings.io/
 slug: alios-things
 title: AliOS Things
-version: v2.1.0
+version: v3.0.0
 ---
 AliOS Things is designed for low power, resource constrained MCU, connectivity SoC, greatly suitable for IoT devices. AliOS Things is not just a RTOS, it contains full stack of software components and tools for building IoT devices.
 

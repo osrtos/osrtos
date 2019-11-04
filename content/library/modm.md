@@ -2,7 +2,7 @@
 code-url: https://github.com/modm-io/modm
 date: 2018-12-17 07:25:23
 draft: false
-last-updated: '2019-06-26'
+last-updated: '2019-11-03'
 lib-type: other
 licenses:
 - Mozilla Public License Version 2.0

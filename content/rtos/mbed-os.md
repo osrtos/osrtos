@@ -13,7 +13,7 @@ components:
 - USBDevice
 date: 2016-11-29 11:36:58
 draft: false
-last-updated: '2019-06-25'
+last-updated: '2019-10-17'
 libraries:
 - lwIP
 licenses:
@@ -23,7 +23,7 @@ platforms:
 site-url: https://www.mbed.com/
 slug: mbed-os
 title: mbed OS
-version: mbed-os-5.13.0
+version: mbed-os-5.14.1
 ---
 mbed OS is an open-source embedded operating system designed specifically for the "things" in the Internet of Things (IoT). It includes all the features you need to develop a connected product based on an ARM Cortex-M microcontroller.
 
