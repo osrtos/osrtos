@@ -1,11 +1,15 @@
 ---
 code-url: https://github.com/RIOT-OS/RIOT
 components:
+- BLE
 - LoRaWAN
 - FileSystem
 - Network
 - 6LoWPAN
 - GUI
+- TLS/SSL
+- USBDevice
+- OTA
 date: 2016-11-29 11:36:58
 draft: false
 last-updated: '2019-10-31'
