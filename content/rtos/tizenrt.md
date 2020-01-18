@@ -4,7 +4,7 @@ components:
 - None
 date: 2018-02-11 06:48:49
 draft: false
-last-updated: '2018-10-16'
+last-updated: '2019-12-11'
 libraries:
 - None
 licenses:
@@ -14,7 +14,7 @@ platforms:
 site-url: https://github.com/Samsung/TizenRT
 slug: tizenrt
 title: TizenRT
-version: 2.0_Public_M2
+version: 3.0_GBM
 ---
 TizenRT is a lightweight RTOS-based platform to support low-end IoT devices
 

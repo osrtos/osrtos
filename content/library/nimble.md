@@ -2,7 +2,7 @@
 code-url: https://github.com/apache/mynewt-nimble
 date: 2019-03-04 01:03:41
 draft: false
-last-updated: '2019-10-30'
+last-updated: '2020-01-15'
 lib-type: Networking
 licenses:
 - Apache License 2.0

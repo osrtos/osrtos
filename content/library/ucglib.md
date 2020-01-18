@@ -2,7 +2,7 @@
 code-url: https://github.com/olikraus/ucglib
 date: 2018-08-07 03:56:44
 draft: false
-last-updated: '2018-08-13'
+last-updated: '2020-01-01'
 lib-type: GUI
 licenses:
 - BSD

@@ -7,7 +7,7 @@ components:
 - Logging
 date: 2016-11-29 11:36:58
 draft: false
-last-updated: '2019-10-06'
+last-updated: '2019-12-09'
 libraries:
 - None
 licenses:
@@ -22,7 +22,7 @@ platforms:
 site-url: https://www.zephyrproject.org
 slug: zephyr
 title: Zephyr
-version: zephyr-v1.14.1
+version: zephyr-v2.1.0
 ---
 The Zephyr™ Project is a scalable, real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind. This Linux Foundation hosted project embraces open source development values and governance on its mission to unite leaders from across the industry to produce a best-in-breed solution.
 
