@@ -2,7 +2,7 @@
 code-url: https://github.com/uTensor/uTensor
 date: 2019-03-08 01:10:34
 draft: false
-last-updated: '2019-10-29'
+last-updated: '2020-01-24'
 lib-type: Machine Learning
 licenses:
 - Apache License 2.0

@@ -4,7 +4,7 @@ components:
 - None
 date: 2017-04-29 08:18:58
 draft: false
-last-updated: '2018-11-11'
+last-updated: '2019-11-20'
 libraries:
 - None
 licenses:
@@ -16,7 +16,7 @@ platforms:
 site-url: http://sel4.systems/
 slug: sel4
 title: seL4
-version: 10.1.1
+version: 11.0.0
 ---
 The world's first operating-system kernel with an end-to-end proof of implementation correctness and security enforcement is available as open source.
 
