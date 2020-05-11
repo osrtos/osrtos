@@ -4,7 +4,7 @@ components:
 - None
 date: 2020-02-25 11:37:19+08:00
 draft: false
-last-updated: '2020-02-04'
+last-updated: '2020-05-08'
 libraries:
 - None
 licenses:
@@ -15,7 +15,7 @@ platforms:
 site-url: https://www.drone-os.com/
 slug: drone
 title: Drone
-version: v0.11.1
+version: v0.12.0
 ---
 
 Drone is an Embedded Operating System for writing real-time applications in Rust.

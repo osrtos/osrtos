@@ -4,7 +4,7 @@ components:
 - None
 date: 2017-03-18 01:28:16
 draft: false
-last-updated: '2020-01-08'
+last-updated: '2020-04-01'
 libraries:
 - None
 licenses:
@@ -17,7 +17,7 @@ platforms:
 site-url: https://github.com/embox/embox
 slug: embox
 title: embox
-version: v0.4.0
+version: v0.4.1
 ---
 Embox is a configurable operating system kernel designed for resource constrained and embedded systems.
 

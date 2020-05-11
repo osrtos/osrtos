@@ -1,12 +1,20 @@
 ---
-title: "uC/OS-III"
-date: 2020-05-04T10:22:58+08:00
-slug: uc-os-iii
-version: v3.08.00 
-site-url: https://doc.micrium.com/display/ucos/
 code-url: https://github.com/SiliconLabs/uC-OS3
-last-updated: 2020-02-29
-licenses: 
+components:
+- FileSystem
+- Network
+- TLS/SSL
+- USBHost
+- USBDevice
+- Modbus
+- GUI
+- CAN
+date: 2020-05-04 10:22:58+08:00
+draft: false
+last-updated: '2020-02-28'
+libraries:
+- None
+licenses:
 - Apache License 2.0
 platforms:
 - ARM
@@ -18,18 +26,10 @@ platforms:
 - RISC-V
 - MSP430
 - PIC32
-components:
-- FileSystem
-- Network
-- TLS/SSL
-- USBHost
-- USBDevice
-- Modbus
-- GUI
-- CAN
-libraries:
-- None
-draft: false
+site-url: https://doc.micrium.com/display/ucos/
+slug: uc-os-iii
+title: uC/OS-III
+version: v3.08.00
 ---
 
 µC/OS-III is a highly portable, ROMable, scalable, preemptive, real-time, deterministic, multitasking kernel for microprocessors, microcontrollers and DSPs.

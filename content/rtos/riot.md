@@ -12,7 +12,7 @@ components:
 - OTA
 date: 2016-11-29 11:36:58
 draft: false
-last-updated: '2020-02-03'
+last-updated: '2020-04-30'
 libraries:
 - SPIFFS
 - FatFs
@@ -29,7 +29,7 @@ platforms:
 site-url: http://riot-os.org/
 slug: riot
 title: RIOT
-version: '2020.01'
+version: '2020.04'
 ---
 RIOT is a real-time multi-threading operating system that supports a range of devices that are typically found in the Internet of Things (IoT): 8-bit, 16-bit and 32-bit microcontrollers.
 
