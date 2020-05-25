@@ -4,37 +4,43 @@ components:
 - None
 date: 2016-12-30 09:12:13
 draft: false
-last-updated: '2020-01-16'
+last-updated: '2020-05-13'
 libraries:
 - None
 licenses:
-- GPL v3
+- MIT
 platforms:
-- ARM
+- ARM, STM8, AVR8
 site-url: https://github.com/stateos/IntrOS
 slug: intros
 title: IntrOS
-version: v4.5
+version: v4.6
 ---
 Free, simple and tiny cooperative operating system (OS) designed for deeply embedded applications.
 
 <!--more-->
 
 ### Features
-- kernel works in cooperative (non-preemptive) mode only
-- signals (auto clearing, protected)
+- kernel can operate in cooperative (non-preemptive) mode only
+- kernel can operate with 16, 32 or 64-bit timer counter
+- kernel can operate in tick-less mode
+- spin locks
+- once flags
 - events
-- flags (one, all)
+- signals with protection mask
+- flags (any, all)
 - barriers
 - semaphores
 - mutexes
 - condition variables
 - memory pools
-- message queues
+- stream buffers
+- message buffers
 - mailbox queues
+- event queues
+- job queues
 - timers (one-shot, periodic)
 - c++ wrapper
 - all documentation is contained within the source files
 - examples and templates are in separate repositories
-
 
