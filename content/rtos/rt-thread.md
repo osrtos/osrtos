@@ -10,7 +10,7 @@ components:
 - USBDevice
 date: 2016-11-29 11:36:57
 draft: false
-last-updated: '2019-12-19'
+last-updated: '2020-05-13'
 libraries:
 - Yaffs
 - FatFs
@@ -28,7 +28,7 @@ platforms:
 site-url: http://www.rt-thread.org/
 slug: rt-thread
 title: RT-Thread
-version: v4.0.2
+version: v3.1.4
 ---
 RT-Thread is an open source real-time operating system for embedded devices from China. RT-Thread RTOS is a scalable real-time operating system: a tiny kernel for ARM Cortex-M0, Cortex-M3/4, or a full feature system in ARM Cortex-A8, ARM Cortex-A9 DualCor
 

@@ -96,7 +96,7 @@ def fetch_and_update(md_file):
             return False
         if splits[1] is None:
             return False
-        header = yaml.load(splits[1])
+        header = yaml.load(splits[1], Loader=yaml.FullLoader)
         code_url = header['code-url']
         if "github.com" in code_url:
             # print("Project from github")

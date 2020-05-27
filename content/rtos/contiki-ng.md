@@ -1,16 +1,5 @@
 ---
-title: "Contiki-NG"
-date: 2020-05-22T08:43:25+08:00
-slug: contiki-ng
-version: v4.5
-site-url: https://github.com/contiki-ng/contiki-ng
 code-url: https://github.com/contiki-ng/contiki-ng
-last-updated: 2020-05-14
-licenses: 
-- 3-clause BSD license
-platforms:
-- ARM
-- MSP430
 components:
 - FileSystem
 - Network
@@ -18,9 +7,20 @@ components:
 - Database
 - Simulation
 - Shell
+date: 2020-05-22 08:43:25+08:00
+draft: false
+last-updated: '2020-05-14'
 libraries:
 - None
-draft: false
+licenses:
+- 3-clause BSD license
+platforms:
+- ARM
+- MSP430
+site-url: https://github.com/contiki-ng/contiki-ng
+slug: contiki-ng
+title: Contiki-NG
+version: release/v4.5
 ---
 
 Contiki-NG is an operating system for resource-constrained devices in the Internet of Things. Contiki-NG contains an RFC-compliant, low-power IPv6 communication stack, enabling Internet connectivity.

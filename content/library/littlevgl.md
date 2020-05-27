@@ -2,14 +2,14 @@
 code-url: https://github.com/littlevgl/lvgl
 date: 2017-12-25 19:20:10
 draft: false
-last-updated: '2020-02-26'
+last-updated: '2020-05-18'
 lib-type: GUI
 licenses:
 - MIT
 site-url: https://littlevgl.com/
 slug: littlevgl
 title: LittlevGL
-version: v6.1.2
+version: v7.0.0
 ---
 LittlevGL is a free and open-source graphics library providing everything you need to create a Graphical User Interface (GUI) on embedded systems with easy-to-use graphical elements, beautiful visual effects and low memory footprint.
 

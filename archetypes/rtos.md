@@ -11,7 +11,17 @@ licenses:
 platforms:
 - ARM
 components:
-- None
+- BLE
+- LoRaWAN
+- FileSystem
+- Network
+- 6LoWPAN
+- AT Commands
+- TLS/SSL
+- Runtime Analysis
+- GUI
+- USBHost
+- USBDevice
 libraries:
 - None
 draft: false
