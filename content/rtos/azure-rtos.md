@@ -18,7 +18,7 @@ platforms:
 - ARM Cortex M
 site-url: https://azure.microsoft.com/en-us/services/rtos/
 slug: azure-rtos
-title: Azure Rtos
+title: Azure RTOS
 version: v6.0_rel
 ---
 
