@@ -1,13 +1,20 @@
 ---
-title: "NuttX"
-date: 2016-11-29T11:36:57+00:00
-slug: "nuttx"
-version: "7.25"
-site-url: "http://nuttx.org/"
-code-url: "https://bitbucket.org/nuttx/nuttx/downloads/"
-last-updated: "2018-06-11"
-licenses: 
-- BSD
+code-url: https://github.com/apache/incubator-nuttx
+components:
+- FileSystem
+- Network
+- 6LoWPAN
+- Command Line Interface
+- USBHost
+- USBDevice
+- GUI
+date: 2016-11-29 11:36:57+00:00
+draft: false
+last-updated: '2020-06-02'
+libraries:
+- LittlevGL
+licenses:
+- Apache License 2.0
 platforms:
 - ARM
 - AVR
@@ -19,17 +26,10 @@ platforms:
 - RISC-V
 - Freescale HCS12
 - Zilog
-components:
-- FileSystem
-- Network
-- 6LoWPAN
-- Command Line Interface
-- USBHost
-- USBDevice
-- GUI
-libraries:
-- LittlevGL
-draft: false
+site-url: https://nuttx.apache.org/
+slug: nuttx
+title: NuttX
+version: nuttx-9.0.0-RC1
 ---
 NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards.
 
