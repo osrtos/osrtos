@@ -4,7 +4,7 @@ components:
 - None
 date: 2016-11-29 11:36:58
 draft: false
-last-updated: '2020-05-13'
+last-updated: '2020-07-08'
 libraries:
 - None
 licenses:
@@ -14,7 +14,7 @@ platforms:
 site-url: https://github.com/stateos/StateOS
 slug: stateos
 title: StateOS
-version: v6.6
+version: v6.7
 ---
 Free, extremely simple and amazingly tiny real-time operating system (RTOS) designed for deeply embedded applications. Target: ARM Cortex-M, STM8. It was inspired by the concept of a state machine.
 

@@ -6,7 +6,7 @@ components:
 - USBDevice
 date: 2019-02-12 06:00:17
 draft: false
-last-updated: '2020-06-02'
+last-updated: '2020-08-20'
 libraries:
 - lwIP
 licenses:
