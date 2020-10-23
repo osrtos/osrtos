@@ -2,14 +2,14 @@
 code-url: https://github.com/micropython/micropython
 date: 2018-08-07 02:47:39
 draft: false
-last-updated: '2019-12-20'
+last-updated: '2020-09-02'
 lib-type: other
 licenses:
 - MIT
 site-url: http://micropython.org/
 slug: micropython
 title: MicroPython
-version: v1.12
+version: v1.13
 ---
 A lean and efficient Python implementation for microcontrollers and constrained systems.
 

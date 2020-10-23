@@ -7,7 +7,7 @@ components:
 - USBHost
 date: 2019-02-12 06:00:17
 draft: false
-last-updated: '2020-08-20'
+last-updated: '2020-10-16'
 libraries:
 - lwIP
 licenses:

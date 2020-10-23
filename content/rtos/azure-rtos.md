@@ -9,7 +9,7 @@ components:
 - USBDevice
 date: 2020-05-27 09:25:57+08:00
 draft: false
-last-updated: '2020-08-14'
+last-updated: '2020-10-16'
 libraries:
 - None
 licenses:
@@ -19,7 +19,7 @@ platforms:
 site-url: https://azure.microsoft.com/en-us/services/rtos/
 slug: azure-rtos
 title: Azure RTOS
-version: v6.0.2_rel
+version: v6.1.1_rel
 ---
 
 This advanced real-time operating system (RTOS) is designed specifically for deeply embedded applications. Among the multiple benefits it provides are advanced scheduling facilities, message passing, interrupt management, and messaging services. Azure RTOS ThreadX has many advanced features, including picokernel architecture, preemption threshold, event chaining, and a rich set of system services.

@@ -10,7 +10,7 @@ components:
 - GUI
 date: 2016-11-29 11:36:57+00:00
 draft: false
-last-updated: '2020-08-23'
+last-updated: '2020-10-23'
 libraries:
 - LittlevGL
 licenses:
