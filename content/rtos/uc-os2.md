@@ -11,7 +11,7 @@ components:
 - CAN
 date: 2020-05-04 10:22:58+08:00
 draft: false
-last-updated: '2020-07-01'
+last-updated: '2021-05-05'
 libraries:
 - None
 licenses:
@@ -29,7 +29,7 @@ platforms:
 site-url: https://doc.micrium.com/display/ucos/
 slug: uc-os-ii
 title: uC/OS-II
-version: v2.93.00
+version: v2.93.01
 ---
 
 μC/OS-II is a portable, ROMable, scalable, preemptive, real-time deterministic multitasking kernel for microprocessors, microcontrollers and DSPs.

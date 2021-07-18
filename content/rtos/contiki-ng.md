@@ -9,7 +9,7 @@ components:
 - Shell
 date: 2020-05-22 08:43:25+08:00
 draft: false
-last-updated: '2020-05-14'
+last-updated: '2021-07-08'
 libraries:
 - None
 licenses:
@@ -20,7 +20,7 @@ platforms:
 site-url: https://github.com/contiki-ng/contiki-ng
 slug: contiki-ng
 title: Contiki-NG
-version: release/v4.5
+version: release/v4.7
 ---
 
 Contiki-NG is an operating system for resource-constrained devices in the Internet of Things. Contiki-NG contains an RFC-compliant, low-power IPv6 communication stack, enabling Internet connectivity.

@@ -8,7 +8,7 @@ components:
 - Runtime Analysis
 date: 2016-11-29 11:36:57
 draft: false
-last-updated: '2020-09-22'
+last-updated: '2021-04-29'
 libraries:
 - lwIP
 licenses:
@@ -23,7 +23,7 @@ platforms:
 site-url: http://www.freertos.org/
 slug: freertos
 title: FreeRTOS
-version: V10.4.1
+version: '202104.00'
 ---
 FreeRTOS is a market leading RTOS from Amazon Web Services that supports more than 35 architectures. It is distributed under the MIT license.
 

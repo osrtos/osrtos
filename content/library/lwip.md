@@ -2,7 +2,7 @@
 code-url: https://github.com/lwip-tcpip/lwip
 date: 2018-08-07 01:41:26+00:00
 draft: false
-last-updated: '2020-10-22'
+last-updated: '2021-05-21'
 lib-type: Networking
 licenses:
 - BSD

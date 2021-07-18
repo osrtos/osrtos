@@ -9,7 +9,7 @@ components:
 - GUI
 date: 2019-11-03 05:35:24
 draft: false
-last-updated: '2020-10-21'
+last-updated: '2021-07-16'
 libraries:
 - None
 licenses:
@@ -19,7 +19,7 @@ platforms:
 site-url: https://cloud.tencent.com/product/tos-tiny
 slug: tencent-os-tiny
 title: TencentOS-tiny
-version: dev-master
+version: v2.1.0
 ---
 TencentOS tiny is a real-time operating system developed by Tencent for the Internet of Things. It features low power consumption, low resource consumption, modularity, security and reliability, and can effectively improve the development efficiency of IoT terminal products. 
 <!--more-->

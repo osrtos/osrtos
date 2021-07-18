@@ -4,7 +4,7 @@ components:
 - None
 date: 2016-11-29 11:36:58
 draft: false
-last-updated: '2016-04-19'
+last-updated: '2021-02-04'
 libraries:
 - None
 licenses:
@@ -15,7 +15,7 @@ platforms:
 site-url: https://github.com/scmrtos/scmrtos
 slug: scmrtos
 title: scmRTOS
-version: v5.1.0
+version: v5.2.0
 ---
 scmRTOS is tiny Real-Time Preemptive Operating System intended for use with Single-Chip Microcontrollers. scmRTOS is capable to run on tiny uCs with as small amount of RAM as 512 bytes. The RTOS is written on C++ and supports various platforms.
 

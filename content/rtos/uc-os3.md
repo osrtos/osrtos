@@ -11,7 +11,7 @@ components:
 - CAN
 date: 2020-05-04 10:22:58+08:00
 draft: false
-last-updated: '2020-07-01'
+last-updated: '2021-05-04'
 libraries:
 - None
 licenses:
@@ -29,7 +29,7 @@ platforms:
 site-url: https://doc.micrium.com/display/ucos/
 slug: uc-os-iii
 title: uC/OS-III
-version: v3.08.00
+version: v3.08.01
 ---
 
 µC/OS-III is a highly portable, ROMable, scalable, preemptive, real-time, deterministic, multitasking kernel for microprocessors, microcontrollers and DSPs.

@@ -10,7 +10,7 @@ components:
 - GUI
 date: 2016-11-29 11:36:57+00:00
 draft: false
-last-updated: '2020-10-23'
+last-updated: '2021-07-18'
 libraries:
 - LittlevGL
 licenses:
@@ -29,7 +29,7 @@ platforms:
 site-url: https://nuttx.apache.org/
 slug: nuttx
 title: NuttX
-version: nuttx-9.1.0
+version: nuttx-10.1.0
 ---
 NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards.
 

@@ -4,7 +4,7 @@ components:
 - None
 date: 2019-02-27 08:49:25
 draft: false
-last-updated: '2020-10-17'
+last-updated: '2021-06-14'
 libraries:
 - None
 licenses:
@@ -22,7 +22,7 @@ platforms:
 site-url: https://github.com/kmilo17pet/QuarkTS/wiki
 slug: quark-ts
 title: QuarkTS
-version: 6.4.1
+version: 7.1.1
 ---
 
 QuarkTS is a simple non-Preemtive Real-Time OS with a quasi-static scheduler for embedded multi-tasking applications. 
