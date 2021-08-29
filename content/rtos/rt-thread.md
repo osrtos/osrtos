@@ -17,7 +17,7 @@ libraries:
 - lwIP
 - MicroPython
 licenses:
-- Modified  GPL  v2
+- Apache-2.0
 platforms:
 - ARM
 - x86
