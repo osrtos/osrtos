@@ -121,21 +121,21 @@ def fetch_and_update(md_file):
                         header['version'] = release_version
                     break
 
-        elif "sourceforge.net" in code_url:
-            # print("Project from sourceforge")
-            code_url_splits = code_url.split('/')
-            for split in reversed(code_url_splits):
-                if len(split):
-                    # print("Project name: ", split)
-                    release_time, release_version, last_updated = fetch_sourceforge_repo_info(split)
-                    print(split, release_time, release_version, last_updated)
-                    if release_time:
-                        header['last-updated'] = release_time.strftime("%Y-%m-%d")
-                    elif last_updated:
-                        header['last-updated'] = last_updated.strftime("%Y-%m-%d")
-                    if release_version:
-                        header['version'] = release_version
-                    break
+        # elif "sourceforge.net" in code_url:
+        #     # print("Project from sourceforge")
+        #     code_url_splits = code_url.split('/')
+        #     for split in reversed(code_url_splits):
+        #         if len(split):
+        #             # print("Project name: ", split)
+        #             release_time, release_version, last_updated = fetch_sourceforge_repo_info(split)
+        #             print(split, release_time, release_version, last_updated)
+        #             if release_time:
+        #                 header['last-updated'] = release_time.strftime("%Y-%m-%d")
+        #             elif last_updated:
+        #                 header['last-updated'] = last_updated.strftime("%Y-%m-%d")
+        #             if release_version:
+        #                 header['version'] = release_version
+        #             break
         else:
             f.close()
             print("Error, cannot fetch ", header['title'], " source:", code_url)

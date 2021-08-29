@@ -4,7 +4,7 @@ components:
 - None
 date: 2019-02-12 05:45:10
 draft: false
-last-updated: '2020-10-23'
+last-updated: '2021-08-25'
 libraries:
 - None
 licenses:
@@ -14,7 +14,7 @@ platforms:
 site-url: https://github.com/tock/tock
 slug: tock
 title: Tock
-version: release-1.6
+version: release-2.0
 ---
 Tock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on Cortex-M based embedded platforms. The kernel and device drivers are written in Rust.
 
