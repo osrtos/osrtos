@@ -1,16 +1,20 @@
 ---
-code-url: https://github.com/pellepl/spiffs
-date: 2016-11-29 16:41:42
-draft: false
-last-updated: '2017-07-17'
-lib-type: File System
-licenses:
-- MIT
-site-url: https://github.com/pellepl/spiffs
-slug: spiffs
 title: SPIFFS
+slug: spiffs
 version: 0.3.7
+code-url: https://github.com/pellepl/spiffs
+site-url: https://github.com/pellepl/spiffs
+draft: false
+date: "2016-11-29 16:41:42"
+last-updated: "2017-07-17"
+components: []
+libraries: []
+licenses:
+    - MIT
+platforms: []
 ---
+
+
 Spiffs is a file system intended for SPI NOR flash devices on embedded targets.
 
 <!--more-->

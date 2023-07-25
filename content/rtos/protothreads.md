@@ -1,22 +1,24 @@
 ---
-title: "Protothreads"
-date: 2016-11-29T11:36:58+00:00
-slug: "protothreads"
+title: Protothreads
+slug: protothreads
 version: ""
-site-url: "http://dunkels.com/adam/pt/"
 code-url: ""
-last-updated: "2005-04-08"
-licenses: 
-- BSD
-platforms:
-- AVR
-- 8051
-components:
-- None
-libraries:
-- None
+site-url: http://dunkels.com/adam/pt/
 draft: false
+date: "2016-11-29T11:36:58+00:00"
+last-updated: "2005-04-08"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - BSD
+platforms:
+    - AVR
+    - "8051"
 ---
+
+
 Protothreads are extremely lightweight stackless threads designed for severely memory constrained systems.
 
 <!--more-->

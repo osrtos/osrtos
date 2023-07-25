@@ -1,16 +1,20 @@
 ---
-title: "MiniGUI"
-date: 2016-11-29T16:55:33+00:00
-slug: "minigui"
-lib-type: "GUI"
-version: "V3.0.12"
-site-url: "http://www.minigui.org/en/"
+title: MiniGUI
+slug: minigui
+version: V3.0.12
 code-url: ""
-last-updated: "2012-01-16"
-licenses: 
-- GPL
+site-url: http://www.minigui.org/en/
 draft: false
+date: "2016-11-29T16:55:33+00:00"
+last-updated: "2012-01-16"
+components: []
+libraries: []
+licenses:
+    - GPL
+platforms: []
 ---
+
+
 MiniGUI is a free software project. It aims to provide a fast, stable, and cross-operating-system graphics user interface (GUI) support system, which is especially fit for real-time embedded systems based-on Linux/uClinux, eCos, and other traditional RTOSes, such as VxWorks, ThreadX, uC/OS-II, and Nucleus.
 
 <!--more-->

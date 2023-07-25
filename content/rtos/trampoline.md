@@ -1,23 +1,25 @@
 ---
-code-url: https://github.com/TrampolineRTOS/trampoline
-components:
-- None
-date: 2017-06-11 21:00:48
-draft: false
-last-updated: '2023-04-14'
-libraries:
-- None
-licenses:
-- GPL v2
-platforms:
-- ARM
-- AVR
-- PowerPC
-site-url: https://github.com/TrampolineRTOS/trampoline
-slug: trampoline
 title: Trampoline
+slug: trampoline
 version: dev-master
+code-url: https://github.com/TrampolineRTOS/trampoline
+site-url: https://github.com/TrampolineRTOS/trampoline
+draft: false
+date: "2017-06-11 21:00:48"
+last-updated: "2023-06-20"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL v2
+platforms:
+    - ARM
+    - AVR
+    - PowerPC
 ---
+
+
 Trampoline is a static RTOS for small embedded systems. Its API is aligned with OSEK/VDX OS and AUTOSAR OS 4.2 standards.
 
 <!--more-->

@@ -1,36 +1,38 @@
 ---
-code-url: https://github.com/SiliconLabs/uC-OS2
-components:
-- FileSystem
-- Network
-- TLS/SSL
-- USBHost
-- USBDevice
-- Modbus
-- GUI
-- CAN
-date: 2020-05-04 10:22:58+08:00
-draft: false
-last-updated: '2021-05-05'
-libraries:
-- None
-licenses:
-- Apache License 2.0
-platforms:
-- ARM
-- ColdFire
-- AVR
-- AVR32
-- 80X86
-- PowerPC
-- RISC-V
-- MSP430
-- PIC32
-site-url: https://doc.micrium.com/display/ucos/
-slug: uc-os-ii
 title: uC/OS-II
+slug: uc-os-ii
 version: v2.93.01
+code-url: https://github.com/SiliconLabs/uC-OS2
+site-url: https://doc.micrium.com/display/ucos/
+draft: false
+date: 2020-05-04 10:22:58+08:00
+last-updated: "2021-05-05"
+components:
+    - FileSystem
+    - Network
+    - TLS/SSL
+    - USBHost
+    - USBDevice
+    - Modbus
+    - GUI
+    - CAN
+libraries:
+    - None
+licenses:
+    - Apache License 2.0
+platforms:
+    - ARM
+    - ColdFire
+    - AVR
+    - AVR32
+    - 80X86
+    - PowerPC
+    - RISC-V
+    - MSP430
+    - PIC32
 ---
+
+
 
 μC/OS-II is a portable, ROMable, scalable, preemptive, real-time deterministic multitasking kernel for microprocessors, microcontrollers and DSPs.
 

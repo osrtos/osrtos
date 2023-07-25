@@ -1,21 +1,23 @@
 ---
-code-url: https://github.com/insane-adding-machines/frosted
-components:
-- None
-date: 2019-02-14 08:13:11
-draft: false
-last-updated: '2019-06-14'
-libraries:
-- None
-licenses:
-- GPL v2
-platforms:
-- ARM
-site-url: https://github.com/insane-adding-machines/frosted
-slug: frosted
 title: Frosted
+slug: frosted
 version: old_hal_lpc
+code-url: https://github.com/insane-adding-machines/frosted
+site-url: https://github.com/insane-adding-machines/frosted
+draft: false
+date: "2019-02-14 08:13:11"
+last-updated: "2019-06-14"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL v2
+platforms:
+    - ARM
 ---
+
+
 Frosted is an acronym that means "Free Operating Systems for Tiny Embedded Devices". The goal of this project is to provide a Free (as in Freedom) kernel for embedded systems, which exposes a POSIX-compliant system call API.
 
 <!--more-->

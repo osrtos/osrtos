@@ -1,18 +1,22 @@
 ---
-code-url: https://github.com/rtic-rs/rtic
-date: 2016-11-29 11:36:58
-draft: false
-last-updated: '2023-06-06'
-licenses:
-- Apache License, Version 2.0
-- MIT license
-platforms:
-- ARM
-site-url: https://rtic.rs/
-slug: rtic
 title: RTIC
+slug: rtic
 version: v2.0.0
+code-url: https://github.com/rtic-rs/rtic
+site-url: https://rtic.rs/
+draft: false
+date: "2016-11-29 11:36:58"
+last-updated: "2023-07-01"
+components: []
+libraries: []
+licenses:
+    - Apache License, Version 2.0
+    - MIT license
+platforms:
+    - ARM
 ---
+
+
 RIOT, the hardware accelerated Rust RTOS. A concurrency framework for building real-time systems.
 
 <!--more-->

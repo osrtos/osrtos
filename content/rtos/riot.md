@@ -1,36 +1,38 @@
 ---
-code-url: https://github.com/RIOT-OS/RIOT
-components:
-- BLE
-- LoRaWAN
-- FileSystem
-- Network
-- 6LoWPAN
-- GUI
-- TLS/SSL
-- USBDevice
-- OTA
-date: 2016-11-29 11:36:58
-draft: false
-last-updated: '2023-04-28'
-libraries:
-- SPIFFS
-- FatFs
-- littlefs
-- Ucglib
-licenses:
-- LGPLv2.1
-platforms:
-- MSP430
-- ARM
-- AVR
-- MIPS
-- RISC-V
-site-url: http://riot-os.org/
-slug: riot
 title: RIOT
-version: '2023.04'
+slug: riot
+version: "2023.04"
+code-url: https://github.com/RIOT-OS/RIOT
+site-url: http://riot-os.org/
+draft: false
+date: "2016-11-29 11:36:58"
+last-updated: "2023-04-28"
+components:
+    - BLE
+    - LoRaWAN
+    - FileSystem
+    - Network
+    - 6LoWPAN
+    - GUI
+    - TLS/SSL
+    - USBDevice
+    - OTA
+libraries:
+    - SPIFFS
+    - FatFs
+    - littlefs
+    - Ucglib
+licenses:
+    - LGPLv2.1
+platforms:
+    - MSP430
+    - ARM
+    - AVR
+    - MIPS
+    - RISC-V
 ---
+
+
 RIOT is a real-time multi-threading operating system that supports a range of devices that are typically found in the Internet of Things (IoT): 8-bit, 16-bit and 32-bit microcontrollers.
 
 <!--more-->

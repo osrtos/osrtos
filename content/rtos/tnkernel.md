@@ -1,22 +1,24 @@
 ---
-title: "TNKernel"
-date: 2016-11-29T11:36:58+00:00
-slug: "tnkernel"
+title: TNKernel
+slug: tnkernel
 version: ""
-site-url: "http://www.tnkernel.com/index.html"
 code-url: ""
-last-updated: "2013-06-06"
-licenses: 
-- GPL
-platforms:
-- MSP430
-- ColdFire
-components:
-- None
-libraries:
-- None
+site-url: http://www.tnkernel.com/index.html
 draft: false
+date: "2016-11-29T11:36:58+00:00"
+last-updated: "2013-06-06"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - MSP430
+    - ColdFire
 ---
+
+
 TNKernel is a compact and very fast real-time kernel for the embedded 32/16/8 bits microprocessors.
 
 <!--more-->

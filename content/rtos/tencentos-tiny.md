@@ -1,26 +1,28 @@
 ---
-code-url: https://github.com/Tencent/TencentOS-tiny
-components:
-- BLE
-- LoRaWAN
-- FileSystem
-- TLS/SSL
-- Network
-- GUI
-date: 2019-11-03 05:35:24
-draft: false
-last-updated: '2023-05-06'
-libraries:
-- None
-licenses:
-- BSD 3-Clause License
-platforms:
-- ARM
-site-url: https://cloud.tencent.com/product/tos-tiny
-slug: tencent-os-tiny
 title: TencentOS-tiny
+slug: tencent-os-tiny
 version: v2.5.0
+code-url: https://github.com/Tencent/TencentOS-tiny
+site-url: https://cloud.tencent.com/product/tos-tiny
+draft: false
+date: "2019-11-03 05:35:24"
+last-updated: "2023-05-06"
+components:
+    - BLE
+    - LoRaWAN
+    - FileSystem
+    - TLS/SSL
+    - Network
+    - GUI
+libraries:
+    - None
+licenses:
+    - BSD 3-Clause License
+platforms:
+    - ARM
 ---
+
+
 TencentOS tiny is a real-time operating system developed by Tencent for the Internet of Things. It features low power consumption, low resource consumption, modularity, security and reliability, and can effectively improve the development efficiency of IoT terminal products. 
 <!--more-->
 

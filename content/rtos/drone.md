@@ -1,22 +1,24 @@
 ---
-code-url: https://github.com/drone-os/drone-core
-components:
-- None
-date: 2020-02-25 11:37:19+08:00
-draft: false
-last-updated: '2022-11-20'
-libraries:
-- None
-licenses:
-- Apache License 2.0
-- MIT license
-platforms:
-- ARM
-site-url: https://www.drone-os.com/
-slug: drone
 title: Drone
+slug: drone
 version: v0.14.3
+code-url: https://github.com/drone-os/drone-core
+site-url: https://www.drone-os.com/
+draft: false
+date: 2020-02-25 11:37:19+08:00
+last-updated: "2022-11-20"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Apache License 2.0
+    - MIT license
+platforms:
+    - ARM
 ---
+
+
 
 Drone is an Embedded Operating System for writing real-time applications in Rust.
 

@@ -1,23 +1,25 @@
 ---
-title: "cocoOS"
-date: 2018-08-07T02:05:06+00:00
-slug: "cocoos"
-version: "5.0.1"
-site-url: "http://www.cocoos.net/"
+title: cocoOS
+slug: cocoos
+version: 5.0.1
 code-url: ""
-last-updated: "2018-06-15"
-licenses: 
-- BSD
-platforms:
-- MSP430
-- ARM
-- AVR
-components:
-- None
-libraries:
-- None
+site-url: http://www.cocoos.net/
 draft: false
+date: "2018-08-07T02:05:06+00:00"
+last-updated: "2018-06-15"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - BSD
+platforms:
+    - MSP430
+    - ARM
+    - AVR
 ---
+
+
 cocoOS is a free, open source, cooperative task scheduler, based on coroutines targeted for embedded microcontrollers like AVR, MSP430 and STM32.
 
 <!--more-->

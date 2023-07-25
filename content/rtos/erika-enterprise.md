@@ -1,23 +1,25 @@
 ---
-code-url: https://github.com/evidence/erika3
-components:
-- None
-date: 2016-11-29 11:36:57
-draft: false
-last-updated: '2019-09-12'
-libraries:
-- None
-licenses:
-- Modified GPL
-platforms:
-- MSP430
-- ARM
-- AVR
-site-url: http://www.erika-enterprise.com/
-slug: erika-enterprise
 title: Erika Enterprise
+slug: erika-enterprise
 version: GH65
+code-url: https://github.com/evidence/erika3
+site-url: http://www.erika-enterprise.com/
+draft: false
+date: "2016-11-29 11:36:57"
+last-updated: "2019-09-12"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Modified GPL
+platforms:
+    - MSP430
+    - ARM
+    - AVR
 ---
+
+
 Erika Enterprise is the first open-source Free RTOS that has been certified OSEK/VDX compliant!.
 
 <!--more-->

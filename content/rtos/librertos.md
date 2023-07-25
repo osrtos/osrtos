@@ -1,21 +1,23 @@
 ---
-code-url: https://github.com/djboni/librertos
-components:
-- None
-date: 2016-12-30 09:03:15
-draft: false
-last-updated: '2022-04-26'
-libraries:
-- None
-licenses:
-- Apache License
-platforms:
-- AVR
-site-url: https://github.com/djboni/librertos
-slug: librertos
 title: LibreRTOS
+slug: librertos
 version: dev-master
+code-url: https://github.com/djboni/librertos
+site-url: https://github.com/djboni/librertos
+draft: false
+date: "2016-12-30 09:03:15"
+last-updated: "2022-04-26"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Apache License
+platforms:
+    - AVR
 ---
+
+
 LibreRTOS is a portable single-stack Real Time Operating System. All tasks share the same stack, allowing a large number or tasks to be created even on architectures with low RAM, such as ATmega328P (2kB).
 
 <!--more-->

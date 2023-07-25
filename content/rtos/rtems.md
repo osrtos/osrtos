@@ -1,28 +1,30 @@
 ---
-title: "RTEMS"
-date: 2016-11-29T11:36:57+00:00
-slug: "rtems"
+title: RTEMS
+slug: rtems
 version: "4.11"
-site-url: "https://www.rtems.org/"
-code-url: "https://devel.rtems.org/wiki/Developer/Git"
-last-updated: "2018-02-16"
-licenses: 
-- GPL
-platforms:
-- ARM
-- x86
-- MIPS
-- PowerPC
-- m68k
-components:
-- FileSystem
-- Network
-- TLS/SSL
-- Command Line Interface
-libraries:
-- None
+code-url: https://devel.rtems.org/wiki/Developer/Git
+site-url: https://www.rtems.org/
 draft: false
+date: "2016-11-29T11:36:57+00:00"
+last-updated: "2018-02-16"
+components:
+    - FileSystem
+    - Network
+    - TLS/SSL
+    - Command Line Interface
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - ARM
+    - x86
+    - MIPS
+    - PowerPC
+    - m68k
 ---
+
+
 RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices.
 
 <!--more-->

@@ -1,16 +1,20 @@
 ---
-title: "Yaffs"
-date: 2016-11-29T16:37:51+00:00
-slug: "yaffs"
-lib-type: "File System"
-version: "aleph1-release"
-site-url: "http://www.yaffs.net/"
+title: Yaffs
+slug: yaffs
+version: aleph1-release
 code-url: ""
-last-updated: "2016-07-08"
-licenses: 
-- GPL v2
+site-url: http://www.yaffs.net/
 draft: false
+date: "2016-11-29T16:37:51+00:00"
+last-updated: "2016-07-08"
+components: []
+libraries: []
+licenses:
+    - GPL v2
+platforms: []
 ---
+
+
 Yaffs (Yet Another Flash File System) is an open-source file system specifically designed to be fast, robust and suitable for embedded use with NAND and NOR Flash.
 
 <!--more-->

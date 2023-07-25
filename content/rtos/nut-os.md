@@ -1,22 +1,24 @@
 ---
-code-url: https://sourceforge.net/projects/ethernut/
-components:
-- None
-date: 2016-11-29 11:36:57
-draft: false
-last-updated: '2021-01-15'
-libraries:
-- None
-licenses:
-- GPL
-platforms:
-- AVR
-- ColdFire
-site-url: http://www.ethernut.de/en/software/index.html
-slug: nut-os
 title: Nut/OS
-version: ''
+slug: nut-os
+version: ""
+code-url: https://sourceforge.net/projects/ethernut/
+site-url: http://www.ethernut.de/en/software/index.html
+draft: false
+date: "2016-11-29 11:36:57"
+last-updated: "2021-01-15"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - AVR
+    - ColdFire
 ---
+
+
 Nut/OS is an intentionally simple RTOS for the ATmega128, which provides a minimum of services to run Nut/Net, the TCP/IP stack.
 
 <!--more-->

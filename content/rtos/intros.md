@@ -1,21 +1,23 @@
 ---
-code-url: https://github.com/stateos/IntrOS
-components:
-- None
-date: 2016-12-30 09:12:13
-draft: false
-last-updated: '2023-03-16'
-libraries:
-- None
-licenses:
-- MIT
-platforms:
-- ARM, STM8, AVR8
-site-url: https://github.com/stateos/IntrOS
-slug: intros
 title: IntrOS
+slug: intros
 version: v4.9
+code-url: https://github.com/stateos/IntrOS
+site-url: https://github.com/stateos/IntrOS
+draft: false
+date: "2016-12-30 09:12:13"
+last-updated: "2023-03-16"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - MIT
+platforms:
+    - ARM, STM8, AVR8
 ---
+
+
 Free, simple and tiny cooperative operating system (OS) designed for deeply embedded applications.
 
 <!--more-->

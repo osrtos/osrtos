@@ -1,21 +1,23 @@
 ---
-title: "uKOS"
-date: 2017-04-26T18:36:10+00:00
-slug: "ukos"
-version: "4.0.0"
-site-url: "http://www.ukos.ch/"
+title: uKOS
+slug: ukos
+version: 4.0.0
 code-url: ""
-last-updated: "2017-04-26"
-licenses: 
-- GPL v3
-platforms:
-- ARM
-components:
-- None
-libraries:
-- None
+site-url: http://www.ukos.ch/
 draft: false
+date: "2017-04-26T18:36:10+00:00"
+last-updated: "2017-04-26"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL v3
+platforms:
+    - ARM
 ---
+
+
 uKOS is a multi-tasking OS suitable for small embedded µController systems. It is based on a preventive multitasking scheduler.
 
 <!--more-->

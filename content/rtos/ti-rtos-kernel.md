@@ -1,21 +1,23 @@
 ---
-title: "TI-RTOS Kernel"
-date: 2016-11-29T11:36:58+00:00
-slug: "ti-rtos-kernel"
-version: "v3.00.00"
-site-url: "http://www.ti.com/tool/sysbios"
+title: TI-RTOS Kernel
+slug: ti-rtos-kernel
+version: v3.00.00
 code-url: ""
-last-updated: "2016-07-09"
-licenses: 
-- Other
-platforms:
-- None
-components:
-- None
-libraries:
-- None
+site-url: http://www.ti.com/tool/sysbios
 draft: false
+date: "2016-11-29T11:36:58+00:00"
+last-updated: "2016-07-09"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Other
+platforms:
+    - None
 ---
+
+
 TI-RTOS Kernel (formerly known as SYS/BIOS
 
 <!--more-->

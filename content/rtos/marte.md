@@ -1,23 +1,25 @@
 ---
-title: "MaRTE"
-date: 2019-02-12T03:31:45+00:00
-slug: "marte"
+title: MaRTE
+slug: marte
 version: "2.0"
-site-url: "https://marte.unican.es/"
 code-url: ""
-last-updated: "2017-02-22"
-licenses: 
-- GPL v2
-platforms:
-- ARM
-- x86
-components:
-- Network
-- Logging
-libraries:
-- lwIP
+site-url: https://marte.unican.es/
 draft: false
+date: "2019-02-12T03:31:45+00:00"
+last-updated: "2017-02-22"
+components:
+    - Network
+    - Logging
+libraries:
+    - lwIP
+licenses:
+    - GPL v2
+platforms:
+    - ARM
+    - x86
 ---
+
+
 MaRTE OS is a Hard Real-Time Operating System for embedded applications that follows the Minimal Real-Time POSIX.13 subset.
 
 <!--more-->

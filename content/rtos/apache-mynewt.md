@@ -1,28 +1,33 @@
 ---
-code-url: https://github.com/apache/mynewt-core
-components:
-- BLE
-- LoRaWAN
-- FileSystem
-- Network
-- 6LoWPAN
-- TLS/SSL
-- Runtime Analysis
-date: 2016-11-29 11:36:58
-draft: false
-last-updated: '2023-06-02'
-libraries:
-- None
-licenses:
-- Apache License
-platforms:
-- ARM
-- MIPS
-site-url: https://mynewt.apache.org/
-slug: apache-mynewt
 title: Apache Mynewt
+slug: apache-mynewt
 version: pre_sterly_refactor
+code-url: https://github.com/apache/mynewt-core
+site-url: https://mynewt.apache.org/
+draft: false
+date: "2016-11-29 11:36:58"
+last-updated: "2023-07-20"
+components:
+    - BLE
+    - LoRaWAN
+    - FileSystem
+    - Network
+    - 6LoWPAN
+    - TLS/SSL
+    - Runtime Analysis
+libraries:
+    - None
+licenses:
+    - Apache License
+platforms:
+    - ARM
+    - MIPS
 ---
+
+
+
+
+
 Apache Mynewt OS is a real-time, modular operating system for connected IoT devices that need to operate for long periods of time under power, memory, and storage constraints. It provides a complete environment for prototyping, developing, and managing em
 
 <!--more-->

@@ -1,21 +1,27 @@
 ---
-title: "ATK2"
-date: 2019-02-12T03:38:22+00:00
-slug: "atk2"
-version: "1.4.2"
-site-url: "https://www.toppers.jp/en/atk2.html"
-code-url: "http://www.toppers.jp/atk2-download.html"
-last-updated: "2017-03-24"
-licenses: 
-- Other
-platforms:
-- Nios II
-components:
-- None
-libraries:
-- None
+title: ATK2
+slug: atk2
+version: 1.4.2
+code-url: http://www.toppers.jp/atk2-download.html
+site-url: https://www.toppers.jp/en/atk2.html
 draft: false
+date: "2019-02-12T03:38:22+00:00"
+last-updated: "2017-03-24"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Other
+platforms:
+    - Nios II
 ---
+
+
+
+
+
+
 The TOPPERS/ATK (Automotive Kernel) is a real-time operating system for automotive system control publicly released by the TOPPERS project.
 
 <!--more-->

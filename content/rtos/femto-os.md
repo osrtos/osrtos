@@ -1,21 +1,23 @@
 ---
-code-url: https://sourceforge.net/projects/funkos/
-components:
-- None
-date: 2016-11-29 11:36:57
-draft: false
-last-updated: '2010-04-24'
-libraries:
-- None
-licenses:
-- GPL
-platforms:
-- AVR
-site-url: http://www.femtoos.org/
-slug: femto-os
 title: Femto OS
-version: ''
+slug: femto-os
+version: ""
+code-url: https://sourceforge.net/projects/funkos/
+site-url: http://www.femtoos.org/
+draft: false
+date: "2016-11-29 11:36:57"
+last-updated: "2010-04-24"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - AVR
 ---
+
+
 Femto OS: RTOS for small MCU's like AVR.
 
 <!--more-->

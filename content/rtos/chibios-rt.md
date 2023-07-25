@@ -1,28 +1,30 @@
 ---
-code-url: https://sourceforge.net/projects/chibios/
-components:
-- FileSystem
-- Network
-- USBHost
-- USBDevice
-date: 2016-11-29 11:36:57
-draft: false
-last-updated: '2020-08-22'
-libraries:
-- lwIP
-licenses:
-- Modified GPL or Apache
-platforms:
-- MSP430
-- AVR
-- ColdFire
-- PowerPC
-- STM32
-site-url: http://www.chibios.org/dokuwiki/doku.php
-slug: chibios-rt
 title: ChibiOS/RT
+slug: chibios-rt
 version: 20.3.2
+code-url: https://sourceforge.net/projects/chibios/
+site-url: http://www.chibios.org/dokuwiki/doku.php
+draft: false
+date: "2016-11-29 11:36:57"
+last-updated: "2020-08-22"
+components:
+    - FileSystem
+    - Network
+    - USBHost
+    - USBDevice
+libraries:
+    - lwIP
+licenses:
+    - Modified GPL or Apache
+platforms:
+    - MSP430
+    - AVR
+    - ColdFire
+    - PowerPC
+    - STM32
 ---
+
+
 ChibiOS is a complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and a development environment.
 
 <!--more-->

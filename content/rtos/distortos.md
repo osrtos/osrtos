@@ -1,21 +1,23 @@
 ---
-code-url: https://github.com/DISTORTEC/distortos
-components:
-- None
-date: 2016-11-29 11:36:58
-draft: false
-last-updated: '2019-05-05'
-libraries:
-- None
-licenses:
-- Mozilla Public License Version 2.0
-platforms:
-- ARM
-site-url: http://distortos.org/
-slug: distortos
 title: distortos
+slug: distortos
 version: v0.7.0
+code-url: https://github.com/DISTORTEC/distortos
+site-url: http://distortos.org/
+draft: false
+date: "2016-11-29 11:36:58"
+last-updated: "2019-05-05"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - Mozilla Public License Version 2.0
+platforms:
+    - ARM
 ---
+
+
 distortos is an object-oriented C++ RTOS for microcontrollers.
 
 <!--more-->

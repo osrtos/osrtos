@@ -1,30 +1,32 @@
 ---
-code-url: https://github.com/FreeRTOS/FreeRTOS
-components:
-- FileSystem
-- Network
-- TLS/SSL
-- Command Line Interface
-- Runtime Analysis
-date: 2016-11-29 11:36:57
-draft: false
-last-updated: '2023-03-03'
-libraries:
-- lwIP
-licenses:
-- MIT
-platforms:
-- MSP430
-- ARM
-- AVR
-- ColdFire
-- PIC
-- x86
-site-url: http://www.freertos.org/
-slug: freertos
 title: FreeRTOS
-version: '202212.01'
+slug: freertos
+version: "202212.01"
+code-url: https://github.com/FreeRTOS/FreeRTOS
+site-url: http://www.freertos.org/
+draft: false
+date: "2016-11-29 11:36:57"
+last-updated: "2023-03-03"
+components:
+    - FileSystem
+    - Network
+    - TLS/SSL
+    - Command Line Interface
+    - Runtime Analysis
+libraries:
+    - lwIP
+licenses:
+    - MIT
+platforms:
+    - MSP430
+    - ARM
+    - AVR
+    - ColdFire
+    - PIC
+    - x86
 ---
+
+
 FreeRTOS is a market leading RTOS from Amazon Web Services that supports more than 35 architectures. It is distributed under the MIT license.
 
 <!--more-->

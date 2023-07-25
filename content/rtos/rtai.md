@@ -1,25 +1,27 @@
 ---
-title: "RTAI"
-date: 2016-11-29T11:36:57+00:00
-slug: "rtai"
-version: "RTAI 5.1"
-site-url: "https://www.rtai.org/"
-code-url: "https://www.rtai.org/userfiles/downloads/RTAI/"
-last-updated: "2018-02-05"
-licenses: 
-- GPL
-platforms:
-- ARM
-- x86
-- PowerPC
-- x86_64
-- m68k
-components:
-- None
-libraries:
-- None
+title: RTAI
+slug: rtai
+version: RTAI 5.1
+code-url: https://www.rtai.org/userfiles/downloads/RTAI/
+site-url: https://www.rtai.org/
 draft: false
+date: "2016-11-29T11:36:57+00:00"
+last-updated: "2018-02-05"
+components:
+    - None
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - ARM
+    - x86
+    - PowerPC
+    - x86_64
+    - m68k
 ---
+
+
 RTAI is the RealTime Application Interface for Linux - which lets you write applications with strict timing constraints for your favourite operating system. The RTAI distribution includes RTAI-Lab, a tool chain to convert block diagrams into RTAI executab
 
 <!--more-->

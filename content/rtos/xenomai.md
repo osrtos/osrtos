@@ -1,25 +1,27 @@
 ---
-title: "Xenomai"
-date: 2016-11-29T11:36:57+00:00
-slug: "xenomai"
-version: "v3.0.7"
-site-url: "http://xenomai.org/"
-code-url: "http://git.xenomai.org/xenomai-3.git/"
-last-updated: "2018-07-25"
-licenses: 
-- GPL
-platforms:
-- ARM
-- x86
-- PowerPC
-components:
-- FileSystem
-- Network
-- TLS/SSL
-libraries:
-- None
+title: Xenomai
+slug: xenomai
+version: v3.0.7
+code-url: http://git.xenomai.org/xenomai-3.git/
+site-url: http://xenomai.org/
 draft: false
+date: "2016-11-29T11:36:57+00:00"
+last-updated: "2018-07-25"
+components:
+    - FileSystem
+    - Network
+    - TLS/SSL
+libraries:
+    - None
+licenses:
+    - GPL
+platforms:
+    - ARM
+    - x86
+    - PowerPC
 ---
+
+
 Xenomai is a real-time development framework cooperating with the Linux kernel, in order to provide a pervasive, interface-agnostic, hard real-time support to user-space applications, seamlessly integrated into the GNU/Linux environment.
 
 <!--more-->
