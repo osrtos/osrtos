@@ -4,7 +4,7 @@ components:
 - None
 date: 2016-12-30 09:12:13
 draft: false
-last-updated: '2020-07-08'
+last-updated: '2023-03-16'
 libraries:
 - None
 licenses:
@@ -14,7 +14,7 @@ platforms:
 site-url: https://github.com/stateos/IntrOS
 slug: intros
 title: IntrOS
-version: v4.7
+version: v4.9
 ---
 Free, simple and tiny cooperative operating system (OS) designed for deeply embedded applications.
 

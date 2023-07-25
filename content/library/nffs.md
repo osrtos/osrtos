@@ -2,7 +2,7 @@
 code-url: https://github.com/apache/mynewt-nffs
 date: 2017-01-05 13:26:05
 draft: false
-last-updated: '2019-01-02'
+last-updated: '2023-01-18'
 lib-type: File System
 licenses:
 - Apache License

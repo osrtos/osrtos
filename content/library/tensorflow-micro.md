@@ -2,14 +2,14 @@
 code-url: https://github.com/tensorflow/tensorflow
 date: 2019-03-08 01:11:02
 draft: false
-last-updated: '2021-08-11'
+last-updated: '2023-03-20'
 lib-type: Machine Learning
 licenses:
 - Apache License 2.0
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
 slug: tensorflow-micro
 title: Tensorflow Micro
-version: v2.4.3
+version: v2.12.0
 ---
 
 This an experimental port of TensorFlow Lite aimed at micro controllers and other devices with only kilobytes of memory. 

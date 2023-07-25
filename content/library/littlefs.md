@@ -2,14 +2,14 @@
 code-url: https://github.com/geky/littlefs
 date: 2017-12-25 19:14:32
 draft: false
-last-updated: '2021-06-12'
+last-updated: '2023-05-23'
 lib-type: File System
 licenses:
 - Apache License
 site-url: https://github.com/geky/littlefs
 slug: littlefs
 title: littlefs
-version: v2.4.1
+version: v2.6.1
 ---
 A little fail-safe filesystem designed for embedded systems
 

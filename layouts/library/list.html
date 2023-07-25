@@ -30,7 +30,7 @@
         {{ range ($section.ByParam "last-updated").Reverse }}
         <tr>
           <td width="15%">
-            <a href="{{ .URL }}">{{ .Title }}</a>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
           </td>
           <td width="10%">
             {{ $taxonomy := "licenses" }}

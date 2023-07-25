@@ -2,14 +2,14 @@
 code-url: https://github.com/modm-io/modm
 date: 2018-12-17 07:25:23
 draft: false
-last-updated: '2021-07-01'
+last-updated: '2023-04-08'
 lib-type: other
 licenses:
 - Mozilla Public License Version 2.0
 site-url: https://modm.io/
 slug: modm
 title: modm
-version: 2021q2
+version: 2023q1
 ---
 modm is a toolbox for building custom C++17 libraries tailored to your embedded device. modm generates startup code, HALs and their implementations, communication protocols, drivers for external devices, BSPs, etc… in a modular, customizable process that you can fine-tune to your needs.
 
