@@ -13,8 +13,6 @@ licenses:
     - Apache License
 platforms: []
 ---
-
-
 The Newtron Flash File System (nffs) is an open source file system available by default with the Apache Mynewt OS.
 
 <!--more-->

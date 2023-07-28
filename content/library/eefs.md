@@ -13,8 +13,6 @@ licenses:
     - Other
 platforms: []
 ---
-
-
 EEFS is for EEPROM File System Project (EEFS). It is a simple file system for memory devices such as EEPROM, RAM, ROM, etc. Currently it is not intended for block oriented devices such as disks and flash devices.
 
 <!--more-->

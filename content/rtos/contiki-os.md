@@ -22,8 +22,6 @@ platforms:
     - AVR
     - "8051"
 ---
-
-
 Contiki is an open source operating system for the Internet of Things. Contiki connects tiny low-cost, low-power microcontrollers to the Internet.
 
 <!--more-->

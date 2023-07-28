@@ -17,9 +17,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
-
 Drone is an Embedded Operating System for writing real-time applications in Rust.
 
 <!--more-->

@@ -18,8 +18,6 @@ platforms:
     - ARM
     - AVR
 ---
-
-
 cocoOS is a free, open source, cooperative task scheduler, based on coroutines targeted for embedded microcontrollers like AVR, MSP430 and STM32.
 
 <!--more-->

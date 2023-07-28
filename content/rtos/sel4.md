@@ -6,7 +6,7 @@ code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 draft: false
 date: "2017-04-29 08:18:58"
-last-updated: "2021-06-10"
+last-updated: "2023-06-21"
 components:
     - None
 libraries:
@@ -18,8 +18,6 @@ platforms:
     - x86
     - RISC-V
 ---
-
-
 The world's first operating-system kernel with an end-to-end proof of implementation correctness and security enforcement is available as open source.
 
 <!--more-->

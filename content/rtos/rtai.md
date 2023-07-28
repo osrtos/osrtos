@@ -20,8 +20,6 @@ platforms:
     - x86_64
     - m68k
 ---
-
-
 RTAI is the RealTime Application Interface for Linux - which lets you write applications with strict timing constraints for your favourite operating system. The RTAI distribution includes RTAI-Lab, a tool chain to convert block diagrams into RTAI executab
 
 <!--more-->

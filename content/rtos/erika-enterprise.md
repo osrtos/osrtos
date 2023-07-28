@@ -18,8 +18,6 @@ platforms:
     - ARM
     - AVR
 ---
-
-
 Erika Enterprise is the first open-source Free RTOS that has been certified OSEK/VDX compliant!.
 
 <!--more-->

@@ -13,8 +13,6 @@ licenses:
     - GPL
 platforms: []
 ---
-
-
 MiniGUI is a free software project. It aims to provide a fast, stable, and cross-operating-system graphics user interface (GUI) support system, which is especially fit for real-time embedded systems based-on Linux/uClinux, eCos, and other traditional RTOSes, such as VxWorks, ThreadX, uC/OS-II, and Nucleus.
 
 <!--more-->

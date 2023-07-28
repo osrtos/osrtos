@@ -6,7 +6,7 @@ code-url: https://github.com/stateos/IntrOS
 site-url: https://github.com/stateos/IntrOS
 draft: false
 date: "2016-12-30 09:12:13"
-last-updated: "2023-03-16"
+last-updated: "2023-03-18"
 components:
     - None
 libraries:
@@ -16,8 +16,6 @@ licenses:
 platforms:
     - ARM, STM8, AVR8
 ---
-
-
 Free, simple and tiny cooperative operating system (OS) designed for deeply embedded applications.
 
 <!--more-->

@@ -6,7 +6,7 @@ code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-06-16"
+last-updated: "2023-07-28"
 components:
     - BLE
     - FileSystem
@@ -24,8 +24,6 @@ platforms:
     - ARC
     - Nios II
 ---
-
-
 The Zephyr™ Project is a scalable, real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind. This Linux Foundation hosted project embraces open source development values and governance on its mission to unite leaders from across the industry to produce a best-in-breed solution.
 
 <!--more-->

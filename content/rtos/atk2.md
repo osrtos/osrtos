@@ -16,12 +16,6 @@ licenses:
 platforms:
     - Nios II
 ---
-
-
-
-
-
-
 The TOPPERS/ATK (Automotive Kernel) is a real-time operating system for automotive system control publicly released by the TOPPERS project.
 
 <!--more-->

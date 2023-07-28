@@ -6,7 +6,7 @@ code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-04-28"
+last-updated: "2023-07-27"
 components:
     - BLE
     - LoRaWAN
@@ -31,8 +31,6 @@ platforms:
     - MIPS
     - RISC-V
 ---
-
-
 RIOT is a real-time multi-threading operating system that supports a range of devices that are typically found in the Internet of Things (IoT): 8-bit, 16-bit and 32-bit microcontrollers.
 
 <!--more-->

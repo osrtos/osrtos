@@ -13,8 +13,6 @@ licenses:
     - Apache License
 platforms: []
 ---
-
-
 A little fail-safe filesystem designed for embedded systems
 
 <!--more-->

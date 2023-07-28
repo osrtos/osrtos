@@ -17,8 +17,6 @@ platforms:
     - ARM
     - PowerPC
 ---
-
-
 The Fusion Embedded RTOS (Real-Time Operating System) from Unicoi Systems is a Real-Time OS designed and optimized for networking and media-centric processors.
 
 <!--more-->

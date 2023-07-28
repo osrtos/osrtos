@@ -16,8 +16,6 @@ licenses:
 platforms:
     - AVR
 ---
-
-
 DuinOS is a small multithreading real time operating system (RTOS), based on the FreeRTOS kernel, for Arduino compatible boards.
 
 <!--more-->

@@ -16,8 +16,6 @@ licenses:
 platforms:
     - AVR
 ---
-
-
 Femto OS: RTOS for small MCU's like AVR.
 
 <!--more-->

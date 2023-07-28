@@ -18,8 +18,6 @@ platforms:
     - ARM
     - x86
 ---
-
-
 MaRTE OS is a Hard Real-Time Operating System for embedded applications that follows the Minimal Real-Time POSIX.13 subset.
 
 <!--more-->

@@ -18,8 +18,6 @@ platforms:
     - MIPS
     - PowerPC
 ---
-
-
 eCos is a free open source real-time operating system intended for embedded applications. The highly configurable nature of eCos allows the operating system to be customised to precise application requirements, delivering the best possible run-time perfor
 
 <!--more-->

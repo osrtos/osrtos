@@ -6,7 +6,7 @@ code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 draft: false
 date: "2018-02-11 06:48:49"
-last-updated: "2019-12-11"
+last-updated: "2023-07-27"
 components:
     - None
 libraries:
@@ -16,8 +16,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
 TizenRT is a lightweight RTOS-based platform to support low-end IoT devices
 
 <!--more-->

@@ -16,11 +16,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
-
-
-
 A Reliable Real-Time Operating System & Application Framework.
 
 <!--more-->

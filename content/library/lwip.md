@@ -13,8 +13,6 @@ licenses:
     - BSD
 platforms: []
 ---
-
-
 lwIP is a small independent implementation of the TCP/IP protocol suite. The focus of the lwIP TCP/IP implementation is to reduce resource usage while still having a full scale TCP. This makes lwIP suitable for use in embedded systems with tens of kilobytes of free RAM and room for around 40 kilobytes of code ROM.
 
 <!--more-->

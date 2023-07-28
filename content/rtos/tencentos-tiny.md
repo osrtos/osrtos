@@ -21,8 +21,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
 TencentOS tiny is a real-time operating system developed by Tencent for the Internet of Things. It features low power consumption, low resource consumption, modularity, security and reliability, and can effectively improve the development efficiency of IoT terminal products. 
 <!--more-->
 

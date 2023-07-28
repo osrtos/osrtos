@@ -6,7 +6,7 @@ code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-03-03"
+last-updated: "2023-07-27"
 components:
     - FileSystem
     - Network
@@ -25,8 +25,6 @@ platforms:
     - PIC
     - x86
 ---
-
-
 FreeRTOS is a market leading RTOS from Amazon Web Services that supports more than 35 architectures. It is distributed under the MIT license.
 
 <!--more-->

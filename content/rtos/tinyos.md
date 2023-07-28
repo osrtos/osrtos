@@ -17,8 +17,6 @@ platforms:
     - MSP430
     - AVR
 ---
-
-
 TinyOS is an open source, BSD-licensed operating system designed for low-power wireless devices, such as those used in sensor networks, ubiquitous computing, personal area networks, smart buildings, and smart meters.
 
 <!--more-->

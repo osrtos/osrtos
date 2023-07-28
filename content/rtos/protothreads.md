@@ -17,8 +17,6 @@ platforms:
     - AVR
     - "8051"
 ---
-
-
 Protothreads are extremely lightweight stackless threads designed for severely memory constrained systems.
 
 <!--more-->

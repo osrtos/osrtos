@@ -6,7 +6,7 @@ code-url: https://github.com/azure-rtos/threadx
 site-url: https://azure.microsoft.com/en-us/services/rtos/
 draft: false
 date: 2020-05-27 09:25:57+08:00
-last-updated: "2023-03-08"
+last-updated: "2023-07-21"
 components:
     - FileSystem
     - Network
@@ -21,13 +21,6 @@ licenses:
 platforms:
     - ARM Cortex M
 ---
-
-
-
-
-
-
-
 This advanced real-time operating system (RTOS) is designed specifically for deeply embedded applications. Among the multiple benefits it provides are advanced scheduling facilities, message passing, interrupt management, and messaging services. Azure RTOS ThreadX has many advanced features, including picokernel architecture, preemption threshold, event chaining, and a rich set of system services.
 
 

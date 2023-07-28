@@ -23,11 +23,6 @@ platforms:
     - ARM
     - MIPS
 ---
-
-
-
-
-
 Apache Mynewt OS is a real-time, modular operating system for connected IoT devices that need to operate for long periods of time under power, memory, and storage constraints. It provides a complete environment for prototyping, developing, and managing em
 
 <!--more-->

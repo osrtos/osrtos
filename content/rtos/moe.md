@@ -6,7 +6,7 @@ code-url: https://github.com/ianhom/MOE
 site-url: https://github.com/ianhom/MOE
 draft: false
 date: "2018-03-20 09:24:52"
-last-updated: "2017-04-21"
+last-updated: "2019-12-08"
 components:
     - None
 libraries:
@@ -16,8 +16,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
 MOE is an event-driven scheduler system for 8/16/32-bit MCUs. MOE means "Minds Of Embedded system".
 
 <!--more-->

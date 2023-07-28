@@ -13,8 +13,6 @@ licenses:
     - BSD
 platforms: []
 ---
-
-
 Arduino True Color Library for TFTs and OLEDs
 
 <!--more-->

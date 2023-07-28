@@ -16,11 +16,6 @@ licenses:
 platforms:
     - AVR
 ---
-
-
-
-
-
 Atomthreads is a free, lightweight, portable, real-time scheduler for embedded systems.
 
 <!--more-->

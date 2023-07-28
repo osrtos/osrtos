@@ -13,8 +13,6 @@ licenses:
     - GPL v2
 platforms: []
 ---
-
-
 Yaffs (Yet Another Flash File System) is an open-source file system specifically designed to be fast, robust and suitable for embedded use with NAND and NOR Flash.
 
 <!--more-->

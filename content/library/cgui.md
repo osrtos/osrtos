@@ -13,8 +13,6 @@ licenses:
     - GPL
 platforms: []
 ---
-
-
 CGUI is a library that provides you with a set of C-functions to create GUI applications, i.e. windows and window controls like buttons, check-boxes, menus, input boxes etc.
 
 <!--more-->

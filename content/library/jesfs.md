@@ -13,8 +13,6 @@ licenses:
     - Other
 platforms: []
 ---
-
-
 JesFs is an Ultra-Lightweight Flash File System, especially designed for NOR-Flash.
 
 <!--more-->

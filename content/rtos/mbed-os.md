@@ -6,7 +6,7 @@ code-url: https://github.com/ARMmbed/mbed-os
 site-url: https://www.mbed.com/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-02-23"
+last-updated: "2023-07-11"
 components:
     - BLE
     - LoRaWAN
@@ -25,8 +25,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
 mbed OS is an open-source embedded operating system designed specifically for the "things" in the Internet of Things (IoT). It includes all the features you need to develop a connected product based on an ARM Cortex-M microcontroller.
 
 <!--more-->

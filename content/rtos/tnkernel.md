@@ -17,8 +17,6 @@ platforms:
     - MSP430
     - ColdFire
 ---
-
-
 TNKernel is a compact and very fast real-time kernel for the embedded 32/16/8 bits microprocessors.
 
 <!--more-->

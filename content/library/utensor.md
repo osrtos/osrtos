@@ -13,9 +13,6 @@ licenses:
     - Apache License 2.0
 platforms: []
 ---
-
-
-
 uTensor is an extremely light-weight machine learning inference framework built on Mbed and Tensorflow. It consists of a runtime library and an offline tool. The total size of graph definition and algorithm implementation of a 3-layer MLP produced by uTensor is less than 32kB in the resulting binary (excluding the weights).
 
 ### Features

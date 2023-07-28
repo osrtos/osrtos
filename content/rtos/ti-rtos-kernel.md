@@ -16,8 +16,6 @@ licenses:
 platforms:
     - None
 ---
-
-
 TI-RTOS Kernel (formerly known as SYS/BIOS
 
 <!--more-->

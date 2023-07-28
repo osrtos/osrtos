@@ -19,11 +19,6 @@ platforms:
     - ColdFire
     - PIC
 ---
-
-
-
-
-
 BRTOS is a lightweight preemptive real time operating system designed for low end microcontrollers.
 
 <!--more-->

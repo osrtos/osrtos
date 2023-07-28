@@ -16,8 +16,6 @@ licenses:
 platforms:
     - ARM
 ---
-
-
 uKOS is a multi-tasking OS suitable for small embedded µController systems. It is based on a preventive multitasking scheduler.
 
 <!--more-->

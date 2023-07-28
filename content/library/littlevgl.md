@@ -6,15 +6,13 @@ code-url: https://github.com/lvgl/lvgl
 site-url: https://lvgl.io/
 draft: false
 date: "2017-12-25 19:20:10"
-last-updated: "2023-07-05"
+last-updated: "2023-07-27"
 components: []
 libraries: []
 licenses:
     - MIT
 platforms: []
 ---
-
-
 LVGL is the most popular free and open-source embedded graphics library to create beautiful UIs for any MCU, MPU and display type.
 
 <!--more-->

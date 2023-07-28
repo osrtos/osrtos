@@ -6,7 +6,7 @@ code-url: https://github.com/embox/embox
 site-url: https://github.com/embox/embox
 draft: false
 date: "2017-03-18 01:28:16"
-last-updated: "2023-07-01"
+last-updated: "2023-07-27"
 components:
     - None
 libraries:
@@ -19,8 +19,6 @@ platforms:
     - MIPS
     - PowerPC
 ---
-
-
 Embox is a configurable operating system kernel designed for resource constrained and embedded systems.
 
 <!--more-->

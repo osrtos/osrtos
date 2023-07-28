@@ -23,8 +23,6 @@ platforms:
     - PowerPC
     - STM32
 ---
-
-
 ChibiOS is a complete development environment for embedded applications including RTOS, an HAL, peripheral drivers, support files and a development environment.
 
 <!--more-->

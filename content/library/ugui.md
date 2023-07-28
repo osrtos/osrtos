@@ -13,8 +13,6 @@ licenses:
     - Other
 platforms: []
 ---
-
-
 µGUI is a free and open source graphic library for embedded systems. It is platform-independent and can be easily ported to almost any microcontroller system. As long as the display is capable of showing graphics, µGUI is not restricted to a certain display technology. Therefore, display technologies such as LCD, TFT, E-Paper, LED or OLED are supported.
 
 <!--more-->

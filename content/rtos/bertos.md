@@ -19,11 +19,6 @@ platforms:
     - PowerPC
     - x86_64
 ---
-
-
-
-
-
 BeRTOS is a real time open source operating system supplied with drivers and libraries designed for the rapid development of embedded software.
 
 <!--more-->

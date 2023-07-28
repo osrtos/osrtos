@@ -6,15 +6,13 @@ code-url: https://github.com/micropython/micropython
 site-url: http://micropython.org/
 draft: false
 date: "2018-08-07 02:47:39"
-last-updated: "2023-04-26"
+last-updated: "2023-07-27"
 components: []
 libraries: []
 licenses:
     - MIT
 platforms: []
 ---
-
-
 A lean and efficient Python implementation for microcontrollers and constrained systems.
 
 <!--more-->

@@ -6,7 +6,7 @@ code-url: https://github.com/cesanta/mongoose-os
 site-url: https://mongoose-os.com/
 draft: false
 date: "2018-01-24 01:43:59"
-last-updated: "2021-12-14"
+last-updated: "2023-02-23"
 components:
     - FileSystem
     - Network
@@ -19,8 +19,6 @@ platforms:
     - ARM
     - Xtensa
 ---
-
-
 Mongoose OS - an open source Operating System for Internet of Things. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4. Amazon AWS IoT & Google IoT Core integrated. Code in C or JavaScript.
 
 <!--more-->

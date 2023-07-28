@@ -23,8 +23,6 @@ platforms:
     - PowerPC
     - m68k
 ---
-
-
 RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices.
 
 <!--more-->

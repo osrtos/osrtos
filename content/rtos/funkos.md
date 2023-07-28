@@ -17,8 +17,6 @@ platforms:
     - MSP430
     - AVR
 ---
-
-
 FunkOS is an RTOS for 8-32 bit MCUs including AVR, MSP430, and Cortex M3. Both C and C++ kernels avaiable. Key features include preemption, periodic events, device drivers, and mutex/semaphores. Includes a variety of graphics and filesystem middleware.
 
 <!--more-->

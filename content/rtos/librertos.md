@@ -16,8 +16,6 @@ licenses:
 platforms:
     - AVR
 ---
-
-
 LibreRTOS is a portable single-stack Real Time Operating System. All tasks share the same stack, allowing a large number or tasks to be created even on architectures with low RAM, such as ATmega328P (2kB).
 
 <!--more-->

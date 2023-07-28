@@ -17,9 +17,6 @@ platforms:
     - ARM
     - ARM Cortex
 ---
-
-
-
 The hyperC OS is a real time-operating system (RTOS) designed for various IoT applications. All the designs are aimed at the optimization of ARM Cortex CPUs. 
 
 <!--more-->

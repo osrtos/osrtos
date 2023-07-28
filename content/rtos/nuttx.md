@@ -6,7 +6,7 @@ code-url: https://github.com/apache/incubator-nuttx
 site-url: https://nuttx.apache.org/
 draft: false
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2023-07-25"
+last-updated: "2023-07-28"
 components:
     - FileSystem
     - Network
@@ -31,8 +31,6 @@ platforms:
     - Freescale HCS12
     - Zilog
 ---
-
-
 NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards.
 
 <!--more-->

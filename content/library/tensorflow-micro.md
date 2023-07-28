@@ -6,16 +6,13 @@ code-url: https://github.com/tensorflow/tensorflow
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
 draft: false
 date: "2019-03-08 01:11:02"
-last-updated: "2023-06-28"
+last-updated: "2023-07-28"
 components: []
 libraries: []
 licenses:
     - Apache License 2.0
 platforms: []
 ---
-
-
-
 This an experimental port of TensorFlow Lite aimed at micro controllers and other devices with only kilobytes of memory. 
 
 <!--more-->

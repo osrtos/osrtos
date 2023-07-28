@@ -6,7 +6,7 @@ code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
 draft: false
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2023-07-12"
+last-updated: "2023-07-27"
 components:
     - FileSystem
     - Network
@@ -22,9 +22,6 @@ platforms:
     - ARM
     - MSP430
 ---
-
-
-
 Contiki-NG is an operating system for resource-constrained devices in the Internet of Things. Contiki-NG contains an RFC-compliant, low-power IPv6 communication stack, enabling Internet connectivity.
 
 <!--more-->

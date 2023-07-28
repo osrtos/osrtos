@@ -17,8 +17,6 @@ platforms:
     - ARM
     - ColdFire
 ---
-
-
 The Freescale MQX Real-Time Operating System (RTOS) provides real-time performance within a small, configurable footprint. The RTOS is tightly integrated with the latest 32-bit MCUs and MPUs from Freescale and is provided with commonly used device drivers
 
 <!--more-->

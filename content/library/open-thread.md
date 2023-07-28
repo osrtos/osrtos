@@ -6,15 +6,13 @@ code-url: https://github.com/openthread/openthread
 site-url: https://openthread.io/
 draft: false
 date: "2018-02-02 09:19:51"
-last-updated: "2022-11-02"
+last-updated: "2023-07-26"
 components: []
 libraries: []
 licenses:
     - BSD
 platforms: []
 ---
-
-
 OpenThread released by Nest is an open-source implementation of the Thread networking protocol.
 
 <!--more-->

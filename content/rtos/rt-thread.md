@@ -6,7 +6,7 @@ code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-06-21"
+last-updated: "2023-07-27"
 components:
     - FileSystem
     - Network
@@ -30,8 +30,6 @@ platforms:
     - RISC-V
     - Andes
 ---
-
-
 RT-Thread is an open source real-time operating system for embedded devices from China. RT-Thread RTOS is a scalable real-time operating system: a tiny kernel for ARM Cortex-M0, Cortex-M3/4, or a full feature system in ARM Cortex-A8, ARM Cortex-A9 DualCor
 
 <!--more-->

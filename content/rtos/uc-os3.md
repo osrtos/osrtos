@@ -31,9 +31,6 @@ platforms:
     - MSP430
     - PIC32
 ---
-
-
-
 µC/OS-III is a highly portable, ROMable, scalable, preemptive, real-time, deterministic, multitasking kernel for microprocessors, microcontrollers and DSPs.
 
 
