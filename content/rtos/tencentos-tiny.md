@@ -6,7 +6,7 @@ code-url: https://github.com/Tencent/TencentOS-tiny
 site-url: https://cloud.tencent.com/product/tos-tiny
 draft: false
 date: "2019-11-03 05:35:24"
-last-updated: "2023-05-06"
+last-updated: "2023-08-15"
 components:
     - BLE
     - LoRaWAN

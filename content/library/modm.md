@@ -6,7 +6,7 @@ code-url: https://github.com/modm-io/modm
 site-url: https://modm.io/
 draft: false
 date: "2018-12-17 07:25:23"
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components: []
 libraries: []
 licenses:

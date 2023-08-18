@@ -6,7 +6,7 @@ code-url: https://github.com/tensorflow/tensorflow
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
 draft: false
 date: "2019-03-08 01:11:02"
-last-updated: "2023-07-28"
+last-updated: "2023-08-17"
 components: []
 libraries: []
 licenses:

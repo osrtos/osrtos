@@ -6,7 +6,7 @@ code-url: https://github.com/openthread/openthread
 site-url: https://openthread.io/
 draft: false
 date: "2018-02-02 09:19:51"
-last-updated: "2023-07-26"
+last-updated: "2023-08-16"
 components: []
 libraries: []
 licenses:

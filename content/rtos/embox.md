@@ -6,7 +6,7 @@ code-url: https://github.com/embox/embox
 site-url: https://github.com/embox/embox
 draft: false
 date: "2017-03-18 01:28:16"
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components:
     - None
 libraries:

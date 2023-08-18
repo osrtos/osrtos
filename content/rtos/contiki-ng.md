@@ -6,7 +6,7 @@ code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
 draft: false
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components:
     - FileSystem
     - Network

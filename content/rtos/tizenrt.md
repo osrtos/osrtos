@@ -6,7 +6,7 @@ code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 draft: false
 date: "2018-02-11 06:48:49"
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components:
     - None
 libraries:

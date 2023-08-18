@@ -6,7 +6,7 @@ code-url: https://github.com/azure-rtos/threadx
 site-url: https://azure.microsoft.com/en-us/services/rtos/
 draft: false
 date: 2020-05-27 09:25:57+08:00
-last-updated: "2023-07-21"
+last-updated: "2023-08-07"
 components:
     - FileSystem
     - Network

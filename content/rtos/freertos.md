@@ -6,7 +6,7 @@ code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-07-27"
+last-updated: "2023-08-17"
 components:
     - FileSystem
     - Network

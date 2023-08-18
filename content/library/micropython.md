@@ -6,7 +6,7 @@ code-url: https://github.com/micropython/micropython
 site-url: http://micropython.org/
 draft: false
 date: "2018-08-07 02:47:39"
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components: []
 libraries: []
 licenses:

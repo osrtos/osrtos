@@ -1,12 +1,12 @@
 ---
 title: LVGL
 slug: lvgl
-version: v8.3.8
+version: v8.3.9
 code-url: https://github.com/lvgl/lvgl
 site-url: https://lvgl.io/
 draft: false
 date: "2017-12-25 19:20:10"
-last-updated: "2023-07-27"
+last-updated: "2023-08-16"
 components: []
 libraries: []
 licenses:

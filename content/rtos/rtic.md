@@ -6,7 +6,7 @@ code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-07-25"
+last-updated: "2023-08-08"
 components: []
 libraries: []
 licenses:
