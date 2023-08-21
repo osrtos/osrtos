@@ -62,3 +62,9 @@ TizenRT is a lightweight RTOS (Real-Time Operating System) designed to support l
 - STM32F429I-DISCO
 - STM32L4R9AI-DISCO
 - QEMU
+
+### Resources
+<!--github-projects-->
+- [IoTJS-Plus-TizenRT](https://github.com/SKKU-ESLAB/IoTJS-Plus-TizenRT). IoT.js of ANT based on Tizen RT.
+- [docker-artik-devenv](https://github.com/webispy/docker-artik-devenv). Dockerfile for ARTIK development environment.
+- [ocf_mylight](https://github.com/webispy/ocf_mylight). OCF Light sample for Linux and TizenRT using IoTivity stack..

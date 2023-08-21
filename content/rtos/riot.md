@@ -49,5 +49,10 @@ RIOT is a real-time multi-threading operating system that supports a range of de
 - CoAP
 - CCN-Lite
 
-### Demo Projects
+### Resources
+
 - [Arduino Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/arduino_hello-world). This application demonstrates the usage of Arduino sketches in RIOT.
+<!--github-projects-->
+- [examples](https://github.com/riot/examples). Demos and examples for Riot and submodules.
+- [PineTime-apps](https://github.com/bosmoment/PineTime-apps). Firmware for the PineTime based on RIOT, NimBLE and LittleVGL.
+- [applications](https://github.com/RIOT-OS/applications). Some useful RIOT applications.

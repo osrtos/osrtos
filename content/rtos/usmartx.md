@@ -22,8 +22,7 @@ uSmartX is a non-preemptive, multitasking, priority based RTOS.
 <!--more-->
 
 ### Features
+
 - uSmartX is a non-preemptive, multitasking, priority based RTOS.
-
-
 
 <!--github-projects-->

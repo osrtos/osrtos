@@ -49,3 +49,6 @@ Free, extremely simple and amazingly tiny real-time operating system (RTOS) desi
 - all documentation is contained within the source files
 - examples and templates are in separate repositories
 
+### Resources
+<!--github-projects-->
+- [StateOS_cpp11](https://github.com/stateos/StateOS_cpp11). RTOS designed for microcrocontrollers using std::thread. TEMPLATE..

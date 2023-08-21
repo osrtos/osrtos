@@ -43,28 +43,15 @@ Tock is a secure embedded operating system designed for Cortex-M and RISC-V micr
 
 - Support for Multiple Platforms: Tock supports various hardware platforms and can be configured to use different scheduling algorithms.
 
+### Resources
 <!--github-projects-->
 - [OpenSK](https://github.com/google/OpenSK). OpenSK is an open-source implementation for security keys written in Rust that supports both FIDO U2F and FIDO2 standards..
-- [tock](https://github.com/theopenconversationkit/tock). Tock, the open source conversational AI toolkit..
-- [signpost](https://github.com/lab11/signpost). Exploring what happens when you put computers on sign posts..
 - [libtock-c](https://github.com/tock/libtock-c). Userland apps for Tock written in C and C++.
 - [tockloader](https://github.com/tock/tockloader). Tool for programming Tock onto hardware boards..
-- [imix](https://github.com/helena-project/imix). imix Low-Power IoT Research Platform.
 - [tock-stm32](https://github.com/tock/tock-stm32). Ports of Tock for STM32 chips and discovery boards.
 - [tock-bootloader](https://github.com/tock/tock-bootloader). Software bootloader for boards running Tock..
-- [tock-react-kit](https://github.com/theopenconversationkit/tock-react-kit). React component to embed Tock chatbots into Web interfaces..
-- [tock-bot-open-data](https://github.com/theopenconversationkit/tock-bot-open-data). Tock bot example using Kotlin and Integrated mode, implementing stories over an open data API..
-- [tock-docker](https://github.com/theopenconversationkit/tock-docker). Docker and Docker-Compose implementation for Tock..
 - [hail](https://github.com/lab11/hail). An IoT development module that supports the Tock operating system..
-- [tock-node](https://github.com/theopenconversationkit/tock-node). Tock client to build conversational stories using Nodejs..
-- [tock-www](https://github.com/tock/tock-www). Tock OS website.
-- [linto-skills-core](https://github.com/linto-ai/linto-skills-core). Recommanded skills to be used by LinTO.
-- [tock-corenlp](https://github.com/theopenconversationkit/tock-corenlp). Optional part of the Tock toolkit based on Stanford CoreNLP library .
-- [tock-k8s](https://github.com/theopenconversationkit/tock-k8s). Kubernetes implementation and resources for Tock..
 - [pinetime-tock](https://github.com/JayKickliter/pinetime-tock). An out-of-tree port of Tock to the PineTime smart watch.
-- [tea-pod-alert](https://github.com/HuangLiPang/tea-pod-alert). Tea Pod Alert using IMIX with Tock.
 - [tock-docker](https://github.com/jehoffmann/tock-docker). TockOS build.
-- [TickTock-Wear](https://github.com/LayoutXML/TickTock-Wear). 🕛 TickTock Wear adds a ticking sound to your Wear OS smart watch. Not maintained because it was never approved for Wear OS by Google Play team..
-- [theopenconversationkit.github.io](https://github.com/theopenconversationkit/theopenconversationkit.github.io). Tock home / landing page (Website)..
 - [tock-test-harness](https://github.com/goodoomoodoo/tock-test-harness). Tock OS test runner.
 - [tock-docker](https://github.com/george-hopkins/tock-docker). Tock OS Docker Image.

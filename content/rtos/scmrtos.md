@@ -33,4 +33,6 @@ scmRTOS is tiny Real-Time Preemptive Operating System intended for use with Sing
 - Optional software switch on separate ISR stack on some platforms;
 - Support of various target hardware features such as hardware shifters etc., for more efficiency.
 
-
+### Resources
+<!--github-projects-->
+- [mcu_fancontrol](https://github.com/hrandib/mcu_fancontrol). Fan controller hardware/firmware.

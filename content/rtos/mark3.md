@@ -31,3 +31,5 @@ Mark3 is a sophisticated, modern RTOS and application development platform, targ
 - Tickless software-based timers for maximum CPU, interrupt, and power efficienccy
 - High accuracy code-profiling timers
 - Extendable debug infrastructure for runtime debugging and critical error handling
+
+<!--github-projects-->

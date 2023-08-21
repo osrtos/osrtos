@@ -21,6 +21,7 @@ uKOS is a multi-tasking OS suitable for small embedded µController systems. It 
 <!--more-->
 
 ### Features
+
 - Up to 255 static processes
 - Overlay processes for limited resources CPU-ASIC impleentations
 - Up to 255 dynamic priorities
@@ -40,7 +41,5 @@ uKOS is a multi-tasking OS suitable for small embedded µController systems. It 
 - Customizable to other CPUs via stubs
 - Romable
 - Task analyser by Impulse
-
-
 
 <!--github-projects-->

@@ -26,4 +26,4 @@ TI-RTOS Kernel (formerly known as SYS/BIOS
 - The TI-RTOS Kernel provides multithreading, scheduling and synchronization services, complemented by three different memory managers. Logging, tracing, and general system services (e.g. abort, exit) are provided by the XDCtools run-time component. The Inter-Processor Communication (IPC) component provides transparent message passing and other IPC mechanisms.
 - Objects from all three components are configured, built, and traced using a common tool infrastructure, providing a seamless user experience.
 
-
+<!--github-projects-->

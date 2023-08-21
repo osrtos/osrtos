@@ -37,6 +37,7 @@ platforms:
 <!--more-->
 
 ### Features
+
 - Preemptive multitasking real-time kernel with optional round robin scheduling
 - Delivered with complete, clean, consistent source code with in-depth documentation.
 - Highly scalable: Unlimited number of tasks, priorities and kernel objects

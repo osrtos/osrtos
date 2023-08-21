@@ -30,3 +30,5 @@ StratifyOS is a powerful embedded RTOS for the ARM Cortex M microcontrollers.
 ### Resources
 
 - [Stratify OS on mbed LP1768](https://www.hackster.io/tgil/stratity-os-running-on-mbed-lpc1768-1679d7). This project is an example of how to get Stratify OS running on the mbed LPC1768 board
+
+<!--github-projects-->

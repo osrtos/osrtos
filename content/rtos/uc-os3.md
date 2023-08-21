@@ -33,10 +33,10 @@ platforms:
 ---
 µC/OS-III is a highly portable, ROMable, scalable, preemptive, real-time, deterministic, multitasking kernel for microprocessors, microcontrollers and DSPs.
 
-
 <!--more-->
 
 ### Features
+
 - Preemptive multitasking real-time kernel with optional round robin scheduling
 - Delivered with complete, clean, consistent source code with in-depth documentation.
 - Highly scalable: Unlimited number of tasks, priorities and kernel objects
@@ -44,4 +44,5 @@ platforms:
 - Very low interrupt disable time
 - Extensive performance measurement metrics (configurable)
 - Certifiable for safety-critical applications
+
 <!--github-projects-->
