@@ -5,7 +5,7 @@ version: dev
 code-url: https://github.com/gscultho/HuskEOS
 site-url: https://github.com/gscultho/HuskEOS
 draft: false
-date: "2023-08-21 11:36:57"
+date: "2023-08-20 11:36:57"
 last-updated: "2021-04-23"
 components:
     - None
