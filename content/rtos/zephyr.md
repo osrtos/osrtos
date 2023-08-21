@@ -6,7 +6,7 @@ code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-20"
+last-updated: "2023-08-21"
 components:
     - FileSystem
     - Network
