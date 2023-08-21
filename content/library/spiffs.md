@@ -18,6 +18,7 @@ Spiffs is a file system intended for SPI NOR flash devices on embedded targets.
 <!--more-->
 
 ### Features
+
 - Specifically designed for low ram usage
 - Uses statically sized ram buffers, independent of number of files
 - Posix-like api: open, close, read, write, seek, stat, etc
@@ -27,6 +28,7 @@ Spiffs is a file system intended for SPI NOR flash devices on embedded targets.
 - Built in file system consistency checks
 - Highly configurable
 
+### Resources
 <!--github-projects-->
 - [nodemcu-firmware](https://github.com/nodemcu/nodemcu-firmware). Lua based interactive firmware for ESP8266, ESP8285 and ESP32.
 - [ESPUI](https://github.com/s00500/ESPUI). A simple web user interface library for ESP32 and ESP8266.

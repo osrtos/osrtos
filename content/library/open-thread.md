@@ -18,6 +18,7 @@ OpenThread released by Nest is an open-source implementation of the Thread netwo
 <!--more-->
 
 ### Features
+
 - IPv6 configuration and raw data interface
 - UDP sockets
 - CoAP client and server

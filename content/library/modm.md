@@ -18,6 +18,7 @@ modm is a toolbox for building custom C++17 libraries tailored to your embedded 
 <!--more-->
 
 ### Features
+
 - Efficient and fast object-oriented C++17 API.
 - Support for hundreds of AVR and ARM Cortex-M microcontrollers from Atmel and ST.
 - Build system agnostic: We use SCons by default, but you don't have to.
@@ -33,6 +34,7 @@ modm is a toolbox for building custom C++17 libraries tailored to your embedded 
 - Graphical user interface for small binary and color displays.
 - Hundreds of tests to ensure correct functionality.
 
+### Resource
 <!--github-projects-->
 - [modm-devices](https://github.com/modm-io/modm-devices). Curated device data for all AVR and ARM Cortex-M devices.
 - [lbuild](https://github.com/modm-io/lbuild). lbuild: a generic, modular code generator in Python 3.

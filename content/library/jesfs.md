@@ -18,6 +18,7 @@ JesFs is an Ultra-Lightweight Flash File System, especially designed for NOR-Fla
 <!--more-->
 
 ### Features
+
 - Ultra-Small RAM and code footprint: can be used on the smallest MCUs with only 8kB program memory or less (like the famous MSP430-series, almost all kind of 32-Bit ARM cores (M0, M3, M4, ….)). Only 200 bytes of RAM are sufficient!
 - Completely “Open Source” and written in Standard C.
 - Works with Serial NOR-Flash from 8kB to 16MB (opt. up to 2GB), but could also be used with CPU-internal NOR-Flash.

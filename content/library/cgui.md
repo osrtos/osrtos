@@ -18,6 +18,7 @@ CGUI is a library that provides you with a set of C-functions to create GUI appl
 <!--more-->
 
 ### Features
+
 - The API of CGUI is a set of C-functions, which makes it usable in both C and C++ applications. There are also bindings to FreeBasic.
 - Extensive documentation in different formats: plain text, info, rtf, and html that describe the GUI functions
 - Lots of simple GUI examples are included
@@ -25,4 +26,3 @@ CGUI is a library that provides you with a set of C-functions to create GUI appl
 - CGUI is free (no licence) and open source.
 
 <!--github-projects-->
-- [CGui](https://github.com/Htrap19/CGui). Making C++ UI Efficient, Easy, Reliable.

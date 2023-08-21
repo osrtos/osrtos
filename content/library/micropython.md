@@ -18,6 +18,7 @@ A lean and efficient Python implementation for microcontrollers and constrained 
 <!--more-->
 
 ### Features
+
 - highly configurable due to many compile-time configuration options
 - support for many architectures (x86, x86-64, ARM, ARM Thumb, Xtensa)
 - extensive test suite with over 590 tests, and more than 18,500 individual testcases
@@ -38,6 +39,7 @@ A lean and efficient Python implementation for microcontrollers and constrained 
 - a native emitter that targets machine code directly rather than the bytecode virtual machine
 - inline assembler (currently Thumb and Xtensa instruction sets only)
 
+### Resource
 <!--github-projects-->
 - [micropython-lib](https://github.com/micropython/micropython-lib). Core Python libraries ported to MicroPython.
 - [MaixPy](https://github.com/sipeed/MaixPy). MicroPython for K210 RISC-V, let's play with edge AI easier.

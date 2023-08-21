@@ -18,6 +18,7 @@ FatFs is a generic FAT/exFAT file system module for small embedded systems. The 
 <!--more-->
 
 ### Features
+
 - Windows compatible FAT/exFAT file system.
 - Platform independent. Easy to port.
 - Very small footprint for program code and work area.
@@ -30,6 +31,7 @@ FatFs is a generic FAT/exFAT file system module for small embedded systems. The 
 - Fixed or variable sector size.
 - Read-only, optional API, I/O buffer and etc...
 
+### Resource
 <!--github-projects-->
 - [stm32-bootloader](https://github.com/akospasztor/stm32-bootloader). Customizable Bootloader for STM32 microcontrollers. This example demonstrates how to perform in-application-programming of a firmware located on an external SD card with FAT32 file system..
 - [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs). USB Mass Storage Class Host + Filesystem Mounter static library for Nintendo Switch homebrew applications..

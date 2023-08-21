@@ -18,6 +18,7 @@ The Newtron Flash File System (nffs) is an open source file system available by 
 <!--more-->
 
 ### Features
+
 - It is highly suitable for embedded use because of its focus on minimal RAM usage and reliability.
 - There is also an abstraction layer API (fs) to allow generic access by an application to NFFS or any other file system.
 - Error correction.

@@ -18,6 +18,7 @@ MiniGUI is a free software project. It aims to provide a fast, stable, and cross
 <!--more-->
 
 ### Features
+
 - Support for many different real-time embedded operating systems, including Linux, uClinux, eCos, uC/OS-II, VxWorks, pSOS, ThreadX and Nucleus. SDK on Win32 platform is available also; it can facilitate the development and debugging of embedded applications.
 - Support for three runtime modes. You can configure and compile MiniGUI as one of three runtime modes: MiniGUI-Threads, MiniGUI-Processes, and MiniGUI-Standalone.
 - Support for built-in resources. You can compile the resources (bitmaps, icons, and fonts) into the library, and there are no needs to read the resources from files. Thus, MiniGUI can be used on some embedded systems without file systems.
@@ -34,6 +35,7 @@ MiniGUI is a free software project. It aims to provide a fast, stable, and cross
 - Input method interface to support special embedded devices. Moreover, input methods for Simplified Chinese are built-in.
 - Special support for embedded systems, including the common I/O operations, byte-orders related functions, touch screen calibration interface, and so on.
 
+### Resource
 <!--github-projects-->
 - [Otis](https://github.com/hansmarc/Otis). Otis is a dbf inspection tool (dbf viewer) for Dbase, Clipper, Harbour, xHarbour, FoxPro, Letodbf, ..., files..
 - [designer](https://github.com/ivanilmarcelino/designer). Designer for Minigui extend.

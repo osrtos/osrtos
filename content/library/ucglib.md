@@ -18,8 +18,10 @@ Arduino True Color Library for TFTs and OLEDs
 <!--more-->
 
 ### Features
+
 - Arduino True Color Library for TFTs and OLEDs
 
+### Resources
 <!--github-projects-->
 - [I2Cwrapper](https://github.com/ftjuh/I2Cwrapper). I2Cwrapper is a firmware framework which helps you implement Arduino based I2C target (slave) devices for control of non-I2C hardware. Supports plain Arduinos, ESP8266, ESP32, SAMD, STM32, and ATtiny platforms..
 - [esp-wrover-kit-lcd-demo](https://github.com/kekyo/esp-wrover-kit-lcd-demo). Minimal LCD demonstration on ESP-WROVER-KIT (ILI9341).

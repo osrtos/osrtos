@@ -18,6 +18,7 @@ Apache NimBLE is an open-source Bluetooth 5.0 stack (both Host & Controller) tha
 <!--more-->
 
 ### Features
+
 - Support for 251 byte packet size
 - Support for all 4 roles concurrently - Broadcaster, Observer, Peripheral and Central
 - Support for up to 32 simultaneous connections.
@@ -26,8 +27,7 @@ Apache NimBLE is an open-source Bluetooth 5.0 stack (both Host & Controller) tha
 - Coded (aka Long Range) and 2M PHYs.
 - Bluetooth Mesh.
 
-
-
+### Resources
 <!--github-projects-->
 - [INim](https://github.com/inim-repl/INim). Interactive Nim Shell / REPL / Playground.
 - [NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino). A fork of the NimBLE library structured for compilation with Arduino, for use with ESP32, nRF5x..

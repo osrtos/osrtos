@@ -18,12 +18,14 @@ lwIP is a small independent implementation of the TCP/IP protocol suite. The foc
 <!--more-->
 
 ### Features
+
 - Protocols: IP, IPv6, ICMP, ND, MLD, UDP, TCP, IGMP, ARP, PPPoS, PPPoE
 - DHCP client, DNS client (incl. mDNS hostname resolver), AutoIP/APIPA (Zeroconf), SNMP agent (v1, v2c, v3, private MIB support & MIB compiler)
 - APIs: specialized APIs for enhanced performance, optional Berkeley-alike socket API
 - Extended features: IP forwarding over multiple network interfaces, TCP congestion control, RTT estimation and fast recovery/fast retransmit
 - Addon applications: HTTP(S) server, SNTP client, SMTP(S) client, ping, NetBIOS nameserver, mDNS responder, MQTT client, TFTP server
 
+### Resource
 <!--github-projects-->
 - [webvm](https://github.com/leaningtech/webvm). Virtual Machine for the Web.
 - [golden-gate](https://github.com/Fitbit/golden-gate). Framework to connect wearables and other IoT devices to mobile phones, tablets and PCs with an IP-based protocol stack over Bluetooth Low Energy.
@@ -120,4 +122,4 @@ lwIP is a small independent implementation of the TCP/IP protocol suite. The foc
 - [AsyncUDP_ESP32_SC_W6100](https://github.com/khoih-prog/AsyncUDP_ESP32_SC_W6100). Fully Asynchronous UDP Library for ESP32S2/S3/C3 boards using LwIP W6100 Ethernet. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments.
 - [AsyncUDP_ESP32_Ethernet](https://github.com/khoih-prog/AsyncUDP_ESP32_Ethernet). Fully Asynchronous UDP Library for ESP32 boards using LwIP W5500, W6100 or ENC28J60 Ethernet. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments.
 - [AsyncUDP_RP2040W](https://github.com/khoih-prog/AsyncUDP_RP2040W). Fully Asynchronous UDP Library for RASPBERRY_PI_PICO_W using CYW43439 WiFi with arduino-pico core. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments. This library is the base for future and more advanced Async libraries, such as AsyncWebServer_RP2040W, AsyncHTTPRequest_RP2040W, AsyncHTTPSRequest_RP2040W, AsyncDNSServer_RP2040W.
-- [AsyncUDP_Ethernet](https://github.com/khoih-prog/AsyncUDP_Ethernet). Fully Asynchronous UDP Library for many boards besides ESP8266, using W5x00 or ENC28J60 Ethernet. Currently supporting only ESP8266. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments. This library is one of the current or future Async libraries to support for ESP8266 using W5x00 or ENC28J60 Ethernet, such as AsyncHTTPRequest_Ethernet, AsyncHTTPSRequest_Ethernet, AsyncWebServer_Ethernet, AsyncDNSServer_Ethernet, AsyncTCP_SSL_Ethernet, etc..
+- [AsyncUDP_Ethernet](https://github.com/khoih-prog/AsyncUDP_Ethernet). Fully Asynchronous UDP Library for many boards besides ESP8266, using W5x00 or ENC28J60 Ethernet. Currently supporting only ESP8266. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments. This library is one of the current or future Async libraries to support for ESP8266 using W5x00 or ENC28J60 Ethernet, such as AsyncHTTPRequest_Ethernet, AsyncHTTPSRequest_Ethernet, AsyncWebServer_Ethernet, AsyncDNSServer_Ethernet, AsyncTCP_SSL_Ethernet, etc.

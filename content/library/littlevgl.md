@@ -18,6 +18,7 @@ LVGL is the most popular free and open-source embedded graphics library to creat
 <!--more-->
 
 ### Features
+
 - Powerful building: blocks buttons, charts, lists, sliders, images etc
 - Advanced graphics with animations, anti-aliasing, opacity, smooth scrolling
 - Various input: devices touch pad, mouse, keyboard and external buttons
@@ -34,6 +35,7 @@ LVGL is the most popular free and open-source embedded graphics library to creat
 - Documentation and API references online
 - Free and open source under MIT licence
 
+### Resource
 <!--github-projects-->
 - [X-TRACK](https://github.com/FASTSHIFT/X-TRACK). A GPS bicycle speedometer that supports offline maps and track recording .
 - [ThatProject](https://github.com/0015/ThatProject). *That Project's project repository.

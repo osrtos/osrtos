@@ -18,6 +18,7 @@ Yaffs (Yet Another Flash File System) is an open-source file system specifically
 <!--more-->
 
 ### Features
+
 - Fast - typically much faster than alternatives
 - Easily ported (currently ported to GNU/Linux, WinCE, eCOS, pSOS, VxWorks, and various bare-metal systems)
 - Log structured, providing wear-levelling and making it very robust
@@ -27,5 +28,6 @@ Yaffs (Yet Another Flash File System) is an open-source file system specifically
 - Typically uses less RAM than comparable File Systems
 - Flexible Licensing suitable for most circumstances
 
+### Resources
 <!--github-projects-->
-- [study_yaffs](https://github.com/zhaogezhang/study_yaffs). Study yaffs, read code and add comments..
+- [study_yaffs](https://github.com/zhaogezhang/study_yaffs). Study yaffs, read code and add comments.
