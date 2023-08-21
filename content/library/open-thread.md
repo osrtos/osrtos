@@ -6,7 +6,7 @@ code-url: https://github.com/openthread/openthread
 site-url: https://openthread.io/
 draft: false
 date: "2018-02-02 09:19:51"
-last-updated: "2023-08-16"
+last-updated: "2023-08-17"
 components: []
 libraries: []
 licenses:
@@ -25,3 +25,5 @@ OpenThread released by Nest is an open-source implementation of the Thread netwo
 - DNSv6 client
 - NCP support
 - Border router
+
+<!--github-projects-->

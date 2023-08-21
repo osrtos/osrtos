@@ -6,7 +6,7 @@ code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 draft: false
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2023-08-17"
+last-updated: "2023-08-21"
 components:
     - FileSystem
     - Network

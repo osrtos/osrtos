@@ -21,6 +21,7 @@ distortos is an object-oriented C++ RTOS for microcontrollers.
 <!--more-->
 
 ### Features
+
 - fully preemptive
 - round-robin and FIFO scheduling
 - all basic primitives aim for maximum compatibility with POSIX, thread support library from C++11 and other established standards
@@ -30,3 +31,5 @@ distortos is an object-oriented C++ RTOS for microcontrollers.
 - static design where it is possible and makes sense
 - object-oriented design
 - written in C++11
+
+<!--github-projects-->

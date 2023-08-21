@@ -23,10 +23,10 @@ platforms:
 ---
 This advanced real-time operating system (RTOS) is designed specifically for deeply embedded applications. Among the multiple benefits it provides are advanced scheduling facilities, message passing, interrupt management, and messaging services. Azure RTOS ThreadX has many advanced features, including picokernel architecture, preemption threshold, event chaining, and a rich set of system services.
 
-
 <!--more-->
 
-## Azure RTOS ThreadX Core Scheduler
+### Azure RTOS ThreadX Core Scheduler
+
 - Minimal 2KB FLASH,1KB RAM footprint
 - Fast, sub-microsecond context-switch
 - Fully deterministic regardless of number of threads
@@ -43,6 +43,7 @@ This advanced real-time operating system (RTOS) is designed specifically for dee
 - Safety certified to many standards
 
 ### Features
+
 - Intuitive and consistent API
 - Blocking APIs have optional thread timeout
 - Many APIs are directly available from application ISRs
@@ -56,3 +57,28 @@ Optional timeout on all suspension.
 - Dynamic block pool creation. No limits on the number of block pools. No limits on size of fixed-size blocks or size of pool. Fastest possible memory allocation/deal-location. Optional thread suspension on empty pool. Optional timeout on all suspension
 - Dynamic byte pool creation. No limits on the number of byte pools. No limits on size of byte pool. Most flexible variable-length memory allocation/deallocation. Allocation size locality supported.
 - Dynamic timer creation. No limits on the number of timers. Periodic or one-shot timers supported. Periodic timers may have different initial expiration value. No searching on timer activation or deactivation. All timers driven from one hardware timer interrupt.
+
+### Resources
+<!--github-projects-->
+- [getting-started](https://github.com/azure-rtos/getting-started). This Getting Started guide is a series of tutorials that shows device developers how to connect to Azure IoT using Azure RTOS..
+- [guix](https://github.com/azure-rtos/guix). Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device..
+- [netxduo](https://github.com/azure-rtos/netxduo). Azure RTOS NetX Duo is an advanced, industrial-grade TCP/IP network stack designed specifically for deeply embedded real-time and IoT applications.
+- [x-cube-azrtos-h7](https://github.com/STMicroelectronics/x-cube-azrtos-h7). X-CUBE-AZRTOS-H7 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32H7 series of microcontrollers..
+- [filex](https://github.com/azure-rtos/filex). Azure RTOS FileX is a high-performance, FAT-compatible file system that’s fully integrated with Azure RTOS ThreadX.
+- [usbx](https://github.com/azure-rtos/usbx). Azure RTOS USBX is a high-performance USB host, device, and on-the-go (OTG) embedded stack, that is fully integrated with Azure RTOS ThreadX .
+- [levelx](https://github.com/azure-rtos/levelx). Azure RTOS LevelX Provides Flash Wear Leveling for FileX and Stand Alone purposes..
+- [x-cube-azrtos-f4](https://github.com/STMicroelectronics/x-cube-azrtos-f4). X-CUBE-AZRTOS-F4 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32F4 series of microcontrollers..
+- [x-cube-iota1](https://github.com/STMicroelectronics/x-cube-iota1). The X-CUBE-IOTA1 is an expansion software package for STM32Cube. The software runs on the STM32 and includes the middleware for enabling the IOTA Distributed Ledger Technology..
+- [Azure-RTOS-on-Azure-Sphere-Mediatek-MT3620](https://github.com/Azure-Samples/Azure-RTOS-on-Azure-Sphere-Mediatek-MT3620). This sample demonstrates how Azure Sphere  and Azure RTOS  are able to run together on MT3620 Development Kit..
+- [x-cube-azrtos-l4](https://github.com/STMicroelectronics/x-cube-azrtos-l4). X-CUBE-AZRTOS-L4 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32L4 series of microcontrollers..
+- [x-cube-azrtos-g4](https://github.com/STMicroelectronics/x-cube-azrtos-g4). X-CUBE-AZRTOS-G4 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32G4 series of microcontrollers..
+- [x-cube-azrtos-f7](https://github.com/STMicroelectronics/x-cube-azrtos-f7). X-CUBE-AZRTOS-F7 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32F7 series of microcontrollers..
+- [iotc-azurertos-sdk](https://github.com/avnet-iotconnect/iotc-azurertos-sdk). IoTConnect C SDK for AzureRTOS Devices.
+- [x-cube-azrtos-wb](https://github.com/STMicroelectronics/x-cube-azrtos-wb). X-CUBE-AZRTOS-WB (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32WB series of microcontrollers..
+- [H747-Test](https://github.com/c4chris/H747-Test). STM32 H747I DISCO trying out Azure RTOS ThreadX and GUIX on dual core and DSI LTDC display.
+- [x-cube-azrtos-wl](https://github.com/STMicroelectronics/x-cube-azrtos-wl). X-CUBE-AZRTOS-WL (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32WL series of microcontrollers..
+- [x-cube-azrtos-g0](https://github.com/STMicroelectronics/x-cube-azrtos-g0). X-CUBE-AZRTOS-G0 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32G0 series of microcontrollers..
+- [rp2040-azure-rtos-blink](https://github.com/jgroman/rp2040-azure-rtos-blink). Blink example with RPi Pico RP2040 and Azure RTOS.
+- [H747-Camera](https://github.com/c4chris/H747-Camera). Explore AI possibilities to sort seeds using STM32 H7 board coupled to a camera.
+- [x-cube-azrtos-l5](https://github.com/STMicroelectronics/x-cube-azrtos-l5). X-CUBE-AZRTOS-L5 (Azure RTOS Software Expansion for STM32Cube) provides a full integration of Microsoft Azure RTOS in the STM32Cube environment for the STM32L5 series of microcontrollers..
+- [H747-WeighingStation](https://github.com/c4chris/H747-WeighingStation). Control board for a prototype weighing station, HDMI display and touchscreen USB interface.

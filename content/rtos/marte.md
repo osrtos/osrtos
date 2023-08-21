@@ -23,6 +23,7 @@ MaRTE OS is a Hard Real-Time Operating System for embedded applications that fol
 <!--more-->
 
 ### Features
+
 - Supports mixed language applications in Ada, C and C++ (experimental support for Java as well).
 - Offers the services defined in POSIX.13: pthreads, mutexes, condvars, ...
 - All services have a time-bounded response (including dynamic memory allocation with TLSF).
@@ -30,5 +31,3 @@ MaRTE OS is a Hard Real-Time Operating System for embedded applications that fol
 - Available under the GNU General Public License 2.
 - Based on the AdaCore GNU toolchain.
 - Implements the Ada2005 Real-Time Annex
-
-

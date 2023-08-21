@@ -22,6 +22,7 @@ The Freescale MQX Real-Time Operating System (RTOS) provides real-time performan
 <!--more-->
 
 ### Features
+
 - Small code density
 
-
+<!--github-projects-->

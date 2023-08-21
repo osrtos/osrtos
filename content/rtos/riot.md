@@ -36,6 +36,7 @@ RIOT is a real-time multi-threading operating system that supports a range of de
 <!--more-->
 
 ### Features
+
 - A preemptive, tickless scheduler with priorities
 - Flexible memory management
 - High resolution, long-term timers
@@ -47,7 +48,6 @@ RIOT is a real-time multi-threading operating system that supports a range of de
 - RPL (storing mode, P2P mode)
 - CoAP
 - CCN-Lite
-
 
 ### Demo Projects
 - [Arduino Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/arduino_hello-world). This application demonstrates the usage of Arduino sketches in RIOT.

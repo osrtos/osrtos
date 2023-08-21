@@ -6,7 +6,7 @@ code-url: https://github.com/tensorflow/tensorflow
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
 draft: false
 date: "2019-03-08 01:11:02"
-last-updated: "2023-08-17"
+last-updated: "2023-08-20"
 components: []
 libraries: []
 licenses:
@@ -26,3 +26,10 @@ It doesn't require any operating system support, any standard C or C++ libraries
 - Code Duplication: Some of the code in this prototype largely duplicates the logic in other parts of the TensorFlow Lite code base, for example the operator wrappers. We've tried to keep share as much as we can between the two interpreters, but there are some assumptions built into the original runtime that make this difficult. We'll be working on modularizing the main interpreter so that we can move to an entirely shared system.
 
 
+
+<!--github-projects-->
+- [Gesture-Detecting-Macro-Keyboard](https://github.com/jakkra/Gesture-Detecting-Macro-Keyboard). Glorified Bluetooth macro keyboard with machine learning (TensorFlow Lite for Microcontrollers) running on an ESP32..
+- [Snoring-Detection](https://github.com/adrianagaler/Snoring-Detection). Tiny Machine Learning Snoring Detection Model for Embedded devices.
+- [onechuk](https://github.com/karaulj/onechuk). An ESP32 running joystick gesture recognition (Tensorflow Lite for Microcontrollers) inside a Nintendo Wii nunchuk controller..
+- [esp_tensorflow_fmnist](https://github.com/akshayvernekar/esp_tensorflow_fmnist). Example project running Fashion Mnist TFLite model on ESP32.
+- [Qoobinoo](https://github.com/Bsm-B/Qoobinoo). Qoobinno framework.

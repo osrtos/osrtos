@@ -21,7 +21,6 @@ Huawei LiteOS is a lightweight open-source IoT OS and a smart hardware developme
 <!--more-->
 
 ### Features
+
 - Lightweight Kernels: Smaller Kernel Size, Lower Power Consumption, and Faster Response
 - Sensor Frameworks: Lower Delay, Higher Precision, and Intelligent sensing
-
-

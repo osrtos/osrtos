@@ -22,6 +22,7 @@ The hyperC OS is a real time-operating system (RTOS) designed for various IoT ap
 <!--more-->
 
 ### Features
+
 - All the designs are aimed at the optimization of ARM Cortex CPUs. 
 - Supports the POSIX API
 - Very small footprint
@@ -36,3 +37,5 @@ The hyperC OS is a real time-operating system (RTOS) designed for various IoT ap
 - Loadable kernel module
 - Trust zone hypervisor
 - Cortex-M Lazy float context switch
+
+<!--github-projects-->

@@ -22,6 +22,7 @@ Prex is an open source, royalty-free, real-time operating system for embedded sy
 <!--more-->
 
 ### Features
+
 - Task & Thread Control: preemptive priority scheduling with 256 priority levels
 - Memory Management: memory protection, virtual address mapping, shared memory, MMU or MMU-less configuration
 - IPC: object name space, synchronous message passing between threads

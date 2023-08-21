@@ -21,6 +21,7 @@ Free, simple and tiny cooperative operating system (OS) designed for deeply embe
 <!--more-->
 
 ### Features
+
 - kernel can operate in cooperative (non-preemptive) mode only
 - kernel can operate with 16, 32 or 64-bit timer counter
 - kernel can operate in tick-less mode
@@ -44,3 +45,4 @@ Free, simple and tiny cooperative operating system (OS) designed for deeply embe
 - all documentation is contained within the source files
 - examples and templates are in separate repositories
 
+<!--github-projects-->

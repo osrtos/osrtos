@@ -28,6 +28,7 @@ RTEMS is an open source RTOS that supports open standard application programming
 <!--more-->
 
 ### Features
+
 - POSIX 1003.1b API including threads.
 - VMEbus Industry Trade Association RTEID/ORKID based Classic API (similar to pSOS+).
 - TCP/IP including BSD Sockets.
@@ -44,5 +45,6 @@ RTEMS is an open source RTOS that supports open standard application programming
 - GNU debugger. DDD GUI interface to gdb.
 
 
-### Demo Projects
+### Resources
+
 - [RTEMS on the Raspberry Pi](http://alanstechnotes.blogspot.com/2013/03/rtems-on-raspberry-pi.html). RTEMS on the Raspberry Pi Setting up an RTEMS development Environment for the Raspberry PiHow to download and build RTEMSRun an RTEMS program on the Raspberry PiBuilding and running an RTEMS Application

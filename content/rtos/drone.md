@@ -24,6 +24,7 @@ Drone is an Embedded Operating System for writing real-time applications in Rust
 It aims to bring modern development approaches without compromising performance into the world of embedded programming.
 
 ### Features
+
 - Energy effective from the start. Drone encourages interrupt-driven execution model.
 - Hard Real-Time. Drone relies on atomic operations instead of using critical sections.
 - Fully preemptive multi-tasking with strict priorities. A higher priority task takes precedence with minimal latency.
@@ -38,3 +39,5 @@ It aims to bring modern development approaches without compromising performance 
 - Debug communication channels. Rust’s print!, eprint! and similar macros are mapped to Cortex-M’s ITM channels 0 and 1 out of the box. Debug messages incur no overhead when no debug probe is connected.
 - Drone.toml configuration file, which saves you from manually writing linker scripts.
 - Rich and safe zero-cost abstractions for memory-mapped registers. Drone automatically generates register bindings from vendor-provided SVD files. It also provides a way to write code generic over similar peripherals.
+
+<!--github-projects-->

@@ -21,6 +21,7 @@ The TOPPERS/ATK (Automotive Kernel) is a real-time operating system for automoti
 <!--more-->
 
 ### Features
+
 - Based on the AUTOSAR OS specification
 - It is based on the OS specification included in the software platform for automotive control designed by the AUTOSAR consortium. In particular, it is based on the external specification AUTOSAR Release 4.0 Revision 3.
 - Supports configuration based on the AUTOSAR specification
@@ -40,4 +41,4 @@ The TOPPERS/ATK (Automotive Kernel) is a real-time operating system for automoti
 - Scalability class 3 supports memory protection and it leverages the TOPPERS/HRP2 kernel for supporting numerous targets. Additionally, comprehensive tests are being implemented for the memory protection functionality.
 - At present, we are implementing multi-core support for scalability classes 1 and 3. We leave the implementation of scalability classes 2 and 4 as future work.
 
-
+<!--github-projects-->

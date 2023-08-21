@@ -21,6 +21,7 @@ Mark3 is a sophisticated, modern RTOS and application development platform, targ
 <!--more-->
 
 ### Features
+
 - Deterministic, multiple-priority preemptive scheduler, with round-robin scheduling within each priority
 - Binary and counting semaphores
 - Mutex objects supporting both recursion and priority inheritence
@@ -30,5 +31,3 @@ Mark3 is a sophisticated, modern RTOS and application development platform, targ
 - Tickless software-based timers for maximum CPU, interrupt, and power efficienccy
 - High accuracy code-profiling timers
 - Extendable debug infrastructure for runtime debugging and critical error handling
-
-

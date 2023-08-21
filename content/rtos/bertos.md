@@ -24,6 +24,7 @@ BeRTOS is a real time open source operating system supplied with drivers and lib
 <!--more-->
 
 ### Features
+
 - Multitasking kernel: cooperative and preemptive task scheduling.
 - Ready to use hardware drivers for peripherals such as serial, ADC, LCD (text and graphics), NTC, memories and many more devices.
 - Full graphic subsystem for simple displays, with font support, bitmaps, clipping, text formatting, interactive menus.
@@ -32,4 +33,4 @@ BeRTOS is a real time open source operating system supplied with drivers and lib
 - Fully static memory model, suitable for tiny memory systems.
 - Open source and royalty free: BeRTOS is released under a modified GPLv2 license, check BertosLicense.
 
-
+<!--github-projects-->

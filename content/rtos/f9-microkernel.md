@@ -21,6 +21,7 @@ F9 microkernel is a microkernel-based (L4-style) kernel to support running real-
 <!--more-->
 
 ### Features
+
 - F9 follows the fundamental principles of microkernels in that it implements address spaces, thread management, and IPC only in the privileged kernel.
 - Designed and customized for ARM Cortex-M, supporting NVIC (Nested Vectored Interrupt Controller), Bit Banding, MPU (Memory Protection Unit).
 - Energy efficient scheduling and tickless timer which allow the ARM Cortex-M to wake up only when needed, either at a scheduled time or on an interrupt event. Therefore, it results in better current consumption than the common approach using the system timer, SysTick, which requires a constantly running and high frequency clock.
@@ -32,6 +33,8 @@ F9 microkernel is a microkernel-based (L4-style) kernel to support running real-
 - The kernel provides synchronous IPC (inter-process communication), for which short IPC carries payload in CPU registers only and full IPC copies message payload via the UTCBs of the communicating parties.
 - Debugging and profiling mechanisms: configurable debug console. memory dump. thread profiling: name, uptime, stack allocated/current/used. memory profiling: kernel table, pool free/allocated size, fragmentation.
 
+### Resources
 
-### Demo Projects
 - [Smart Solutions for the Internet of Things](https://genesi.company/solutions/embedded). Genesi has developed a series of low cost data collection and transmission devices with custom operating system deriving from F9 microkernel. The Radix IoT PaaS (Platform-as-a-Service) to securely enable end-to-end connectivity and device management. It uses industry standard SSL/TLS encryption and provides a generic and scalable solution for data gathering and processing. The Radix IoT PaaS also provides external interfaces to allow for real-time analytics and visualizations.
+
+<!--github-projects-->

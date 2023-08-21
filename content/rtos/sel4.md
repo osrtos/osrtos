@@ -23,6 +23,7 @@ The world's first operating-system kernel with an end-to-end proof of implementa
 <!--more-->
 
 ### Features
+
 - seL4 is a high-assurance, high-performance microkernel developed, maintained and formally verified by NICTA (now the Trustworthy Systems Group at Data61) and owned by General Dynamics C4 Systems. It is a member of the L4 family of microkernels, and is the world's most advanced, highest-assured operating-system microkernel.
 - seL4's implementation is formally (mathematically) proved correct (bug-free) against its specification, is proved to enforce strong security properties, and its operations have proved save upper bounds on their worst-case execution times.
 

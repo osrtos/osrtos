@@ -6,7 +6,7 @@ code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 draft: false
 date: "2018-02-11 06:48:49"
-last-updated: "2023-08-16"
+last-updated: "2023-08-18"
 components:
     - FileSystem
     - Network
@@ -25,7 +25,6 @@ platforms:
     - iMX RT
     - QEMU
 ---
-
 TizenRT is a lightweight RTOS (Real-Time Operating System) designed to support low-end IoT devices. It aims to extend the Tizen platform device coverage to devices like home appliances without display and wearable bands with a small LCD. These devices are typically equipped with Cortex-M/R processors with MPU, less than 2 MB RAM, and less than 16 MB Flash.
 
 <!--more-->

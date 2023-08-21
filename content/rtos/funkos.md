@@ -22,6 +22,7 @@ FunkOS is an RTOS for 8-32 bit MCUs including AVR, MSP430, and Cortex M3. Both C
 <!--more-->
 
 ### Features
+
 - Multithreading Kernel
 - Highly configurable
 - Complete resource protection
@@ -32,3 +33,5 @@ FunkOS is an RTOS for 8-32 bit MCUs including AVR, MSP430, and Cortex M3. Both C
 - GUI framework
 
 
+
+<!--github-projects-->

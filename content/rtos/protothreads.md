@@ -22,6 +22,7 @@ Protothreads are extremely lightweight stackless threads designed for severely m
 <!--more-->
 
 ### Features
+
 - Very small RAM overhead - only two bytes per protothread and no extra stacks
 - Highly portable - the protothreads library is 100% pure C and no architecture specific assembly code
 - Can be used with or without an OS

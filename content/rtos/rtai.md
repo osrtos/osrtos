@@ -25,12 +25,14 @@ RTAI is the RealTime Application Interface for Linux - which lets you write appl
 <!--more-->
 
 ### Features
+
 - RealTime Application Interface for Linux.
 - Linux Real Time Module.
 - Real Time Hardware Abstraction Layer.
 - POSIX compatibility. Traditional RTOS IPCs including: Semaphores, mailboxes, FIFO, shared memory, and RPCs.
 
 
-### Demo Projects
+### Resources
+
 - [RTnet](http://www.rtnet.org/). RTnet is an Open Soure hard real-time network protocol stack for Xenomai and RTAI (real-time Linux extensions). It makes use of standard Ethernet hardware and supports several popular NIC chip sets, including Gigabit Ethernet. Moreover, Ethernet-over-1394 support is available based on the RT-FireWire protocol stack.
 - [most4linux](http://most4linux.sourceforge.net/). most4linux provides a Linux kernel driver for MOST PCI interfaces and userspace programs to test the driver.The driver can be compiled for Linux 2.6 or for the RTDM which works for the realtime extensions RTAI and Xenomai.It also provides a NetServices adaptation layer for the Linux operating system.

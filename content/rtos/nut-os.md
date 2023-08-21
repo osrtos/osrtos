@@ -22,6 +22,7 @@ Nut/OS is an intentionally simple RTOS for the ATmega128, which provides a minim
 <!--more-->
 
 ### Features
+
 - Non preemptive multithreading.
 - Events.
 - Periodic and one-shot timers.

@@ -33,3 +33,19 @@ MiniGUI is a free software project. It aims to provide a fast, stable, and cross
 - Support for multiple keyboard layouts, including American PC, French, German, Italian, Spanish, etc..
 - Input method interface to support special embedded devices. Moreover, input methods for Simplified Chinese are built-in.
 - Special support for embedded systems, including the common I/O operations, byte-orders related functions, touch screen calibration interface, and so on.
+
+<!--github-projects-->
+- [Otis](https://github.com/hansmarc/Otis). Otis is a dbf inspection tool (dbf viewer) for Dbase, Clipper, Harbour, xHarbour, FoxPro, Letodbf, ..., files..
+- [designer](https://github.com/ivanilmarcelino/designer). Designer for Minigui extend.
+- [core](https://github.com/oohg/core). Files needed to build and use OOHG's libraries.
+- [samples](https://github.com/oohg/samples). Code samples and apps.
+- [ide](https://github.com/oohg/ide). OOHG's integrated development environment.
+- [distros](https://github.com/oohg/distros). Tools for building new distros.
+- [shared](https://github.com/oohg/shared). Code samples and apps from previous OOHG's repository at yahoo.
+- [fmt](https://github.com/oohg/fmt). OOHG's source formatter.
+- [oohg.github.io](https://github.com/oohg/oohg.github.io). Website.
+- [doc](https://github.com/oohg/doc). Documentation on OOHG's features.
+- [qpm](https://github.com/teamQPM/qpm). Project manager for software applications developed with Harbour & xHarbour compilers, it's contributions (especialy graphic support libraries such as MiniGUI, Extended MiniGUI and OOHG) and BCC, MinGW and Pelles C/C++ compilers..
+- [HMG_LaunchPending](https://github.com/VerchenkoAG/HMG_LaunchPending). Пример повторной загрузки EXE с ожиданием через Mutex для MiniGUI (Harbour)..
+- [cross-compiling-minigui](https://github.com/gnsyxiang/cross-compiling-minigui). Cross compiling MiniGUI.
+- [teamqpm.github.io](https://github.com/teamQPM/teamqpm.github.io). QPM is an utility to manage software projects based on (x)Harbour compilers and MiniGui, HMG, HMG Extended and OOHG graphics libraries..

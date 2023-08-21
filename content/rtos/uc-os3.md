@@ -44,3 +44,4 @@ platforms:
 - Very low interrupt disable time
 - Extensive performance measurement metrics (configurable)
 - Certifiable for safety-critical applications
+<!--github-projects-->

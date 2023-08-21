@@ -22,6 +22,7 @@ The Fusion Embedded RTOS (Real-Time Operating System) from Unicoi Systems is a R
 <!--more-->
 
 ### Features
+
 - Name Server
 - Modular Object design
 - Stack Sharing Capabilities
@@ -34,4 +35,4 @@ The Fusion Embedded RTOS (Real-Time Operating System) from Unicoi Systems is a R
 - Packet Management capabilities
 - I/O Manager
 
-
+<!--github-projects-->

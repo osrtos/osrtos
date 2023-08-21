@@ -6,7 +6,7 @@ code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-08-17"
+last-updated: "2023-08-21"
 components:
     - FileSystem
     - Network
@@ -35,6 +35,7 @@ RT-Thread is an open source real-time operating system for embedded devices from
 <!--more-->
 
 ### Features
+
 - Object oriented real-time core (while remaining the elegant and flexible style of C Programming Language);
 - 8, 32 or 256 priority scheduling multi-thread scheduling; Using the round-robin policy ensures that all threads having the same priority level will be scheduled equally;
 - Synchronization of threads: semaphore and mutual exclusion semaphore (mutex) to prevent priority inversion;
@@ -42,6 +43,6 @@ RT-Thread is an open source real-time operating system for embedded devices from
 - Static memory management supports thread suspend/resume when it allocates/frees a memory block and thread-safe dynamic heap management;
 - A device driver framework to provide standard interface to high level application;
 
+### Resources
 
-### Demo Projects
 - [ART](https://github.com/RT-Thread/ART). ART is an Arduino like board with STM32F407VGT6 (ARM Cortex-M4) chip. RT-Thread RTOS is running as a platform in this board. Arduino hardware/software compatible. 32bit ARM Cortex-M4 with FPU. Running multi-Arduino Program in parallel.

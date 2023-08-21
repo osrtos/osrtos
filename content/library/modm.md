@@ -32,3 +32,11 @@ modm is a toolbox for building custom C++17 libraries tailored to your embedded 
 - Lightweight unit testing system (suitable for AVRs).
 - Graphical user interface for small binary and color displays.
 - Hundreds of tests to ensure correct functionality.
+
+<!--github-projects-->
+- [modm-devices](https://github.com/modm-io/modm-devices). Curated device data for all AVR and ARM Cortex-M devices.
+- [lbuild](https://github.com/modm-io/lbuild). lbuild: a generic, modular code generator in Python 3.
+- [aruw-mcb](https://github.com/uw-advanced-robotics/aruw-mcb). ARUW's main robot control code. Read-only mirror of https://gitlab.com/aruw/controls/aruw-mcb..
+- [taproot](https://github.com/uw-advanced-robotics/taproot). Robot independent control/embedded systems code generation for the RoboMaster robotics competition. Read-only mirror of https://gitlab.com/aruw/controls/taproot..
+- [modm-template](https://github.com/modm-io/modm-template). [WIP] ~~Template repository to use the modm library in your project~~.
+- [aruw-mcb-oss-award-wiki-2020](https://github.com/MatthewMArnold/aruw-mcb-oss-award-wiki-2020). Houses the documentation (wiki) portion of ARUW's 2020 RoboMaster Open Source Award.

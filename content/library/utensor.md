@@ -22,3 +22,8 @@ uTensor is an extremely light-weight machine learning inference framework built 
 - Smaller binary
 - More efficient Run-time
 
+
+<!--github-projects-->
+- [utensor_cgen](https://github.com/uTensor/utensor_cgen). C++ code generator for uTensor https://utensor-cgen.readthedocs.io/en/latest/.
+- [oscw18-edge-ai](https://github.com/crespum/oscw18-edge-ai). Analysys of edge computing resources for cubesats.
+- [utensor-mnist-demo](https://github.com/ARMmbed/utensor-mnist-demo). Handwritten digit recognition demo.

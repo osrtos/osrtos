@@ -21,6 +21,7 @@ TNeo is a well-formed and carefully tested preemptive real-time kernel for 16- a
 <!--more-->
 
 ### Features
+
 - Tasks, or threads: the most common feature for which the kernel is written in the first place;
 - Mutexes: objects for shared resources protection.
 - Recursive mutexes: optionally, mutexes allow nested locking. Refer to the TN_MUTEX_REC option for details;
@@ -36,4 +37,4 @@ TNeo is a well-formed and carefully tested preemptive real-time kernel for 16- a
 - Dynamic tick: if there's nothing to do, don't even bother to manage system timer tick each fixed period of time. Refer to the page Time ticks for details.
 - Profiler: allows you to know how much time each of your tasks was actually running, get maximum consecutive running time of it, and other relevant information. Refer to the option TN_PROFILER and struct TN_TaskTiming for details.
 
-
+<!--github-projects-->

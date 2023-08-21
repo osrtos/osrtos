@@ -24,8 +24,9 @@ BRTOS is a lightweight preemptive real time operating system designed for low en
 <!--more-->
 
 ### Features
+
 - Priority-based preemptive scheduler. A priority must be assigned for each task (aka thread). Max. number of installed tasks = 32.
 - Resources: Semaphores, mutexes, message queues, mailboxes.
 - Written mostly in C language, with little assembly code in the HAL file(Hardware Abstraction Layer).
 
-
+<!--github-projects-->

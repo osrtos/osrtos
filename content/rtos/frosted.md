@@ -21,6 +21,9 @@ Frosted is an acronym that means "Free Operating Systems for Tiny Embedded Devic
 <!--more-->
 
 ### Features
+
 - The project borrows Linux Kernel's kconfig to allow for a graphic configuration and selection of the components.
 
-
+### Resources
+<!--github-projects-->
+- [froxty](https://github.com/iamgio/froxty). :icecream: iOS frosty/translucent effect to JavaFX..

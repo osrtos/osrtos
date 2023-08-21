@@ -22,6 +22,7 @@ scmRTOS is tiny Real-Time Preemptive Operating System intended for use with Sing
 <!--more-->
 
 ### Features
+
 - Preemptive multitasking;
 - Up to 31 user processes (tasks);
 - Fast interprocess program control flow transfer:

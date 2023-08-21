@@ -24,6 +24,7 @@ Mongoose OS - an open source Operating System for Internet of Things. Supported 
 <!--more-->
 
 ### Features
+
 - Over-The-Air updates and remote management - OTA firmware updates with rollback on failures; RPC infrastructure for the full remote control;
 - Security - built in flash encryption, crypto chip support ARM mbedTLS optimized for small memory footprint;
 - Device management dashboard service	- for tracking your fleet. On-prem option is available;

@@ -21,9 +21,8 @@ DuinOS is a small multithreading real time operating system (RTOS), based on the
 <!--more-->
 
 ### Features
+
 - Based on the FreeRTOS kernel.
 - For Arduino compatible boards.
 
-## Future
-
-The Project is being recreated with a new approach, now with FreeRTOS 10 and soon with ARM Cortex-M, if you want to be Beta Tester, contact us through the project's website.
+<!--github-projects-->

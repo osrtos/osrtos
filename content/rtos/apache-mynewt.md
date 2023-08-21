@@ -6,7 +6,7 @@ code-url: https://github.com/apache/mynewt-core
 site-url: https://mynewt.apache.org/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-10"
+last-updated: "2023-08-17"
 components:
     - BLE
     - LoRaWAN
@@ -28,6 +28,7 @@ Apache Mynewt OS is a real-time, modular operating system for connected IoT devi
 <!--more-->
 
 ### Features
+
 - A Pre-emptive, Real Time OS Kernel
 - A open-source Bluetooth 4.2 stack (both Host & Controller), NimBLE, that completely replaces the proprietary SoftDevice on Nordic chipsets.
 - Support for 251 byte packet size
@@ -41,4 +42,4 @@ Apache Mynewt OS is a real-time, modular operating system for connected IoT devi
 - Shell and Console support
 - Statistics and Logging Infrastructure.
 
-
+<!--github-projects-->

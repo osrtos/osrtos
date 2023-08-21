@@ -21,6 +21,5 @@ A Reliable Real-Time Operating System & Application Framework.
 <!--more-->
 
 ### Features
-- none.
 
-
+<!--github-projects-->

@@ -21,6 +21,7 @@ Atomthreads is a free, lightweight, portable, real-time scheduler for embedded s
 <!--more-->
 
 ### Features
+
 - Preemptive scheduler
 - Unlimited threads
 - 255 priority levels
@@ -34,4 +35,4 @@ Atomthreads is a free, lightweight, portable, real-time scheduler for embedded s
 - Thread stack usage analysis
 - Automated test suite provides evidence of reliable functionality
 
-
+<!--github-projects-->

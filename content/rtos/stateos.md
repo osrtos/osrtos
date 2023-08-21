@@ -21,6 +21,7 @@ Free, extremely simple and amazingly tiny real-time operating system (RTOS) desi
 <!--more-->
 
 ### Features
+
 - kernel can operate in preemptive or cooperative mode
 - kernel can operate with 16, 32 or 64-bit timer counter
 - kernel can operate in tick-less mode

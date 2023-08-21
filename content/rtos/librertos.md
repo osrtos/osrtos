@@ -21,6 +21,7 @@ LibreRTOS is a portable single-stack Real Time Operating System. All tasks share
 <!--more-->
 
 ### Features
+
 - Task delay
 - Events
 - Pend on events
@@ -29,5 +30,3 @@ LibreRTOS is a portable single-stack Real Time Operating System. All tasks share
 - Queue (variable length data)
 - Fifo (character queue)
 - Mutex (no priority inheritance mechanism)
-
-
