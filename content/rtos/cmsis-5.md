@@ -4,6 +4,7 @@ slug: cmsis
 version: 5.9.0
 code-url: https://github.com/ARM-software/CMSIS_5
 site-url: https://github.com/ARM-software/CMSIS_5
+draft: false
 date: "2023-08-20 11:36:57"
 last-updated: "2023-06-21"
 components:

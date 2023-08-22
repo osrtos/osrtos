@@ -3,8 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
-    <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+    {{ if .IsHome }}
+    <title>{{ .Site.Title }} - Top Open Source Real-Time Operating Systems (RTOS)</title>
+    <meta name="description" content="List of open source real-time operating systems. Dive deep into features, comparisons, and use-cases to choose the perfect real-time operating system for your project. Stay updated with the latest in the RTOS world." />
+    <meta name="keywords" content="RTOS, Real-Time Operating System, Embedded RTOS, Free RTOS">
+    {{ else }}
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+    {{ with .Params.Description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    {{ with .Params.Keywords }}
+    <meta name="keywords" content="{{ . }}">
+    {{ end }}
+    {{ end }}
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 

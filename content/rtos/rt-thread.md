@@ -6,7 +6,7 @@ code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-08-21"
+last-updated: "2023-08-22"
 components:
     - FileSystem
     - Network

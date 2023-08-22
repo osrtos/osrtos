@@ -6,7 +6,7 @@ code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-15"
+last-updated: "2023-08-21"
 components:
     - BLE
     - LoRaWAN
