@@ -7,6 +7,7 @@ site-url: http://xenomai.org/
 draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2018-07-25"
+star: 0
 components:
     - FileSystem
     - Network

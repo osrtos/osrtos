@@ -7,6 +7,7 @@ site-url: https://github.com/apache/mynewt-nffs
 draft: false
 date: "2017-01-05 13:26:05"
 last-updated: "2023-01-18"
+star: 20
 components: []
 libraries: []
 licenses:

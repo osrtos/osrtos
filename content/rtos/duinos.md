@@ -7,6 +7,7 @@ site-url: https://github.com/DuinOS/DuinOS
 draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2020-07-10"
+star: 68
 components:
     - None
 libraries:

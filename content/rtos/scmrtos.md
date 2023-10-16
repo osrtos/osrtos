@@ -7,6 +7,7 @@ site-url: https://github.com/scmrtos/scmrtos
 draft: false
 date: "2016-11-29 11:36:58"
 last-updated: "2021-02-04"
+star: 165
 components:
     - None
 libraries:

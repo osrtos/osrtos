@@ -6,7 +6,8 @@ code-url: https://github.com/ARMmbed/mbed-os
 site-url: https://www.mbed.com/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-21"
+last-updated: "2023-09-14"
+star: 4458
 components:
     - BLE
     - LoRaWAN
@@ -39,7 +40,7 @@ mbed OS is an open-source embedded operating system designed specifically for th
 - End to End Security. We address security in device hardware, software, communication and in the lifecycle of the device itself: Hardware Enforced Security At the lowest level of mbed OS, we use a supervisory kernel called uVisor to create isolated security domains which restrict access to memory and peripherals. Communications Security We take SSL and TLS, the standard protocols for securing communications on the internet, and allow you to include them in your mbed project with a simple API.
 - Drivers and support libraries. Driver support for a wide range of standard MCU peripherals is included in mbed OS. This includes digital and analog IO, interrupts, port and bus IO, PWM, I2C, SPI and serial.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [esp8266-oled-ssd1306](https://github.com/ThingPulse/esp8266-oled-ssd1306). Driver for the SSD1306 and SH1106 based 128x64, 128x32, 64x48 pixel OLED display running on ESP8266/ESP32.
 - [ant-arduino](https://github.com/cujomalainey/ant-arduino). An implementation of a ANT driver for Arduino, Mbed and ESP-IDF.

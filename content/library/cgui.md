@@ -7,6 +7,7 @@ site-url: http://cgui.sourceforge.net/
 draft: false
 date: "2016-12-01 10:50:15"
 last-updated: "2008-06-15"
+star: 0
 components: []
 libraries: []
 licenses:

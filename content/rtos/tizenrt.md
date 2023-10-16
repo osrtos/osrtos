@@ -6,7 +6,8 @@ code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 draft: false
 date: "2018-02-11 06:48:49"
-last-updated: "2023-08-22"
+last-updated: "2023-10-12"
+star: 509
 components:
     - FileSystem
     - Network

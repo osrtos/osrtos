@@ -7,6 +7,7 @@ site-url: http://aliosthings.io/
 draft: false
 date: "2018-01-23 05:35:24"
 last-updated: "2023-07-04"
+star: 4467
 components:
     - None
 libraries:
@@ -31,7 +32,7 @@ AliOS Things is designed for low power, resource constrained MCU, connectivity S
 - Middleware: Alibaba's value-added and commonly seen IoT components included
 - Examples: hands-on sample codes, and well tested industry applications such as Alinkapp
 
-### Resources
+### Sample projects and resources
 
 <!--github-projects-->
 - [ginlong-solis](https://github.com/hn/ginlong-solis). Solis inverter ESP8266 data logger, S3 WiFi stick reverse engineering and ESPhome firmware.

@@ -6,7 +6,8 @@ code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 draft: false
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2023-08-22"
+last-updated: "2023-10-16"
+star: 1604
 components:
     - FileSystem
     - Network
@@ -53,7 +54,7 @@ NuttX is a real-time operating system (RTOS) with an emphasis on standards compl
 - Optional tasks with address environments (Processes).
 - Inheritable
 
-### Resources
+### Sample projects and resources
 
 - [PX4](http://pixhawk.org/choice). PX4 is an independent, open-source, open-hardware project aiming at providing a high-end autopilot to the academic, hobby and industrial communities (BSD licensed) at low costs and high availability.
 - [HOWTO: Installing NuttX on the STM32F4 Discovery board (using Debian Linux)](http://fob.po8.org/node/613). Installed the NuttX RTOS on a new STM32F4 Discovery board.

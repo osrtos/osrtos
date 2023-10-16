@@ -6,7 +6,8 @@ code-url: https://github.com/apache/mynewt-core
 site-url: https://mynewt.apache.org/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-17"
+last-updated: "2023-10-11"
+star: 761
 components:
     - BLE
     - LoRaWAN

@@ -6,7 +6,8 @@ code-url: https://github.com/azure-rtos/threadx
 site-url: https://azure.microsoft.com/en-us/services/rtos/
 draft: false
 date: 2020-05-27 09:25:57+08:00
-last-updated: "2023-08-07"
+last-updated: "2023-09-26"
+star: 1787
 components:
     - FileSystem
     - Network
@@ -58,7 +59,7 @@ Optional timeout on all suspension.
 - Dynamic byte pool creation. No limits on the number of byte pools. No limits on size of byte pool. Most flexible variable-length memory allocation/deallocation. Allocation size locality supported.
 - Dynamic timer creation. No limits on the number of timers. Periodic or one-shot timers supported. Periodic timers may have different initial expiration value. No searching on timer activation or deactivation. All timers driven from one hardware timer interrupt.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [getting-started](https://github.com/azure-rtos/getting-started). This Getting Started guide is a series of tutorials that shows device developers how to connect to Azure IoT using Azure RTOS..
 - [guix](https://github.com/azure-rtos/guix). Azure RTOS GUIX Studio provides a complete, embedded graphical user interface (GUI) library and design environment, facilitating the creation and maintenance of all graphical elements needed by your device..

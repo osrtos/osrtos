@@ -7,6 +7,7 @@ site-url: http://dunkels.com/adam/pt/
 draft: false
 date: "2016-11-29T11:36:58+00:00"
 last-updated: "2005-04-08"
+star: 0
 components:
     - None
 libraries:
@@ -30,7 +31,7 @@ Protothreads are extremely lightweight stackless threads designed for severely m
 - Freely available under a BSD-like open source license
 
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [protothreads-cpp](https://github.com/benhoyt/protothreads-cpp). Protothread.h, a C++ port of Adam Dunkels' protothreads library.
 - [MOE](https://github.com/ianhom/MOE). MOE is an event-driven OS for 8/16/32-bit MCUs. MOE means "Minds Of Embedded system", It’s also the name of my lovely baby daughter   :sunglasses:.

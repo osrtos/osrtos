@@ -1,12 +1,13 @@
 ---
 title: MicroPython
 slug: micropython
-version: v1.20.0
+version: v1.21.0
 code-url: https://github.com/micropython/micropython
 site-url: http://micropython.org/
 draft: false
 date: "2018-08-07 02:47:39"
-last-updated: "2023-08-16"
+last-updated: "2023-10-16"
+star: 17320
 components: []
 libraries: []
 licenses:

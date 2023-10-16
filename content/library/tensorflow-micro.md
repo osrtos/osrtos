@@ -1,12 +1,13 @@
 ---
 title: Tensorflow Micro
 slug: tensorflow-micro
-version: v2.13.0
+version: v2.14.0
 code-url: https://github.com/tensorflow/tensorflow
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
 draft: false
 date: "2019-03-08 01:11:02"
-last-updated: "2023-08-22"
+last-updated: "2023-10-16"
+star: 178250
 components: []
 libraries: []
 licenses:

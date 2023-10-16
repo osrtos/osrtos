@@ -7,6 +7,7 @@ site-url: http://www.cocoos.net/
 draft: false
 date: "2018-08-07T02:05:06+00:00"
 last-updated: "2018-06-15"
+star: 0
 components:
     - None
 libraries:
@@ -31,7 +32,7 @@ cocoOS is a free, open source, cooperative task scheduler, based on coroutines t
 - cocoOS is extremely portable to any target which makes it a perfect choice during early phases in the development when which OS to use is still an open issue.
 - cocoOS is released under a BSD license.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [send_altitude_cocoos](https://github.com/lupyuen/send_altitude_cocoos). IoT program for Arduino Uno / STM32 Blue Pill (libopencm3) that reads BME280 temperature + humidity + altitude sensors, via I2C or SPI with DMA and multitasking. Sends sensor data to Sigfox via Wisol Sigfox module on UART. Runs on cocoOS task scheduling library http://www.cocoos.net .
 - [cocoOSExample-arduino](https://github.com/lupyuen/cocoOSExample-arduino). cocoOSExample adapted for Arduino. From cocoOS, the free, open source, cooperative task scheduler, based on coroutines targeted for embedded microcontrollers like AVR, MSP430 and STM32. http://www.cocoos.net.

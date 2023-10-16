@@ -7,6 +7,7 @@ site-url: http://ecos.sourceware.org/
 draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2013-08-25"
+star: 0
 components:
     - None
 libraries:
@@ -27,7 +28,7 @@ eCos is a free open source real-time operating system intended for embedded appl
 - Hardware Abstraction Layer (HAL).
 - Real-time kernel.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [traintastic](https://github.com/traintastic/traintastic). Model railroad control and automation software.
 - [railessentials](https://github.com/cbries/railessentials). RailEssentials is a software for controlling your Model Trains especially when ESU's ECoS 50210/50200 is used. RailEssentials provides a Track-designer, an Analyzer for automatic detection of all possible Routes between directly connected Blocks, and an Event-system (e.g. by use of S88-Feedback-Bus) for setup a fully automatic drive of all your trains. Furthermore, any Train can be manually controlled, their functions are allowed to be switched directly on and off by the user interface..

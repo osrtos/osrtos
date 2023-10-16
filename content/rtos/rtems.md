@@ -2,11 +2,12 @@
 title: RTEMS
 slug: rtems
 version: "4.11"
-code-url: https://devel.rtems.org/wiki/Developer/Git
+code-url: https://github.com/RTEMS/rtems
 site-url: https://www.rtems.org/
 draft: false
 date: "2016-11-29T11:36:57+00:00"
-last-updated: "2018-02-16"
+last-updated: "2023-10-14"
+star: 585
 components:
     - FileSystem
     - Network
@@ -45,7 +46,7 @@ RTEMS is an open source RTOS that supports open standard application programming
 - GNU debugger. DDD GUI interface to gdb.
 
 
-### Resources
+### Sample projects and resources
 
 - [RTEMS on the Raspberry Pi](http://alanstechnotes.blogspot.com/2013/03/rtems-on-raspberry-pi.html). RTEMS on the Raspberry Pi Setting up an RTEMS development Environment for the Raspberry PiHow to download and build RTEMSRun an RTEMS program on the Raspberry PiBuilding and running an RTEMS Application
 <!--github-projects-->

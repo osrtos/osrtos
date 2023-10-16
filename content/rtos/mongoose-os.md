@@ -7,6 +7,7 @@ site-url: https://mongoose-os.com/
 draft: false
 date: "2018-01-24 01:43:59"
 last-updated: "2023-02-23"
+star: 2420
 components:
     - FileSystem
     - Network
@@ -36,7 +37,7 @@ Mongoose OS - an open source Operating System for Internet of Things. Supported 
 - Embedded JavaScript engine - mJS;
 
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [mgos-to-tasmota](https://github.com/yaourdt/mgos-to-tasmota). A minimal firmware for OTA (over the air) flashing Tasmota, HAA, or ESPurna from Mongoose OS or compatible firmware types..
 - [tasmota-to-mgos](https://github.com/yaourdt/tasmota-to-mgos). A minimal firmware for OTA (over the air) flashing Mongoose OS from Tasmota, Tuya stock, or compatible firmware types..

@@ -1,12 +1,13 @@
 ---
 title: Hubris
 slug: hubris
-version: oxide-rot-1-v1.0.0-rc.3
+version: sidecar-v1.0.2
 code-url: https://github.com/oxidecomputer/hubris
 site-url: https://github.com/oxidecomputer/hubris
 draft: false
 date: "2023-08-20 11:36:57"
-last-updated: "2023-08-17"
+last-updated: "2023-10-05"
+star: 2380
 components:
     - None
 libraries:

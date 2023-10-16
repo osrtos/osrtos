@@ -7,6 +7,7 @@ site-url: http://elm-chan.org/fsw/ff/00index_e.html
 draft: false
 date: "2016-11-29T17:02:33+00:00"
 last-updated: "2016-10-13"
+star: 0
 components: []
 libraries: []
 licenses:

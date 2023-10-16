@@ -7,6 +7,7 @@ site-url: http://www.contiki-os.org/
 draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2018-11-03"
+star: 3600
 components:
     - FileSystem
     - Network
@@ -43,7 +44,7 @@ Contiki is an open source operating system for the Internet of Things. Contiki c
 - The Rime Stack. In situations when bandwidth is at a premium or where the full IPv6 networking stack is overkill, Contiki provides a tailored wireless networking stack called Rime.
 - Build System. The Contiki build system makes it easy to compile applications for any of the available Contiki platforms. This makes it easy to try out applications on a range of different platforms.
 
-### Resources
+### Sample projects and resources
 
 - [Contiki porting on PIC32](http://rtn.sssup.it/index.php/software/contiki). This project aims at porting the Contiki OS to Microchip PIC32 microcontroller based boards and has been effectively used by defining a new Contiki platform for the SEED-EYE Board.
 - [A Contiki port for cc2520+stm32f4-boards](http://vedder.se/2013/10/a-contiki-port-for-my-custom-cc2520stm32f4-boards/). A Contiki port for cc2520+stm32f4-boards, with the following features: The cc2520 radio. The RPL border router using the USB connector. RIME IPv6. LEDs. Printf for debugging. Many applications, such as the webserver, telnet, udp. Driver for ws2811 LEDs that uses DMA and a timer.

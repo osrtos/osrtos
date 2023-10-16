@@ -6,7 +6,8 @@ code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-21"
+last-updated: "2023-10-12"
+star: 4559
 components:
     - BLE
     - LoRaWAN
@@ -49,7 +50,7 @@ RIOT is a real-time multi-threading operating system that supports a range of de
 - CoAP
 - CCN-Lite
 
-### Resources
+### Sample projects and resources
 
 - [Arduino Hello World](https://github.com/RIOT-OS/RIOT/tree/master/examples/arduino_hello-world). This application demonstrates the usage of Arduino sketches in RIOT.
 <!--github-projects-->

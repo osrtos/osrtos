@@ -6,7 +6,8 @@ code-url: https://github.com/armink/EasyFlash
 site-url: https://github.com/armink/EasyFlash
 draft: false
 date: "2019-03-02 00:07:07"
-last-updated: "2023-05-24"
+last-updated: "2023-09-13"
+star: 1793
 components: []
 libraries: []
 licenses:

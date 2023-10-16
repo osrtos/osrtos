@@ -1,12 +1,13 @@
 ---
 title: modm
 slug: modm
-version: 2023q2
+version: 2023q3
 code-url: https://github.com/modm-io/modm
 site-url: https://modm.io/
 draft: false
 date: "2018-12-17 07:25:23"
-last-updated: "2023-08-16"
+last-updated: "2023-10-04"
+star: 647
 components: []
 libraries: []
 licenses:

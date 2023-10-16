@@ -6,7 +6,8 @@ code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
 draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-08-20"
+last-updated: "2023-10-15"
+star: 1354
 components: []
 libraries: []
 licenses:
@@ -33,7 +34,7 @@ RIOT, the hardware accelerated Rust RTOS. A concurrency framework for building r
 - This task model is amenable to known WCET (Worst Case Execution Time) analysis and scheduling analysis techniques.
 
 
-### Resources
+### Sample projects and resources
 
 - [STM32WL Lightswitch Demo](https://github.com/newAM/stm32wl-lightswitch-demo). This is a demo project for the stm32wl-hal.
 <!--github-projects-->

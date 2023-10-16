@@ -1,12 +1,13 @@
 ---
 title: Open Thread
 slug: open-thread
-version: thread-reference-20230119
+version: thread-reference-20230706
 code-url: https://github.com/openthread/openthread
 site-url: https://openthread.io/
 draft: false
 date: "2018-02-02 09:19:51"
-last-updated: "2023-08-21"
+last-updated: "2023-10-14"
+star: 3272
 components: []
 libraries: []
 licenses:

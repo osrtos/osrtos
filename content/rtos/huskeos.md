@@ -7,6 +7,7 @@ site-url: https://github.com/gscultho/HuskEOS
 draft: false
 date: "2023-08-20 11:36:57"
 last-updated: "2021-04-23"
+star: 1
 components:
     - None
 libraries:

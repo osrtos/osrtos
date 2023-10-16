@@ -6,7 +6,8 @@ code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-08-18"
+last-updated: "2023-10-13"
+star: 4068
 components:
     - FileSystem
     - Network
@@ -57,7 +58,7 @@ FreeRTOS is a market leading RTOS from Amazon Web Services that supports more th
 - Royalty free.
 - Cross development from a standard Windows host.
 
-### Resources
+### Sample projects and resources
 
 - [FreeRTOS Ported to Raspberry Pi](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS). This project provides a very basic port of FreeRTOS to Raspberry pi. It includes a demo application that use 2 FreeRTOS tasks to flash the LED on and off.
 - [DuinOS](https://code.google.com/p/duinos/). DuinOS is a small multithreading real time operating system (RTOS), based on the FreeRTOS kernel, for Arduino compatible boards.It's installed as an Arduino core, and currently supports the following AVR processors:

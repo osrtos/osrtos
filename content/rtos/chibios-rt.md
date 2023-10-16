@@ -2,11 +2,12 @@
 title: ChibiOS/RT
 slug: chibios-rt
 version: 20.3.2
-code-url: https://sourceforge.net/projects/chibios/
+code-url: https://github.com/ChibiOS/ChibiOS
 site-url: http://www.chibios.org/dokuwiki/doku.php
 draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2020-08-22"
+last-updated: "2023-10-11"
+star: 629
 components:
     - FileSystem
     - Network
@@ -39,7 +40,7 @@ ChibiOS is a complete development environment for embedded applications includin
 - HAL component supporting a variety of abstract device drivers: Port, Serial, ADC, CAN, EXT, GPT, I2C, ICU, MAC, MMC, PWM, RTC, SDC, SPI, UART, USB, USB-CDC.
 - Extensive test suite with benchmarks.
 
-### Resources
+### Sample projects and resources
 
 - [Raspberry Pi ChibiOS/RT Port](http://www.stevebate.net/chibios-rpi/GettingStarted.html). Raspberry Pi ChibiOS/RT Port by Steverino. So far, this port has drivers for the Port (GPIO), Serial, GPT (General-Purpose Timer), I2C, SPI and PWM. An example application is in demos/demos/ARM11-BCM2835-GCC. This example creates one thread to blink the onboard LED and another thread to support a very simple command shell. There are also examples showing how to use ChibiOS/RT to access devices likeTMP102 temperature sensor.
 - [Getting started](http://www.chibios.org/dokuwiki/doku.php?id=chibios:articles:start). More demo projects.

@@ -88,6 +88,9 @@
               <li><a href="{{ .Param "site-url" }}" target="_blank"><i
                       class="fas fa-link" aria-hidden="true"></i> Website</a></li>
             {{ end }}
+            {{ if ( .Param "star" )}}
+              <li><i class="far fa-star" aria-hidden="true"></i> {{ .Param "star" }}</li>
+            {{ end }}
             </ul>
           </td>
           <td width="8%">{{ .Param "last-updated" }}</td>

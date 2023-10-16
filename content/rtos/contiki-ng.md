@@ -6,7 +6,8 @@ code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
 draft: false
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2023-08-21"
+last-updated: "2023-10-13"
+star: 1174
 components:
     - FileSystem
     - Network
@@ -36,7 +37,7 @@ In 2017, Contiki-NG started as a fork of the Contiki operating system with the f
 - Improve the documentation, both code API, module description, and tutorials;
 - Implement a more agile development process, with easier inclusion of new features, and with periodic releases.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [x-cube-subg2](https://github.com/STMicroelectronics/x-cube-subg2). X-CUBE-SUBG2 is an expansion software package for STM32Cube. The software runs on the STM32 and includes drivers that recognize the Sub-1 GHz RF communication for S2-LP..
 - [network-visualizer](https://github.com/mahboobkarimian/network-visualizer). RPL Network Visualizer for Contiki-NG.

@@ -6,7 +6,8 @@ code-url: https://github.com/apache/mynewt-nimble
 site-url: http://mynewt.apache.org/latest/network/docs/index.html
 draft: false
 date: "2019-03-04 01:03:41"
-last-updated: "2023-08-17"
+last-updated: "2023-10-12"
+star: 587
 components: []
 libraries: []
 licenses:

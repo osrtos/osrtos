@@ -7,6 +7,7 @@ site-url: https://github.com/ianhom/MOE
 draft: false
 date: "2018-03-20 09:24:52"
 last-updated: "2019-12-08"
+star: 62
 components:
     - None
 libraries:

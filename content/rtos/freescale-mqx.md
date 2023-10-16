@@ -7,6 +7,7 @@ site-url: http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=MQX
 draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2015-03-07"
+star: 0
 components:
     - None
 libraries:

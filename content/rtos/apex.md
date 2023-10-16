@@ -7,6 +7,7 @@ site-url: https://github.com/apexrtos/apex
 draft: false
 date: "2023-08-20 11:36:57"
 last-updated: "2022-05-30"
+star: 22
 components:
     - FileSystem
     - Shell

@@ -6,7 +6,8 @@ code-url: https://github.com/tock/tock
 site-url: https://github.com/tock/tock
 draft: false
 date: "2019-02-12 05:45:10"
-last-updated: "2023-08-21"
+last-updated: "2023-10-13"
+star: 4646
 components:
     - None
 libraries:

@@ -7,6 +7,7 @@ site-url: http://www.ti.com/tool/sysbios
 draft: false
 date: "2016-11-29T11:36:58+00:00"
 last-updated: "2016-07-09"
+star: 0
 components:
     - None
 libraries:

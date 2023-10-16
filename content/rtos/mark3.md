@@ -7,6 +7,7 @@ site-url: http://www.mark3os.com/index.html
 draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2015-03-08"
+star: 0
 components:
     - None
 libraries:

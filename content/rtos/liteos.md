@@ -7,6 +7,7 @@ site-url: https://www.huawei.com/minisite/liteos/en/index.html
 draft: false
 date: "2018-02-06 03:23:05"
 last-updated: "2020-12-30"
+star: 4680
 components:
     - None
 libraries:
@@ -25,7 +26,7 @@ Huawei LiteOS is a lightweight open-source IoT OS and a smart hardware developme
 - Lightweight Kernels: Smaller Kernel Size, Lower Power Consumption, and Faster Response
 - Sensor Frameworks: Lower Delay, Higher Precision, and Intelligent sensing
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [awtk](https://github.com/zlgopen/awtk). AWTK = Toolkit AnyWhere(a cross-platform embedded GUI).
 - [iot-codelabs](https://github.com/softbaddog/iot-codelabs). Huawei CodeLab - IoT.

@@ -7,6 +7,7 @@ site-url: https://github.com/stateos/IntrOS
 draft: false
 date: "2016-12-30 09:12:13"
 last-updated: "2023-03-18"
+star: 39
 components:
     - None
 libraries:

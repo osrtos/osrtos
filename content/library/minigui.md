@@ -7,6 +7,7 @@ site-url: http://www.minigui.org/en/
 draft: false
 date: "2016-11-29T16:55:33+00:00"
 last-updated: "2012-01-16"
+star: 0
 components: []
 libraries: []
 licenses:

@@ -1,12 +1,13 @@
 ---
 title: littlefs
 slug: littlefs
-version: v2.7.0
+version: v2.8.0
 code-url: https://github.com/geky/littlefs
 site-url: https://github.com/geky/littlefs
 draft: false
 date: "2017-12-25 19:14:32"
-last-updated: "2023-06-30"
+last-updated: "2023-09-22"
+star: 4226
 components: []
 libraries: []
 licenses:

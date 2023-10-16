@@ -7,6 +7,7 @@ site-url: https://github.com/djboni/librertos
 draft: false
 date: "2016-12-30 09:03:15"
 last-updated: "2022-04-26"
+star: 35
 components:
     - None
 libraries:

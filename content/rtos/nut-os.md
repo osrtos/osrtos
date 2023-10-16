@@ -7,6 +7,7 @@ site-url: http://www.ethernut.de/en/software/index.html
 draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2021-01-15"
+star: 0
 components:
     - None
 libraries:

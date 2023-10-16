@@ -7,6 +7,7 @@ site-url: https://github.com/ARM-software/CMSIS_5
 draft: false
 date: "2023-08-20 11:36:57"
 last-updated: "2023-06-21"
+star: 1070
 components:
     - None
 libraries:
@@ -29,7 +30,7 @@ CMSIS is a set of tools, APIs, frameworks, and workflows designed to simplify so
 - Enables the combination of software components from multiple vendors.
 - Open-source and collaboratively developed on GitHub.
 
-### Components:
+### Components
 
 1. **Core(M)**: Standardized API for the Cortex-M processor core and peripherals.
 2. **Core(A)**: Standardized API and basic runtime system for Cortex-A5/A7/A9 processor core and peripherals.
@@ -55,7 +56,7 @@ CMSIS is a set of tools, APIs, frameworks, and workflows designed to simplify so
 - Cortex-M35P, a temper-resistant Cortex-M processor with optional software isolation using TrustZone for Armv8-M.
 - STAR-MC1, a variant of Armv8-M with TrustZone designed by Arm China.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [platformio-core](https://github.com/platformio/platformio-core). Your Gateway to Embedded Software Development Excellence :alien:.
 - [bare-metal-programming-guide](https://github.com/cpq/bare-metal-programming-guide). A bare metal programming guide (ARM microcontrollers).

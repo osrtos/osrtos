@@ -6,7 +6,8 @@ code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 draft: false
 date: "2017-04-29 08:18:58"
-last-updated: "2023-08-14"
+last-updated: "2023-10-05"
+star: 4373
 components:
     - None
 libraries:
@@ -28,7 +29,8 @@ The world's first operating-system kernel with an end-to-end proof of implementa
 - seL4's implementation is formally (mathematically) proved correct (bug-free) against its specification, is proved to enforce strong security properties, and its operations have proved save upper bounds on their worst-case execution times.
 
 
-### Resources
+### Sample projects and resources
+
 <!--github-projects-->
 - [RISC-V-Guide](https://github.com/mikeroyal/RISC-V-Guide). RISC-V Guide. Learn all about the RISC-V computer architecture along with the Development Tools and Operating Systems to develop on RISC-V hardware..
 - [NeptuneOS](https://github.com/cl91/NeptuneOS). Neptune OS: A Windows NT personality for the seL4 microkernel.

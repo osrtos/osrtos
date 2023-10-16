@@ -7,6 +7,7 @@ site-url: https://sourceforge.net/projects/usmartx/
 draft: false
 date: "2016-11-29 11:36:58"
 last-updated: "2006-01-14"
+star: 0
 components:
     - None
 libraries:

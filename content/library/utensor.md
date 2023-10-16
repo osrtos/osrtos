@@ -7,6 +7,7 @@ site-url: https://github.com/uTensor/uTensor
 draft: false
 date: "2019-03-08 01:10:34"
 last-updated: "2021-05-20"
+star: 1575
 components: []
 libraries: []
 licenses:

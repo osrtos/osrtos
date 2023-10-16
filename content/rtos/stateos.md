@@ -7,6 +7,7 @@ site-url: https://github.com/stateos/StateOS
 draft: false
 date: "2016-11-29 11:36:58"
 last-updated: "2023-03-18"
+star: 160
 components:
     - None
 libraries:

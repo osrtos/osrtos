@@ -7,6 +7,7 @@ site-url: http://www.femtoos.org/
 draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2010-04-24"
+star: 0
 components:
     - None
 libraries:
@@ -32,6 +33,6 @@ Femto OS: RTOS for small MCU's like AVR.
 - OS interruptible. Large parts of the OS can be made interruptable.
 - Resource Tracking. Tasks that are terminated are managed to release all kernel resources.
 
-### Resources
+### Sample projects and resources
 <!--github-projects-->
 - [ATMega328P-OperatingSystem](https://github.com/boomer41/ATMega328P-OperatingSystem). A very small operating system for the Atmel ATMega328P providing basic task switching.
