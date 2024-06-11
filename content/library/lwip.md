@@ -110,6 +110,7 @@ lwIP is a small independent implementation of the TCP/IP protocol suite. The foc
 - [AsyncWebServer_ESP32_SC_ENC](https://github.com/khoih-prog/AsyncWebServer_ESP32_SC_ENC). Asynchronous HTTP and WebSocket Server Library for (ESP32_S2/S3/C3 + LwIP ENC28J60). Now supporting using CString to save heap to send very large data and with examples to demo how to use beginChunkedResponse() to send large html in chunks.
 - [WebServer_ESP32_ENC](https://github.com/khoih-prog/WebServer_ESP32_ENC). Simple Ethernet WebServer, HTTP/HTTPS Client wrapper library for ESP32 boards using ENC28J60 with LwIP Ethernet library. paragraph=The WebServer supports HTTP(S) GET and POST requests, provides argument parsing, handles one client at a time. It provides HTTP(S), MQTT(S) Client and supports WebServer serving from LittleFS/SPIFFS.
 - [lwip_kcp](https://github.com/yxgi5/lwip_kcp). kcp echo with lwip kcp server.
+- [rtems-lwip](https://gitlab.rtems.org/rtems/pkg/rtems-lwip). Port of LwIP to RTEMS with drivers for all BSPs supported.
 - [rtems-stm32-lwip](https://github.com/robamu/rtems-stm32-lwip). Test repository for the RTEMS lwIP support on the STM32H7 Nucleo-H743ZI board.
 - [nodemap](https://github.com/brandonxiang/nodemap). A electron app for nodemap_spider.
 - [stm32f107_makefile_freertos](https://github.com/freelamb/stm32f107_makefile_freertos). stm32f107_makefile_freertos tcp/ip.

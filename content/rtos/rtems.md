@@ -1,30 +1,46 @@
 ---
 title: RTEMS
 slug: rtems
-version: "4.11"
-code-url: https://github.com/RTEMS/rtems
+version: "5.2"
+code-url: https://gitlab.rtems.org/
 site-url: https://www.rtems.org/
 draft: false
 date: "2016-11-29T11:36:57+00:00"
-last-updated: "2023-10-14"
+last-updated: "2024-06-11"
 star: 585
 components:
     - FileSystem
     - Network
     - TLS/SSL
+    - Dynamic Loading
+    - SMP
     - Command Line Interface
 libraries:
     - None
 licenses:
-    - GPL
+    - BSD Two Paragraph (2-BSD)
 platforms:
     - ARM
-    - x86
+    - AArch64
+    - BlackFin
+    - i386
+    - lm32
+    - m68k, ColdFire
+    - Microblaze
     - MIPS
+    - Moxie
+    - Nios 2
+    - OR1K
     - PowerPC
-    - m68k
+    - RISC-V
+    - SuperH (sh)
+    - SPARC (LEON)
+    - SPARC64
+    - V850
+    - x86
+    - x86_64
 ---
-RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices.
+RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices. 
 
 <!--more-->
 
@@ -32,8 +48,9 @@ RTEMS is an open source RTOS that supports open standard application programming
 
 - POSIX 1003.1b API including threads.
 - VMEbus Industry Trade Association RTEID/ORKID based Classic API (similar to pSOS+).
-- TCP/IP including BSD Sockets.
+- TCP/IP including BSD Sockets. Choice of high performance port of FreeBSD TCP/IP stack or LwIP.
 - GNU Toolset Supports Multiple Language Standards. Multitasking capabilities.
+- Symmetric Multiprocessing (SMP) on ARM, AArch64, PowerPC, RISC-V, SPARC, and x86.
 - Homogeneous and heterogeneous multiprocessor systems. Event-driven, priority-based pre-emptive scheduling.
 - Optional rate-monotonic scheduling. Intertask communication and synchronization.
 - Priority inheritance.
@@ -41,7 +58,6 @@ RTEMS is an open source RTOS that supports open standard application programming
 - Dynamic memory allocation.
 - High level of user configurability.
 - Portable to many target environments.
-- High performance port of FreeBSD TCP/IP stack.
 - POSIX standard file system semantics.
 - GNU debugger. DDD GUI interface to gdb.
 
