@@ -1,8 +1,8 @@
 ---
 title: RTEMS
 slug: rtems
-version: "4.11"
-code-url: https://github.com/RTEMS/rtems
+version: "6.1"
+code-url: https://gitlab.rtems.org/rtems/rtos/rtems
 site-url: https://www.rtems.org/
 draft: false
 date: "2016-11-29T11:36:57+00:00"
@@ -10,19 +10,30 @@ last-updated: "2023-10-14"
 star: 585
 components:
     - FileSystem
-    - Network
     - TLS/SSL
     - Command Line Interface
 libraries:
-    - None
+    - LibBSD
+    - lwIP
+    - net-legacy
 licenses:
-    - GPL
+    - BSD
 platforms:
+    - AArch64
     - ARM
-    - x86
-    - MIPS
-    - PowerPC
+    - Blackfin
+    - i386
+    - lm32
     - m68k
+    - MIPS
+    - Microblaze
+    - Moxie
+    - PowerPC
+    - RISC-V
+    - SPARC
+    - SPARC64
+    - v850
+    - x86_64
 ---
 RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices.
 
@@ -32,7 +43,7 @@ RTEMS is an open source RTOS that supports open standard application programming
 
 - POSIX 1003.1b API including threads.
 - VMEbus Industry Trade Association RTEID/ORKID based Classic API (similar to pSOS+).
-- TCP/IP including BSD Sockets.
+- TCP/IP including BSD Sockets (provided by one of the 3 associated network libraries).
 - GNU Toolset Supports Multiple Language Standards. Multitasking capabilities.
 - Homogeneous and heterogeneous multiprocessor systems. Event-driven, priority-based pre-emptive scheduling.
 - Optional rate-monotonic scheduling. Intertask communication and synchronization.
@@ -44,6 +55,8 @@ RTEMS is an open source RTOS that supports open standard application programming
 - High performance port of FreeBSD TCP/IP stack.
 - POSIX standard file system semantics.
 - GNU debugger. DDD GUI interface to gdb.
+- Self-hosted debugging on AArch64, ARM, i386, Microblaze, PowerPC
+- Loadable modules on AArch64, ARM, Blackfin, i386, lm32, m68k, Microblaze, MIPS, Moxie, PowerPC, RISC-V, SPARC, v850
 
 
 ### Sample projects and resources
