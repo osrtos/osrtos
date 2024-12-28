@@ -4,10 +4,9 @@ slug: duinos
 version: FreeRTOS_V7.4.0
 code-url: https://github.com/DuinOS/DuinOS
 site-url: https://github.com/DuinOS/DuinOS
-draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2020-07-10"
-star: 68
+star: 72
 components:
     - None
 libraries:

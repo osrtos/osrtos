@@ -4,10 +4,9 @@ slug: stateos
 version: v6.9
 code-url: https://github.com/stateos/StateOS
 site-url: https://github.com/stateos/StateOS
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-03-18"
-star: 160
+last-updated: "2024-04-23"
+star: 170
 components:
     - None
 libraries:

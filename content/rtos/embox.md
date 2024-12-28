@@ -1,13 +1,12 @@
 ---
 title: embox
 slug: embox
-version: v0.5.10
+version: v0.6.4
 code-url: https://github.com/embox/embox
 site-url: https://github.com/embox/embox
-draft: false
 date: "2017-03-18 01:28:16"
-last-updated: "2023-10-13"
-star: 998
+last-updated: "2024-12-19"
+star: 1294
 components:
     - None
 libraries:

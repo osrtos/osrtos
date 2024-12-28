@@ -4,7 +4,6 @@ slug: ecos
 version: ""
 code-url: ""
 site-url: http://ecos.sourceware.org/
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2013-08-25"
 star: 0

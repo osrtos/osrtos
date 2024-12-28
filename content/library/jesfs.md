@@ -4,15 +4,11 @@ slug: jesfs
 version: dev
 code-url: https://github.com/joembedded/JesFs
 site-url: https://github.com/joembedded/JesFs
-draft: false
 date: "2018-03-22 03:28:24"
-last-updated: "2023-09-14"
-star: 151
-components: []
-libraries: []
+last-updated: "2024-12-01"
+star: 209
 licenses:
     - Other
-platforms: []
 ---
 JesFs is an Ultra-Lightweight Flash File System, especially designed for NOR-Flash.
 

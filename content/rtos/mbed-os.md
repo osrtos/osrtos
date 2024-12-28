@@ -4,10 +4,9 @@ slug: mbed-os
 version: mbed-os-6.17.0
 code-url: https://github.com/ARMmbed/mbed-os
 site-url: https://www.mbed.com/
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-09-14"
-star: 4458
+last-updated: "2024-10-08"
+star: 4699
 components:
     - BLE
     - LoRaWAN

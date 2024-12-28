@@ -4,7 +4,6 @@ slug: fusion-embedded-rtos
 version: ""
 code-url: ""
 site-url: http://www.unicoi.com/product_suite_pages/fusion_rtos_product_suite.htm
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2015-03-08"
 star: 0

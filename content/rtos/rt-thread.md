@@ -1,13 +1,12 @@
 ---
 title: RT-Thread
 slug: rt-thread
-version: v5.0.2
+version: v5.1.0
 code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
-draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-10-15"
-star: 8838
+last-updated: "2024-12-27"
+star: 10698
 components:
     - FileSystem
     - Network

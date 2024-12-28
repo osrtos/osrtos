@@ -4,10 +4,9 @@ slug: uc-os-ii
 version: v2.93.01
 code-url: https://github.com/SiliconLabs/uC-OS2
 site-url: https://doc.micrium.com/display/ucos/
-draft: false
 date: 2020-05-04 10:22:58+08:00
 last-updated: "2023-01-05"
-star: 441
+star: 580
 components:
     - FileSystem
     - Network

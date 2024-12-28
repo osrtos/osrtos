@@ -4,12 +4,9 @@ slug: rtic
 version: v2.0.0
 code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-10-15"
-star: 1354
-components: []
-libraries: []
+last-updated: "2024-12-06"
+star: 1857
 licenses:
     - Apache License, Version 2.0
     - MIT license

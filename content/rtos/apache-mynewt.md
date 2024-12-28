@@ -4,10 +4,9 @@ slug: apache-mynewt
 version: pre_sterly_refactor
 code-url: https://github.com/apache/mynewt-core
 site-url: https://mynewt.apache.org/
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-10-11"
-star: 761
+last-updated: "2024-12-20"
+star: 838
 components:
     - BLE
     - LoRaWAN

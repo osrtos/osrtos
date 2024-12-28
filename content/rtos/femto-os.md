@@ -4,7 +4,6 @@ slug: femto-os
 version: ""
 code-url: https://sourceforge.net/projects/funkos/
 site-url: http://www.femtoos.org/
-draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2010-04-24"
 star: 0

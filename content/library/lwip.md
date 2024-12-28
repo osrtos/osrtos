@@ -4,15 +4,11 @@ slug: lwip
 version: start
 code-url: https://github.com/lwip-tcpip/lwip
 site-url: https://savannah.nongnu.org/projects/lwip/
-draft: false
 date: 2018-08-07 01:41:26+00:00
-last-updated: "2023-10-14"
-star: 652
-components: []
-libraries: []
+last-updated: "2024-11-29"
+star: 1096
 licenses:
     - BSD
-platforms: []
 ---
 lwIP is a small independent implementation of the TCP/IP protocol suite. The focus of the lwIP TCP/IP implementation is to reduce resource usage while still having a full scale TCP. This makes lwIP suitable for use in embedded systems with tens of kilobytes of free RAM and room for around 40 kilobytes of code ROM.
 

@@ -4,10 +4,9 @@ slug: brtos
 version: ""
 code-url: https://github.com/brtos/brtos
 site-url: https://github.com/brtos/brtos
-draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2018-03-01"
-star: 71
+star: 75
 components:
     - None
 libraries:

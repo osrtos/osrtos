@@ -4,10 +4,9 @@ slug: moe
 version: V0.1.6
 code-url: https://github.com/ianhom/MOE
 site-url: https://github.com/ianhom/MOE
-draft: false
 date: "2018-03-20 09:24:52"
 last-updated: "2019-12-08"
-star: 62
+star: 66
 components:
     - None
 libraries:

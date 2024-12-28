@@ -1,13 +1,12 @@
 ---
 title: Zephyr
 slug: zephyr
-version: v3.4.0
+version: v4.0.0
 code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-10-14"
-star: 8503
+last-updated: "2024-12-28"
+star: 11136
 components:
     - FileSystem
     - Network

@@ -4,10 +4,9 @@ slug: intros
 version: v4.9
 code-url: https://github.com/stateos/IntrOS
 site-url: https://github.com/stateos/IntrOS
-draft: false
 date: "2016-12-30 09:12:13"
-last-updated: "2023-03-18"
-star: 39
+last-updated: "2024-04-23"
+star: 41
 components:
     - None
 libraries:

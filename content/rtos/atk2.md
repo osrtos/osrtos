@@ -4,7 +4,6 @@ slug: atk2
 version: 1.4.2
 code-url: http://www.toppers.jp/atk2-download.html
 site-url: https://www.toppers.jp/en/atk2.html
-draft: false
 date: "2019-02-12T03:38:22+00:00"
 last-updated: "2017-03-24"
 star: 0

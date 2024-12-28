@@ -4,10 +4,9 @@ slug: librertos
 version: dev-master
 code-url: https://github.com/djboni/librertos
 site-url: https://github.com/djboni/librertos
-draft: false
 date: "2016-12-30 09:03:15"
-last-updated: "2022-04-26"
-star: 35
+last-updated: "2023-12-01"
+star: 40
 components:
     - None
 libraries:

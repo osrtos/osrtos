@@ -4,10 +4,9 @@ slug: huskeos
 version: dev
 code-url: https://github.com/gscultho/HuskEOS
 site-url: https://github.com/gscultho/HuskEOS
-draft: false
 date: "2023-08-20 11:36:57"
-last-updated: "2021-04-23"
-star: 1
+last-updated: "2024-09-11"
+star: 2
 components:
     - None
 libraries:

@@ -4,7 +4,6 @@ slug: tnkernel
 version: ""
 code-url: ""
 site-url: http://www.tnkernel.com/index.html
-draft: false
 date: "2016-11-29T11:36:58+00:00"
 last-updated: "2013-06-06"
 star: 0

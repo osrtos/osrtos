@@ -4,15 +4,11 @@ slug: utensor
 version: v0.0.1
 code-url: https://github.com/uTensor/uTensor
 site-url: https://github.com/uTensor/uTensor
-draft: false
 date: "2019-03-08 01:10:34"
-last-updated: "2021-05-20"
-star: 1575
-components: []
-libraries: []
+last-updated: "2024-09-06"
+star: 1745
 licenses:
     - Apache License 2.0
-platforms: []
 ---
 uTensor is an extremely light-weight machine learning inference framework built on Mbed and Tensorflow. It consists of a runtime library and an offline tool. The total size of graph definition and algorithm implementation of a 3-layer MLP produced by uTensor is less than 32kB in the resulting binary (excluding the weights).
 

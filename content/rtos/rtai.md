@@ -4,7 +4,6 @@ slug: rtai
 version: RTAI 5.1
 code-url: https://www.rtai.org/userfiles/downloads/RTAI/
 site-url: https://www.rtai.org/
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2018-02-05"
 star: 0

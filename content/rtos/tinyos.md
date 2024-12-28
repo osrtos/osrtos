@@ -4,10 +4,9 @@ slug: tinyos
 version: release_tinyos_2_1_2
 code-url: https://github.com/tinyos/tinyos-main
 site-url: http://webs.cs.berkeley.edu/tos/
-draft: false
 date: "2019-02-12 06:21:04"
 last-updated: "2021-04-22"
-star: 1343
+star: 1420
 components:
     - None
 libraries:

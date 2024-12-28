@@ -4,10 +4,9 @@ slug: stratifyos
 version: v4.3.1
 code-url: https://github.com/StratifyLabs/StratifyOS
 site-url: https://stratifylabs.co/
-draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2022-11-12"
-star: 108
+last-updated: "2024-06-07"
+star: 117
 components:
     - None
 libraries:

@@ -4,7 +4,6 @@ slug: ukos
 version: 4.0.0
 code-url: ""
 site-url: http://www.ukos.ch/
-draft: false
 date: "2017-04-26T18:36:10+00:00"
 last-updated: "2017-04-26"
 star: 0

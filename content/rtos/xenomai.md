@@ -4,7 +4,6 @@ slug: xenomai
 version: v3.0.7
 code-url: http://git.xenomai.org/xenomai-3.git/
 site-url: http://xenomai.org/
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2018-07-25"
 star: 0

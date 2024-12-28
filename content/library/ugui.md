@@ -4,15 +4,11 @@ slug: ugui
 version: V0.31 beta
 code-url: https://github.com/achimdoebler/UGUI
 site-url: https://github.com/achimdoebler/UGUI
-draft: false
 date: "2016-11-29 16:57:57"
 last-updated: "2016-01-02"
-star: 1074
-components: []
-libraries: []
+star: 1240
 licenses:
     - Other
-platforms: []
 ---
 µGUI is a free and open source graphic library for embedded systems. It is platform-independent and can be easily ported to almost any microcontroller system. As long as the display is capable of showing graphics, µGUI is not restricted to a certain display technology. Therefore, display technologies such as LCD, TFT, E-Paper, LED or OLED are supported.
 

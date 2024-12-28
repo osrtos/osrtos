@@ -4,10 +4,9 @@ slug: quark-ts
 version: 7.3.3
 code-url: https://github.com/kmilo17pet/QuarkTS
 site-url: https://github.com/kmilo17pet/QuarkTS/wiki
-draft: false
 date: "2019-02-27 08:49:25"
-last-updated: "2023-05-12"
-star: 157
+last-updated: "2024-10-28"
+star: 310
 components:
     - None
 libraries:

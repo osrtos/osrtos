@@ -1,13 +1,12 @@
 ---
 title: RIOT
 slug: riot
-version: "2023.07"
+version: "2024.10"
 code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-10-12"
-star: 4559
+last-updated: "2024-12-23"
+star: 5355
 components:
     - BLE
     - LoRaWAN

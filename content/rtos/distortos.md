@@ -4,10 +4,9 @@ slug: distortos
 version: v0.7.0
 code-url: https://github.com/DISTORTEC/distortos
 site-url: http://distortos.org/
-draft: false
 date: "2016-11-29 11:36:58"
-last-updated: "2023-06-16"
-star: 412
+last-updated: "2024-11-27"
+star: 443
 components:
     - None
 libraries:

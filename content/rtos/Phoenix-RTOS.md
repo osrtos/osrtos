@@ -4,10 +4,9 @@ slug: Phoenix-RTOS
 version: dev
 code-url: https://github.com/phoenix-rtos/phoenix-rtos-kernel
 site-url: http://phoenix-rtos.com/
-draft: false
 date: "2019-02-12 06:00:17"
-last-updated: "2023-10-05"
-star: 92
+last-updated: "2024-12-11"
+star: 119
 components:
     - FileSystem
     - Network

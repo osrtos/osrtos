@@ -4,7 +4,6 @@ slug: funkos
 version: ""
 code-url: ""
 site-url: http://funkos.sourceforge.net/
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2013-04-23"
 star: 0

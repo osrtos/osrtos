@@ -4,10 +4,9 @@ slug: tizenrt
 version: 3.0_GBM
 code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
-draft: false
 date: "2018-02-11 06:48:49"
-last-updated: "2023-10-12"
-star: 509
+last-updated: "2024-12-27"
+star: 593
 components:
     - FileSystem
     - Network

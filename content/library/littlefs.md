@@ -1,18 +1,14 @@
 ---
 title: littlefs
 slug: littlefs
-version: v2.8.0
+version: v2.10.1
 code-url: https://github.com/geky/littlefs
 site-url: https://github.com/geky/littlefs
-draft: false
 date: "2017-12-25 19:14:32"
-last-updated: "2023-09-22"
-star: 4226
-components: []
-libraries: []
+last-updated: "2024-12-20"
+star: 5315
 licenses:
     - Apache License
-platforms: []
 ---
 A little fail-safe filesystem designed for embedded systems
 

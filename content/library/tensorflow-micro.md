@@ -1,18 +1,14 @@
 ---
 title: Tensorflow Micro
 slug: tensorflow-micro
-version: v2.14.0
+version: v2.18.0
 code-url: https://github.com/tensorflow/tensorflow
 site-url: https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/experimental/micro
-draft: false
 date: "2019-03-08 01:11:02"
-last-updated: "2023-10-16"
-star: 178250
-components: []
-libraries: []
+last-updated: "2024-12-28"
+star: 186999
 licenses:
     - Apache License 2.0
-platforms: []
 ---
 This an experimental port of TensorFlow Lite aimed at micro controllers and other devices with only kilobytes of memory. 
 

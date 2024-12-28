@@ -4,15 +4,11 @@ slug: ucglib
 version: v1.00
 code-url: https://github.com/olikraus/ucglib
 site-url: https://github.com/olikraus/ucglib
-draft: false
 date: "2018-08-07 03:56:44"
 last-updated: "2020-01-22"
-star: 250
-components: []
-libraries: []
+star: 269
 licenses:
     - BSD
-platforms: []
 ---
 Arduino True Color Library for TFTs and OLEDs
 

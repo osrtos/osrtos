@@ -4,7 +4,6 @@ slug: protothreads
 version: ""
 code-url: ""
 site-url: http://dunkels.com/adam/pt/
-draft: false
 date: "2016-11-29T11:36:58+00:00"
 last-updated: "2005-04-08"
 star: 0

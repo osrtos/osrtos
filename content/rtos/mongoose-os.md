@@ -4,10 +4,9 @@ slug: mongoose-os
 version: 2.20.0
 code-url: https://github.com/cesanta/mongoose-os
 site-url: https://mongoose-os.com/
-draft: false
 date: "2018-01-24 01:43:59"
 last-updated: "2023-02-23"
-star: 2420
+star: 2519
 components:
     - FileSystem
     - Network

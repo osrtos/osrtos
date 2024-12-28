@@ -4,15 +4,11 @@ slug: easyflash
 version: 4.1.0
 code-url: https://github.com/armink/EasyFlash
 site-url: https://github.com/armink/EasyFlash
-draft: false
 date: "2019-03-02 00:07:07"
 last-updated: "2023-09-13"
-star: 1793
-components: []
-libraries: []
+star: 2062
 licenses:
     - MIT
-platforms: []
 ---
 EasyFlash is an open source lightweight embedded flash memory library. It provides convenient application interface for MCU. The developers can achieve more efficient and common application development based on Flash memory. 
 

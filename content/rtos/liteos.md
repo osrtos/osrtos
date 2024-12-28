@@ -4,10 +4,9 @@ slug: liteos
 version: LiteOSV200R001C50B039
 code-url: https://github.com/LITEOS/LiteOS_Kernel
 site-url: https://www.huawei.com/minisite/liteos/en/index.html
-draft: false
 date: "2018-02-06 03:23:05"
 last-updated: "2020-12-30"
-star: 4680
+star: 4835
 components:
     - None
 libraries:

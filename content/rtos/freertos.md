@@ -1,13 +1,12 @@
 ---
 title: FreeRTOS
 slug: freertos
-version: "202212.01"
+version: "202411.00"
 code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
-draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-10-13"
-star: 4068
+last-updated: "2024-12-27"
+star: 5487
 components:
     - FileSystem
     - Network

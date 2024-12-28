@@ -4,10 +4,9 @@ slug: chibios-rt
 version: 20.3.2
 code-url: https://github.com/ChibiOS/ChibiOS
 site-url: http://www.chibios.org/dokuwiki/doku.php
-draft: false
 date: "2016-11-29 11:36:57"
-last-updated: "2023-10-11"
-star: 629
+last-updated: "2024-12-27"
+star: 724
 components:
     - FileSystem
     - Network

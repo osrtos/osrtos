@@ -4,10 +4,9 @@ slug: trampoline
 version: dev-master
 code-url: https://github.com/TrampolineRTOS/trampoline
 site-url: https://github.com/TrampolineRTOS/trampoline
-draft: false
 date: "2017-06-11 21:00:48"
-last-updated: "2023-10-13"
-star: 539
+last-updated: "2024-03-20"
+star: 642
 components:
     - None
 libraries:

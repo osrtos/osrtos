@@ -4,7 +4,6 @@ slug: marte
 version: "2.0"
 code-url: ""
 site-url: https://marte.unican.es/
-draft: false
 date: "2019-02-12T03:31:45+00:00"
 last-updated: "2017-02-22"
 star: 0

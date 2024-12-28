@@ -4,10 +4,9 @@ slug: alios-things
 version: v1.3.4
 code-url: https://github.com/alibaba/AliOS-Things
 site-url: http://aliosthings.io/
-draft: false
 date: "2018-01-23 05:35:24"
 last-updated: "2023-07-04"
-star: 4467
+star: 4594
 components:
     - None
 libraries:

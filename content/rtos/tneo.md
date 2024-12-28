@@ -4,10 +4,9 @@ slug: tneo
 version: v1.08
 code-url: https://github.com/dimonomid/tneo
 site-url: https://dmitryfrank.com/projects/tneo
-draft: false
 date: "2016-12-20 09:03:32"
 last-updated: "2022-05-21"
-star: 224
+star: 233
 components:
     - None
 libraries:

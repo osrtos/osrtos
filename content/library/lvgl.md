@@ -1,18 +1,14 @@
 ---
 title: LVGL
 slug: lvgl
-version: v8.3.10
+version: v9.2.2
 code-url: https://github.com/lvgl/lvgl
 site-url: https://lvgl.io/
-draft: false
 date: "2017-12-25 19:20:10"
-last-updated: "2023-10-12"
-star: 13149
-components: []
-libraries: []
+last-updated: "2024-12-27"
+star: 17848
 licenses:
     - MIT
-platforms: []
 ---
 LVGL is the most popular free and open-source embedded graphics library to create beautiful UIs for any MCU, MPU and display type.
 

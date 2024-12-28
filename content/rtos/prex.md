@@ -4,7 +4,6 @@ slug: prex
 version: 0.9.0
 code-url: http://prex.sourceforge.net/
 site-url: http://prex.sourceforge.net/
-draft: false
 date: "2016-11-29 11:36:58"
 last-updated: "2009-10-01"
 star: 0

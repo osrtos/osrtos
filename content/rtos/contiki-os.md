@@ -4,10 +4,9 @@ slug: contiki-os
 version: "3.0"
 code-url: https://github.com/contiki-os/contiki
 site-url: http://www.contiki-os.org/
-draft: false
 date: "2016-11-29 11:36:57"
 last-updated: "2018-11-03"
-star: 3600
+star: 3731
 components:
     - FileSystem
     - Network

@@ -4,10 +4,9 @@ slug: contiki-ng
 version: release/v4.9
 code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
-draft: false
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2023-10-13"
-star: 1174
+last-updated: "2024-11-20"
+star: 1341
 components:
     - FileSystem
     - Network

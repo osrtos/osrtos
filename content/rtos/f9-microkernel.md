@@ -4,10 +4,9 @@ slug: f9-microkernel
 version: ""
 code-url: https://github.com/f9micro/f9-kernel
 site-url: https://github.com/f9micro/f9-kernel
-draft: false
 date: "2016-11-30 13:54:12"
 last-updated: "2020-01-01"
-star: 665
+star: 685
 components:
     - None
 libraries:

@@ -4,7 +4,6 @@ slug: rtems
 version: "6.1"
 code-url: https://gitlab.rtems.org/rtems/rtos/rtems
 site-url: https://www.rtems.org/
-draft: false
 date: "2016-11-29T11:36:57+00:00"
 last-updated: "2024-06-11"
 star: 585
@@ -38,7 +37,6 @@ platforms:
     - SPARC64
     - V850
     - x86
-
 ---
 RTEMS is an open source RTOS that supports open standard application programming interfaces such as POSIX. It is used in space flight, medical, networking and many more embedded devices. 
 

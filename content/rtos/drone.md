@@ -4,10 +4,9 @@ slug: drone
 version: v0.14.3
 code-url: https://github.com/drone-os/drone-core
 site-url: https://www.drone-os.com/
-draft: false
 date: 2020-02-25 11:37:19+08:00
 last-updated: "2022-11-20"
-star: 407
+star: 474
 components:
     - None
 libraries:
