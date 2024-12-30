@@ -6,7 +6,7 @@ code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
 date: "2016-11-29 11:36:58"
 last-updated: "2024-12-06"
-star: 1857
+star: 1858
 licenses:
     - Apache License, Version 2.0
     - MIT license

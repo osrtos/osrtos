@@ -6,7 +6,7 @@ code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 date: "2017-04-29 08:18:58"
 last-updated: "2024-12-19"
-star: 4792
+star: 4795
 components:
     - None
 libraries:

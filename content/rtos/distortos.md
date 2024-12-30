@@ -6,7 +6,7 @@ code-url: https://github.com/DISTORTEC/distortos
 site-url: http://distortos.org/
 date: "2016-11-29 11:36:58"
 last-updated: "2024-11-27"
-star: 443
+star: 444
 components:
     - None
 libraries:

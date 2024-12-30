@@ -6,7 +6,7 @@ code-url: https://github.com/micropython/micropython
 site-url: http://micropython.org/
 date: "2018-08-07 02:47:39"
 last-updated: "2024-12-23"
-star: 19620
+star: 19628
 licenses:
     - MIT
 ---

@@ -5,8 +5,8 @@ version: v0.6.4
 code-url: https://github.com/embox/embox
 site-url: https://github.com/embox/embox
 date: "2017-03-18 01:28:16"
-last-updated: "2024-12-19"
-star: 1294
+last-updated: "2024-12-28"
+star: 1293
 components:
     - None
 libraries:

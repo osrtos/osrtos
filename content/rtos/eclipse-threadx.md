@@ -6,7 +6,7 @@ code-url: https://github.com/eclipse-threadx/threadx
 site-url: hhttps://threadx.io/ttps://azure.microsoft.com/en-us/services/rtos/
 date: 2020-05-27 09:25:57+08:00
 last-updated: "2024-03-26"
-star: 2988
+star: 2989
 components:
     - FileSystem
     - Network

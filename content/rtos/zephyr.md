@@ -5,8 +5,8 @@ version: v4.0.0
 code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
 date: "2016-11-29 11:36:58"
-last-updated: "2024-12-28"
-star: 11136
+last-updated: "2024-12-30"
+star: 11150
 components:
     - FileSystem
     - Network

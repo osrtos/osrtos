@@ -6,7 +6,7 @@ code-url: https://github.com/armink/EasyFlash
 site-url: https://github.com/armink/EasyFlash
 date: "2019-03-02 00:07:07"
 last-updated: "2023-09-13"
-star: 2062
+star: 2063
 licenses:
     - MIT
 ---

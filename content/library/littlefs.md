@@ -6,7 +6,7 @@ code-url: https://github.com/geky/littlefs
 site-url: https://github.com/geky/littlefs
 date: "2017-12-25 19:14:32"
 last-updated: "2024-12-20"
-star: 5315
+star: 5322
 licenses:
     - Apache License
 ---

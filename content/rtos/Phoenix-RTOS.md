@@ -6,7 +6,7 @@ code-url: https://github.com/phoenix-rtos/phoenix-rtos-kernel
 site-url: http://phoenix-rtos.com/
 date: "2019-02-12 06:00:17"
 last-updated: "2024-12-11"
-star: 119
+star: 120
 components:
     - FileSystem
     - Network

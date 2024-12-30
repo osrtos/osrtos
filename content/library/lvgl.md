@@ -6,7 +6,7 @@ code-url: https://github.com/lvgl/lvgl
 site-url: https://lvgl.io/
 date: "2017-12-25 19:20:10"
 last-updated: "2024-12-27"
-star: 17848
+star: 17871
 licenses:
     - MIT
 ---

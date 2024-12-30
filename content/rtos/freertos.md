@@ -5,8 +5,8 @@ version: "202411.00"
 code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2024-12-27"
-star: 5487
+last-updated: "2024-12-30"
+star: 5496
 components:
     - FileSystem
     - Network

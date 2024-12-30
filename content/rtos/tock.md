@@ -5,8 +5,8 @@ version: release-2.1.1
 code-url: https://github.com/tock/tock
 site-url: https://github.com/tock/tock
 date: "2019-02-12 05:45:10"
-last-updated: "2024-12-20"
-star: 5526
+last-updated: "2024-12-30"
+star: 5534
 components:
     - None
 libraries:

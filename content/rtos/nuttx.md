@@ -5,8 +5,8 @@ version: nuttx-12.1.0
 code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2024-12-28"
-star: 3014
+last-updated: "2024-12-30"
+star: 3017
 components:
     - FileSystem
     - Network
