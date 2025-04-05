@@ -1,77 +1,120 @@
 {{ define "main" }}
-{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-{{ $mainSections := (slice "library") }}
-{{/* Create a variable with that section to use in multiple places. */}}
-{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-{{/* Check to see if the section is defined for ranging through it */}}
-{{ $section_count := len $section }}
-{{ if ge $section_count 1 }}
-<section class="container-fluid g-px-50 g-pt-20 g-pb-70">
-  <div class="float-right">
-    <div class="g-mt-10">
-      <a class="btn btn-success" href="https://github.com/osrtos/osrtos">Submit Library / Fix Bugs</a>
-    </div>
-  </div>
-  <h1 class="h1 g-font-weight-300 w-100 g-mb-20">Open Source RTOS Libraries</h1>
-  <div class="table-responsive">
-    <table class="table table-bordered table-striped table-hover table-fixed">
-      <thead style="background:#eee;">
-        <tr>
-          <th>Name</th>
-          <th>License</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Version</th>
-          <th>Links</th>
-          <th>Last updated</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{ range ($section.ByParam "last-updated").Reverse }}
-        <tr>
-          <td width="15%">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </td>
-          <td width="10%">
-            {{ $taxonomy := "licenses" }}
-            {{ with .Param $taxonomy }}
-            <ul class="list-unstyled" style="margin-bottom:0;">
-              {{ range $index, $tag := . }}
-              {{ if (ne $tag "None")}}
-              <li>
-                {{ $tag }}
-              </li>
-              {{ end }}
-              {{- end -}}
-            </ul>
-            {{ end }}
-          </td>
-          <td width="8%">{{ .Param "lib-type" }}</td>
-          <td>{{ .Summary }}</td>
-          <td width="8%">{{ .Param "version" }}</td>
-          <td width="8%">
-            <ul class="list-unstyled" style="margin-bottom:0;">
-              {{ if ( .Param "code-url" )}}
-              <li><a href="{{ .Param "code-url" }}" target="_blank"><i
-                      class="{{ if ( eq "https://github.com/" (substr (.Param "code-url" ) 0 19))}}fab fa-github{{ else }}fas fa-code-branch{{ end }}"
-                aria-hidden="true"></i> Code</a></li>
-              {{ end }}
-              {{ if ( .Param "site-url" )}}
-              <li><a href="{{ .Param "site-url" }}" target="_blank"><i
-                      class="fas fa-link" aria-hidden="true"></i> Website</a></li>
-              {{ end }}
-              {{ if ( .Param "star" )}}
-              <li><i class="far fa-star" aria-hidden="true"></i> {{ .Param "star" }}</li>
-              {{ end }}
-            </ul>
-          </td>
-          <td width="8%">{{ .Param "last-updated" }}</td>
-        </tr>
-        {{ end }}
-      </tbody>
-    </table>
-  </div>
-</section>
 
+{{ .Scratch.Set "scope" "list" }}
+{{ if .Site.Params.list.showHero | default false }}
+{{ $heroStyle := print "partials/hero/" .Site.Params.list.heroStyle ".html" }}
+{{ if templates.Exists $heroStyle }}
+{{ partial $heroStyle . }}
+{{ else }}
+{{ partial "partials/hero/basic.html" . }}
 {{ end }}
-{{ end }}
+{{- end -}}
+
+{{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in
+.TableOfContents "<ul") }} <header>
+  {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+  {{ partial "breadcrumbs.html" . }}
+  {{ end }}
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    {{ partial "article-meta/list.html" (dict "context" . "scope" "single") }}
+  </div>
+  {{ $translations := .AllTranslations }}
+  {{ with .File }}
+    {{ $path := .Path }}
+    {{range $translations}}
+      {{ $lang := print "."  .Lang  ".md" }}
+      {{ $path = replace $path $lang ".md" }}
+    {{end}}
+  <script>
+    var oid = "views_{{ $path }}"
+    var oid_likes = "likes_{{ $path }}"
+  </script>
+  {{ $jsPage := resources.Get "js/page.js" }}
+  {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
+  <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+  {{ end }}
+  </header>
+  <section class="{{ if $toc -}}
+      mt-12
+    {{- else -}}
+      mt-0
+    {{- end }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    {{ if $toc }}
+    <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 lg:sticky {{ if hasPrefix .Site.Params.header.layout "fixed" -}}
+      lg:top-[140px]{{ else }}lg:top-10{{ end }}">
+        {{ partial "toc.html" . }}
+      </div>
+    </div>
+    {{ end }}
+    <div class="min-w-0 min-h-0 max-w-full">
+      {{ .Content }}
+    </div>
+  </section>
+    <section class="space-y-10 w-full flow-root">
+        {{ $mainSections := (slice "library") }}
+        {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+        {{ $section_count := len $section }}
+        {{ if ge $section_count 1 }}
+        <div class="inline-block">
+        <table class="min-w-full divide-y divide-gray-300">
+          <thead class="bg-gray-50 sticky top-0 z-20">
+            <tr>
+              <th scope="col" class="sticky top-0 z-20 py-3.5 pl-4 pr-3 text-left text-md font-semibold text-gray-900 sm:pl-3 bg-gray-200 shadow-sm">Name</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">License</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">Type</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">Description</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">Version</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">Links</th>
+              <th scope="col" class="sticky top-0 z-20 px-3 py-3.5 text-left text-md font-semibold text-gray-900 bg-gray-200 shadow-sm">Last updated</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white">
+          {{ range ($section.ByParam "last-updated").Reverse }}
+          <tr class="even:bg-gray-50">
+            <td class="whitespace-nowrap py-4 pl-4 pr-3 text-md font-medium text-gray-900 sm:pl-3" width="15%">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500" width="10%">
+              {{ $taxonomy := "licenses" }}
+              {{ with .Param $taxonomy }}
+              <ul class="list-unstyled" style="margin-bottom:0;">
+                {{ range $index, $tag := . }}
+                {{ if (ne $tag "None")}}
+                <li>
+                  {{ $tag }}
+                </li>
+                {{ end }}
+                {{- end -}}
+              </ul>
+              {{ end }}
+            </td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500" width="8%">{{ .Param "lib-type" }}</td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500">{{ .Summary }}</td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500" width="8%">{{ .Param "version" }}</td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500" width="8%">
+              <ul class="list-unstyled" style="margin-bottom:0;">
+                {{ if ( .Param "code-url" )}}
+                <li><a href="{{ .Param "code-url" }}" target="_blank"><i
+                        class="{{ if ( eq "https://github.com/" (substr (.Param "code-url" ) 0 19))}}fab fa-github{{ else }}fas fa-code-branch{{ end }}"
+                  aria-hidden="true"></i> Code</a></li>
+                {{ end }}
+                {{ if ( .Param "site-url" )}}
+                <li><a href="{{ .Param "site-url" }}" target="_blank"><i
+                        class="fas fa-link" aria-hidden="true"></i> Website</a></li>
+                {{ end }}
+                {{ if ( .Param "star" )}}
+                <li><i class="far fa-star" aria-hidden="true"></i> {{ .Param "star" }}</li>
+                {{ end }}
+              </ul>
+            </td>
+            <td class="whitespace-nowrap px-3 py-4 text-md text-gray-500" width="8%">{{ .Param "last-updated" }}</td>
+          </tr>
+          {{ end }}
+          </tbody>
+        </table>
+      </div>
+        {{ end }}
+    </section>
+  {{ end }}

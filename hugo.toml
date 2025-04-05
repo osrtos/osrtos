@@ -1,8 +1,7 @@
 baseURL = "https://www.osrtos.com/"
 languageCode = "en-us"
 title = "OSRTOS"
-theme = "unify"
-
+theme = "blowfish"
 
 googleAnalytics = "UA-46054378-1"
 
@@ -13,6 +12,8 @@ googleAnalytics = "UA-46054378-1"
   mainSections = ["rtos"]
   favicon = "favicon.ico"
   env= "production"
+  [params.article]
+    showDate = false
 
 [menu]
 
