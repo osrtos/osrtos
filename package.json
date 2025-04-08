@@ -1,0 +1,10 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "server": "hugo server",
+      "dev": "NODE_ENV=development ./themes/blowfish/node_modules/.bin/tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+      "build": "NODE_ENV=production ./themes/blowfish/node_modules/.bin/tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    }
+  }

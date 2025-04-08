@@ -9,18 +9,42 @@ googleAnalytics = "UA-46054378-1"
 
 
 [params]
-  mainSections = ["rtos"]
+  mainSections = ["rtos", "library"]
   favicon = "favicon.ico"
   env= "production"
+  enableRobotsTXT = true
+  enableSearch = false
+  defaultAppearance = "light"
+  colorScheme = "ocean"
+  groupByYear = false
   [params.article]
     showDate = false
+    showReadingTime = false
+    showWordCount = false
+  [params.list]
+    groupByYear = false
+  [params.homepage]
+    layout = "page"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+
 
 [menu]
 
   [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -120
+
+  [[menu.main]]
     identifier = "rtos"
     name = "RTOS"
-    url = "/"
+    url = "/rtos/"
     weight = -110
 
   [[menu.main]]

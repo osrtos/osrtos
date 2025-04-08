@@ -57,17 +57,101 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    {{ if or (and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in
-    .TableOfContents "<ul")) (.Site.Params.article.showRelatedPosts | default false) }} <div
-      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+    {{ if or (eq .Type "rtos") (and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul")) (.Site.Params.article.showRelatedPosts | default false) }}
+    <div class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ if hasPrefix .Site.Params.header.layout "fixed" -}}
         lg:top-[140px]{{ else }}lg:top-10{{ end }}">
 
         {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in
         .TableOfContents "<ul") }} {{ partial "toc.html" . }} {{ end }} {{ if .Site.Params.article.showRelatedPosts |
-          default false }} sd {{ end }} </div>
+          default false }} sd {{ end }} 
+          
+        <!-- RTOS Metadata Section -->
+        {{ if eq .Type "rtos" }}
+        <div class="mt-6 mb-6 pl-4 border-l border-neutral-300 dark:border-neutral-700 min-w-[280px]">
+        
+          {{ if .Params.version }}
+          <div class="mt-2">
+            <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">Version: {{ .Params.version }}</h4>
+          </div>
+          {{ end }}
+
+          {{ if .Param "last-updated" }}
+          <div class="mt-2">
+            <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">Last updated: {{ .Param "last-updated" }}</h4>
+          </div>
+          {{ end }}
+          
+          {{ if .Params.licenses }}
+          <div class="mt-2">
+            <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">License:</h4>
+            <ul class="mt-1 list-none pl-0">
+              {{ range .Params.licenses }}
+                <li class="text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          
+          {{ if .Params.platforms }}
+          <div class="mt-2">
+            <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">Platforms:</h4>
+            <div class="flex flex-wrap gap-1 mt-1">
+              {{ range .Params.platforms }}
+                <span class="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+          
+          {{ if and .Params.components (gt (len .Params.components) 0) }}
+            {{ $hasValidComponents := false }}
+            {{ range .Params.components }}
+              {{ if ne . "None" }}
+                {{ $hasValidComponents = true }}
+              {{ end }}
+            {{ end }}
+            
+            {{ if $hasValidComponents }}
+            <div class="mt-2">
+              <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">Components:</h4>
+              <div class="flex flex-wrap gap-1 mt-1">
+                {{ range .Params.components }}
+                  {{ if ne . "None" }}
+                    <span class="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-300">{{ . }}</span>
+                  {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          {{ end }}
+          
+          {{ if and .Params.libraries (gt (len .Params.libraries) 0) }}
+            {{ $hasValidLibraries := false }}
+            {{ range .Params.libraries }}
+              {{ if ne . "None" }}
+                {{ $hasValidLibraries = true }}
+              {{ end }}
+            {{ end }}
+            
+            {{ if $hasValidLibraries }}
+            <div class="mt-2">
+              <h4 class="text-sm font-medium text-neutral-700 dark:text-neutral-300">Libraries:</h4>
+              <ul class="mt-1 list-none pl-0">
+                {{ range .Params.libraries }}
+                  {{ if ne . "None" }}
+                    <li class="text-sm text-neutral-600 dark:text-neutral-400">{{ . }}</li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
-      {{ end }}
+    </div>
+    {{ end }}
 
       <div class="min-w-0 min-h-0 max-w-full">
         
@@ -85,19 +169,6 @@
               <span>Source code: <a href="{{ .Param "code-url" }}" target="_blank" class="text-blue-500 hover:underline">{{ .Param "code-url" }}</a></span>
             </h3>
             {{ end }}
-            <h3 class="text-md mb-2">
-              <i class="far fa-copyright"></i>
-              <span>License: 
-              {{ $taxonomy := "licenses" }}
-              {{ with .Param $taxonomy }}
-              {{ range $index, $tag := . }}
-              {{ if (ne $tag "None")}}
-              {{ $tag }}
-              {{ end }}
-              {{- end -}}
-              {{ end }}
-              </span>
-            </h3>
           </div>
           {{ $defaultReplyByEmail := .Site.Params.replyByEmail }}
           {{ $replyByEmail := default $defaultReplyByEmail .Params.replyByEmail }}
