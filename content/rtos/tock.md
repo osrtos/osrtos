@@ -7,6 +7,12 @@ site-url: https://github.com/tock/tock
 date: "2019-02-12 05:45:10"
 last-updated: "2024-12-30"
 star: 5534
+description: Tock is a secure embedded operating system designed for Cortex-M and RISC-V microcontrollers.
+tags:
+    - RTOS
+    - Tock
+    - Security
+    - Rust
 components:
     - None
 libraries:

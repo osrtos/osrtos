@@ -2,4 +2,6 @@ themes/unify/src/
 public
 utils/key_ignore
 .idea
+.cursor
 .hugo_build.lock
+.specstory/

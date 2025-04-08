@@ -1,55 +1,158 @@
 {{ define "main" }}
-  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{ .Content }}
-  </article>
-  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
-  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
-  {{/* Create a variable with that section to use in multiple places. */}}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{/* Check to see if the section is defined for ranging through it */}}
-  {{ $section_count := len $section }}
-  {{ if ge $section_count 1 }}
-    {{/* Derive the section name  */}}
-    {{ $section_name := index (.Site.Params.mainSections) 0 }}
+{{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{/* Create a variable with that section to use in multiple places. */}}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{/* Check to see if the section is defined for ranging through it */}}
+{{ $section_count := len $section }}
 
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
-       {{ with .Site.GetPage "section" $section_name }}
-          <h1 class="flex-none">
-            {{$.Param "recent_copy" | default "Recent" }} {{ .Title }}
-          </h1>
-        {{ end }}
-
-      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
-
-      <section class="w-100 mw8">
-        {{/* Range through the first $n_posts items of the section */}}
-        {{ range (first $n_posts $section) }}
-          <div class="relative w-100 mb4">
-            {{ partial "summary-with-image.html" . }}
+{{ if ge $section_count 1 }}
+<div class="container mx-auto px-4 py-8">
+  {{ $paginator := .Paginate (($section.ByParam "date").Reverse) 20 }}
+  <section class="space-y-10 w-full">
+    {{ range $paginator.Pages }}
+    <article class="bg-neutral-50 dark:bg-neutral-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+      <div class="flex flex-col md:flex-row md:items-start gap-6">
+        <div class="flex-1">
+          <h3 class="text-2xl font-bold mb-3">
+            <a class="text-primary-700 dark:text-primary-400 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Params.version }}
+                <span class="text-sm font-medium text-neutral-700 dark:text-neutral-300"> {{ . }}</span>
+            {{ end }}
+          </h3>
+          
+          <div class="mb-4">
+            {{ with .Summary }}
+              <div class="text-neutral-700 dark:text-neutral-300">{{ . }}</div>
+            {{ end }}
           </div>
-        {{ end }}
-      </section>
 
-      {{ if ge $section_count (add $n_posts 1) }}
-      <section class="w-100">
-        <h1 class="f3">More</h1>
-        {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
-        {{ range (first 4 (after $n_posts $section))  }}
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="{{ .Permalink }}" class="link black dim">
-              {{ .Title }}
+          <!-- Component Tags -->
+          {{ if .Params.components }}
+          <div class="mb-3">
+            <h4 class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mb-2">Components:</h4>
+            <div class="flex flex-wrap gap-2">
+              {{ range .Params.components }}
+                <span class="px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 text-xs rounded-md">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+          
+          <!-- License and Platform Section -->
+          <div class="flex flex-wrap gap-3 mb-4">
+            <!-- Licenses -->
+            {{ if .Params.licenses }}
+            <div class="flex-shrink-0 min-w-[280px]">
+              <h4 class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mb-2">Licenses:</h4>
+              <div class="flex flex-wrap gap-2">
+                {{ range .Params.licenses }}
+                  <span class="px-2 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-100 text-xs rounded-md">{{ . }}</span>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+            
+            <!-- Platforms -->
+            {{ if .Params.platforms }}
+            <div class="flex-grow">
+              <h4 class="text-sm font-semibold text-neutral-600 dark:text-neutral-400 mb-2">Platforms:</h4>
+              <div class="flex flex-wrap gap-2">
+                {{ range .Params.platforms }}
+                  <span class="px-2 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-100 text-xs rounded-md">{{ . }}</span>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+
+          <div class="flex justify-end">
+            <a href="{{ .RelPermalink }}" class="inline-flex items-center px-4 py-2 border-2 border-primary-600 text-primary-700 dark:text-primary-400 rounded-md hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors font-medium">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+              </svg>
             </a>
-          </h2>
-        {{ end }}
-
-        {{/* As above, Use $section_name to get the section title, and URL. Use "with" to only show it if it exists */}}
-        {{ with .Site.GetPage "section" $section_name }}
-          <a href="{{ .Permalink }}" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
-        {{ end }}
-        </section>
-      {{ end }}
-
+          </div>
+        </div>
       </div>
-  {{ end }}
+    </article>
+    {{ end }}
+    
+    <!-- Pagination Controls -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <div class="flex items-center justify-center gap-2 mt-12">
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="inline-flex items-center justify-center h-10 px-4 rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-all">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+        <span>Previous</span>
+      </a>
+      {{ else }}
+      <span class="inline-flex items-center justify-center h-10 px-4 rounded-md border border-neutral-200 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 text-neutral-400 dark:text-neutral-600 cursor-not-allowed">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+        <span>Previous</span>
+      </span>
+      {{ end }}
+      
+      <div class="hidden sm:flex items-center gap-1">
+        {{ $ellipsisLeft := false }}
+        {{ $ellipsisRight := false }}
+        {{ range $paginator.Pagers }}
+          {{ $pageNum := .PageNumber }}
+          
+          {{ if or (le $pageNum 2) (eq $pageNum $paginator.TotalPages) (eq $pageNum ($paginator.TotalPages | add -1)) (and (ge $pageNum (add $paginator.PageNumber -2)) (le $pageNum (add $paginator.PageNumber 2))) }}
+            {{ if eq $pageNum $paginator.PageNumber }}
+            <span class="inline-flex items-center justify-center h-10 w-10 rounded-md bg-primary-600 text-white font-medium">
+              {{ $pageNum }}
+            </span>
+            {{ else }}
+            <a href="{{ .URL }}" class="inline-flex items-center justify-center h-10 w-10 rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 hover:text-primary-600 dark:hover:text-primary-400 transition-all">
+              {{ $pageNum }}
+            </a>
+            {{ end }}
+          {{ else }}
+            {{ if and (gt $pageNum 2) (lt $pageNum (sub $paginator.TotalPages 1)) }}
+              {{ if not $ellipsisLeft }}
+                {{ $ellipsisLeft = true }}
+                <span class="inline-flex items-center justify-center h-10 px-1 text-neutral-600 dark:text-neutral-400">
+                  ···
+                </span>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+      
+      <div class="sm:hidden flex items-center justify-center">
+        <span class="text-sm text-neutral-600 dark:text-neutral-400">
+          {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}
+        </span>
+      </div>
+      
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="inline-flex items-center justify-center h-10 px-4 rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-100 dark:hover:bg-neutral-700 transition-all">
+        <span>Next</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+        </svg>
+      </a>
+      {{ else }}
+      <span class="inline-flex items-center justify-center h-10 px-4 rounded-md border border-neutral-200 dark:border-neutral-700 bg-neutral-100 dark:bg-neutral-800 text-neutral-400 dark:text-neutral-600 cursor-not-allowed">
+        <span>Next</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+        </svg>
+      </span>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </section>
+</div>
 {{ end }}
+{{ end }} 

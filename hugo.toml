@@ -1,0 +1,54 @@
+baseURL = "https://www.osrtos.com/"
+languageCode = "en-us"
+title = "OSRTOS"
+theme = "blowfish"
+
+googleAnalytics = "UA-46054378-1"
+
+[taxonomies]
+
+
+[params]
+  mainSections = ["rtos", "library"]
+  favicon = "favicon.ico"
+  env= "production"
+  enableRobotsTXT = true
+  enableSearch = false
+  defaultAppearance = "light"
+  colorScheme = "ocean"
+  groupByYear = false
+  [params.article]
+    showDate = false
+    showReadingTime = false
+    showWordCount = false
+  [params.list]
+    groupByYear = false
+  [params.homepage]
+    layout = "page"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -120
+
+  [[menu.main]]
+    identifier = "rtos"
+    name = "RTOS"
+    url = "/rtos/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "library"
+    name = "Library"
+    url = "/library/"
+    weight = -100
