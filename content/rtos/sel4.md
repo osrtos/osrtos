@@ -5,11 +5,9 @@ version: 13.0.0
 code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 date: "2017-04-29 08:18:58"
-last-updated: "2024-12-19"
-star: 4795
+last-updated: "2025-04-04"
+star: 4878
 components:
-    - None
-libraries:
     - None
 licenses:
     - GPL v2

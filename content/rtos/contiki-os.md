@@ -6,14 +6,12 @@ code-url: https://github.com/contiki-os/contiki
 site-url: http://www.contiki-os.org/
 date: "2016-11-29 11:36:57"
 last-updated: "2018-11-03"
-star: 3730
+star: 3752
 components:
     - FileSystem
     - Network
     - 6LoWPAN
     - Command Line Interface
-libraries:
-    - None
 licenses:
     - BSD
 platforms:

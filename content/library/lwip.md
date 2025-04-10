@@ -5,8 +5,8 @@ version: start
 code-url: https://github.com/lwip-tcpip/lwip
 site-url: https://savannah.nongnu.org/projects/lwip/
 date: 2018-08-07 01:41:26+00:00
-last-updated: "2024-11-29"
-star: 1098
+last-updated: "2025-04-02"
+star: 1210
 licenses:
     - BSD
 ---

@@ -5,8 +5,8 @@ version: v9.2.2
 code-url: https://github.com/lvgl/lvgl
 site-url: https://lvgl.io/
 date: "2017-12-25 19:20:10"
-last-updated: "2024-12-27"
-star: 17871
+last-updated: "2025-04-08"
+star: 19243
 licenses:
     - MIT
 ---

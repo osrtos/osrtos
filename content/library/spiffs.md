@@ -6,7 +6,7 @@ code-url: https://github.com/pellepl/spiffs
 site-url: https://github.com/pellepl/spiffs
 date: "2016-11-29 16:41:42"
 last-updated: "2023-12-02"
-star: 1537
+star: 1553
 licenses:
     - MIT
 ---

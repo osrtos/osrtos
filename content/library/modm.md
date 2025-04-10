@@ -1,12 +1,12 @@
 ---
 title: modm
 slug: modm
-version: 2024q3
+version: 2025q1
 code-url: https://github.com/modm-io/modm
 site-url: https://modm.io/
 date: "2018-12-17 07:25:23"
-last-updated: "2024-12-23"
-star: 831
+last-updated: "2025-04-02"
+star: 859
 licenses:
     - Mozilla Public License Version 2.0
 ---

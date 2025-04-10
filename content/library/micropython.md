@@ -5,8 +5,8 @@ version: v1.24.1
 code-url: https://github.com/micropython/micropython
 site-url: http://micropython.org/
 date: "2018-08-07 02:47:39"
-last-updated: "2024-12-23"
-star: 19628
+last-updated: "2025-04-08"
+star: 20144
 licenses:
     - MIT
 ---

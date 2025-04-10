@@ -1,12 +1,12 @@
 ---
 title: NuttX
 slug: nuttx
-version: nuttx-12.1.0
+version: nuttx-12.9.0-RC0
 code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2024-12-30"
-star: 3017
+last-updated: "2025-04-10"
+star: 3218
 components:
     - FileSystem
     - Network
@@ -15,8 +15,6 @@ components:
     - USBHost
     - USBDevice
     - GUI
-libraries:
-    - LittlevGL
 licenses:
     - Apache License 2.0
 platforms:

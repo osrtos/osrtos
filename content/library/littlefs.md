@@ -1,12 +1,12 @@
 ---
 title: littlefs
 slug: littlefs
-version: v2.10.1
+version: v2.10.2
 code-url: https://github.com/geky/littlefs
 site-url: https://github.com/geky/littlefs
 date: "2017-12-25 19:14:32"
-last-updated: "2024-12-20"
-star: 5322
+last-updated: "2025-03-20"
+star: 5494
 licenses:
     - Apache License
 ---

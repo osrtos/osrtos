@@ -5,16 +5,14 @@ version: "202411.00"
 code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2024-12-30"
-star: 5496
+last-updated: "2025-04-08"
+star: 5863
 components:
     - FileSystem
     - Network
     - TLS/SSL
     - Command Line Interface
     - Runtime Analysis
-libraries:
-    - lwIP
 licenses:
     - MIT
 platforms:

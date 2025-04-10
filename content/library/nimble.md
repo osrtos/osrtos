@@ -5,8 +5,8 @@ version: nimble_1_5_0_tag
 code-url: https://github.com/apache/mynewt-nimble
 site-url: http://mynewt.apache.org/latest/network/docs/index.html
 date: "2019-03-04 01:03:41"
-last-updated: "2024-12-23"
-star: 721
+last-updated: "2025-03-13"
+star: 758
 licenses:
     - Apache License 2.0
 ---

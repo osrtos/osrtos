@@ -9,8 +9,6 @@ last-updated: "2017-01-25"
 star: 170
 components:
     - None
-libraries:
-    - None
 licenses:
     - GPL v2
 platforms:

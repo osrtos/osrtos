@@ -6,10 +6,8 @@ code-url: https://github.com/DuinOS/DuinOS
 site-url: https://github.com/DuinOS/DuinOS
 date: "2016-11-29 11:36:57"
 last-updated: "2020-07-10"
-star: 72
+star: 74
 components:
-    - None
-libraries:
     - None
 licenses:
     - Other

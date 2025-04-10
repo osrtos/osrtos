@@ -1,12 +1,12 @@
 ---
 title: RT-Thread
 slug: rt-thread
-version: v5.1.0
+version: v5.2.0
 code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2024-12-30"
-star: 10706
+last-updated: "2025-04-10"
+star: 10984
 components:
     - FileSystem
     - Network
@@ -15,11 +15,6 @@ components:
     - Runtime Analysis
     - USBHost
     - USBDevice
-libraries:
-    - Yaffs
-    - FatFs
-    - lwIP
-    - MicroPython
 licenses:
     - Apache-2.0
 platforms:

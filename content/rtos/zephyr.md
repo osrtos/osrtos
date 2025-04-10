@@ -1,72 +1,97 @@
 ---
 title: Zephyr
 slug: zephyr
-version: v4.0.0
+version: v4.1.0
 code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
 date: "2016-11-29 11:36:58"
-last-updated: "2024-12-30"
-star: 11150
+last-updated: "2025-04-10"
+star: 11857
 components:
-    - FileSystem
-    - Network
-    - HTTP
-    - TLS/SSL
-    - Shell
-    - Logging
-    - BLE
-    - LoRaWAN
-    - 6LoWPAN
-    - USBHost
-    - USBDevice
-    - OTA
-    - Modbus
-    - CAN
-libraries:
-    - None
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - network-stack
+    - ble
+    - wifi
+    - lorawan
+    - 6lowpan
+    - http-client
+    - http-server
+    - mqtt-client
+    - coap
+    - dhcp-client
+    - dhcp-server
+    - dns-client
+    - tls-ssl
+    - filesystem
+    - usb-host
+    - usb-device
+    - can
+    - modbus
+    - shell-cli
+    - logging
+    - ota-update
+    - smp-support
+    - gui
+    - runtime-analysis
+    - simulation
 licenses:
-    - Apache License
+    - Apache-2.0
 platforms:
-    - ARM
+    - aarch32
+    - aarch64
+    - arm-cortex-a
+    - arm-cortex-r
+    - arm-cortex-m
     - x86
-    - MIPS
-    - Xtensa
-    - RISC-V
-    - QEMU
-    - SPARC V8
+    - risc-v
+    - mips
+    - nios-ii
+    - xtensa
+    - sparc
+    - posix
+    - qemu
 ---
-The Zephyr™ Project is a scalable, real-time operating system (RTOS) supporting multiple hardware architectures, optimized for resource constrained devices, and built with security in mind. This Linux Foundation hosted project embraces open source development values and governance on its mission to unite leaders from across the industry to produce a best-in-breed solution.
+Zephyr is a scalable, open-source Real-Time Operating System (RTOS) designed for resource-constrained embedded systems, ranging from simple sensors to complex IoT gateways. Built with security and safety in mind, it features a small-footprint kernel, extensive connectivity options (including BLE 5.0, Wi-Fi, OpenThread), and broad hardware support across multiple architectures like ARM Cortex-M/R/A, RISC-V, x86, and Xtensa. Its modular design, powered by the Kconfig and Devicetree systems, allows developers to tailor the OS precisely to their application needs, optimizing performance and memory usage. Zephyr is backed by the Linux Foundation and a large, active community.
 
 <!--more-->
 
-### Features
+The Zephyr Project provides a vendor-neutral, open-source, permissively licensed RTOS focused on the rapidly growing IoT market. It aims to deliver a robust, scalable, and secure platform for connected, resource-constrained devices.
 
-- Scalable from 8-bit to 64-bit microcontroller environments.
-- Built with safety and security in mind.
-- Supports a wide variety of development tools, including SDKs, debuggers, and more.
-- Provides a unified API across architectures.
-- Modular design that allows for configuring the OS for various use cases.
-- Extensive suite of kernel services including threads, multi-threading, and more.
+**Architecture and Modularity:**
+Zephyr's kernel is highly configurable. Developers can select only the necessary features (like specific kernel services, drivers, or protocol stacks) through the Kconfig system, minimizing the final image size. Hardware configuration is managed using Devicetree, allowing the same application code to run on different hardware platforms by simply changing the board configuration.
 
-### **Components:**
+**Key Capabilities:**
+The RTOS offers a rich set of kernel services, including preemptive and cooperative scheduling, various inter-thread synchronization and communication mechanisms, memory management (including MPU support for thread isolation on capable hardware), and power management features.
 
-- **Kernel:** Core component providing essential services.
-- **OS Services:** Includes services like cryptography, debugging, device management, file systems, logging, power management, shell, storage, and more.
-- **Connectivity:** Provides support for various communication protocols.
-- **Hardware Support:** Extensive support for different boards and architectures.
+**Connectivity and Ecosystem:**
+Zephyr boasts a native, highly optimized networking stack supporting IPv4/IPv6, TCP, UDP, and common application layer protocols (HTTP, MQTT, CoAP, LwM2M). It features a Bluetooth 5.0 qualified controller and host stack, including Mesh support. File systems like LittleFS and FatFs are supported, along with comprehensive logging, a command-line shell interface, settings management, and over-the-air (OTA) update capabilities.
 
-### **Supported Platforms:**
+**Development and Community:**
+Development is supported on Linux, macOS, and Windows using CMake and the `west` meta-tool for managing the source code and build process. A native simulation target (`native_sim`) allows running and debugging Zephyr applications directly on the host PC. The project benefits from a vibrant community, extensive documentation, and support from numerous semiconductor vendors.
 
-- **ARC Boards:** DesignWare ARC series.
-- **ARM Boards:** 96Boards series, Adafruit series, NXP series, and more.
-- **ARM64 Boards:** Broadcom, ARM BASE, Intel Agilex, NXP i.MX series, and more.
-- **MIPS Boards:** MIPS Malta Emulation.
-- **Nios II Boards:** Altera MAX10, Altera Nios-II Emulation.
-- **POSIX/Native Boards:** POSIX architecture, Bsim boards, Native POSIX execution.
-- **RISC-V Boards:** Andes, ESP32-C3, GigaDevice, SiFive, and more.
-- **SPARC Boards:** Generic LEON3, GR716-MINI Development Board.
-- **x86 Boards:** Alder Lake N, Elkhart Lake CRB, Intel Integrated Sensor Hub, and more.
-- **Xtensa Boards:** ESP32 series, Intel ADSP series, and more.
+## Features
+
+- **Scalable & Modular Kernel:** Configurable kernel services (threads, semaphores, mutexes, messages queues, etc.) via Kconfig.
+- **Cross-Architecture:** Supports ARM Cortex-M/R/A (32/64-bit), RISC-V (32/64-bit), x86 (32/64-bit), Xtensa, MIPS, NIOS II, SPARC.
+- **Flexible Scheduling:** Includes preemptive/cooperative priority-based scheduling, Earliest Deadline First (EDF), round-robin time-slicing, and meta-IRQ scheduling.
+- **Memory Management:** Dynamic memory allocation (slab/heap), Memory Protection Unit (MPU) support for thread isolation and userspace, stack overflow protection.
+- **Devicetree Integration:** Hardware description language for configuring peripherals and board features.
+- **Unified Device Driver Model:** Consistent API for accessing diverse hardware peripherals.
+- **Power Management:** System and device-level power management framework.
+- **Rich Connectivity:**
+    - Native Networking Stack (LwIP based): TCP/IP (v4/v6), UDP, ICMP, CoAP, LwM2M, MQTT, HTTP, DNS, DHCP.
+    - Bluetooth 5.0 Qualified: Host stack & Controller (Link Layer), BLE Mesh, GAP/GATT, Secure Connections.
+    - Other Wireless: Wi-Fi, LoRaWAN, OpenThread, 802.15.4.
+- **Security:** Designed with security focus, includes features like MPU support, secure boot capabilities (via MCUboot), TLS/DTLS integration (mbedTLS), and a dedicated security subcommittee.
+- **Storage:** Virtual Filesystem (VFS) support with backends like LittleFS, FatFs, NVS (Non-Volatile Storage), FCB (Flash Circular Buffer).
+- **Development Tools:** CMake build system, `west` meta-tool, extensive sample applications, native simulation (`native_sim`), debugging support (GDB, OpenOCD, J-Link).
+- **Logging & Diagnostics:** Powerful logging framework with multiple backends, shell interface with auto-completion, runtime analysis hooks.
+- **SMP Support:** Symmetric Multi-Processing support on multi-core devices.
+- **Permissive Licensing:** Apache 2.0 license for the core OS.
 
 ### Resources
 <!--github-projects-->

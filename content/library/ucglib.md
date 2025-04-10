@@ -6,7 +6,7 @@ code-url: https://github.com/olikraus/ucglib
 site-url: https://github.com/olikraus/ucglib
 date: "2018-08-07 03:56:44"
 last-updated: "2020-01-22"
-star: 269
+star: 272
 licenses:
     - BSD
 ---

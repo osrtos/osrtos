@@ -9,8 +9,6 @@ last-updated: "2019-02-13"
 star: 3
 components:
     - None
-libraries:
-    - None
 licenses:
     - Other
 platforms:

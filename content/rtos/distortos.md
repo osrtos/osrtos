@@ -6,10 +6,8 @@ code-url: https://github.com/DISTORTEC/distortos
 site-url: http://distortos.org/
 date: "2016-11-29 11:36:58"
 last-updated: "2024-11-27"
-star: 444
+star: 452
 components:
-    - None
-libraries:
     - None
 licenses:
     - Mozilla Public License Version 2.0

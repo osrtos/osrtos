@@ -1,15 +1,13 @@
 ---
 title: Hubris
 slug: hubris
-version: sidecar-v1.0.32
+version: sidecar-v1.0.37
 code-url: https://github.com/oxidecomputer/hubris
 site-url: https://github.com/oxidecomputer/hubris
 date: "2023-08-20 11:36:57"
-last-updated: "2024-12-26"
-star: 3062
+last-updated: "2025-04-09"
+star: 3141
 components:
-    - None
-libraries:
     - None
 licenses:
     - MPL-2.0 license

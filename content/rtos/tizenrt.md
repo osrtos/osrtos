@@ -5,8 +5,8 @@ version: 3.0_GBM
 code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 date: "2018-02-11 06:48:49"
-last-updated: "2024-12-27"
-star: 593
+last-updated: "2025-04-10"
+star: 605
 components:
     - FileSystem
     - Network
@@ -16,8 +16,6 @@ components:
     - Command Line Interface
     - gRPC
     - IPv6
-libraries:
-    - None
 licenses:
     - Apache License 2.0
 platforms:

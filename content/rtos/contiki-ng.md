@@ -1,12 +1,12 @@
 ---
 title: Contiki-NG
 slug: contiki-ng
-version: release/v4.9
+version: release/v5.0
 code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2024-11-20"
-star: 1341
+last-updated: "2025-03-27"
+star: 1384
 components:
     - FileSystem
     - Network
@@ -14,8 +14,6 @@ components:
     - Database
     - Simulation
     - Shell
-libraries:
-    - None
 licenses:
     - 3-clause BSD license
 platforms:

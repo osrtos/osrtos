@@ -5,8 +5,8 @@ version: pre_sterly_refactor
 code-url: https://github.com/apache/mynewt-core
 site-url: https://mynewt.apache.org/
 date: "2016-11-29 11:36:58"
-last-updated: "2024-12-20"
-star: 838
+last-updated: "2025-04-09"
+star: 863
 components:
     - BLE
     - LoRaWAN
@@ -15,8 +15,6 @@ components:
     - 6LoWPAN
     - TLS/SSL
     - Runtime Analysis
-libraries:
-    - None
 licenses:
     - Apache License
 platforms:

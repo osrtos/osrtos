@@ -9,8 +9,6 @@ last-updated: "2024-09-11"
 star: 2
 components:
     - None
-libraries:
-    - None
 licenses:
     - MIT license
 platforms:

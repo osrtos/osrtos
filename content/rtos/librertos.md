@@ -6,10 +6,8 @@ code-url: https://github.com/djboni/librertos
 site-url: https://github.com/djboni/librertos
 date: "2016-12-30 09:03:15"
 last-updated: "2023-12-01"
-star: 40
+star: 39
 components:
-    - None
-libraries:
     - None
 licenses:
     - Apache License

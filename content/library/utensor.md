@@ -6,7 +6,7 @@ code-url: https://github.com/uTensor/uTensor
 site-url: https://github.com/uTensor/uTensor
 date: "2019-03-08 01:10:34"
 last-updated: "2024-09-06"
-star: 1745
+star: 1792
 licenses:
     - Apache License 2.0
 ---

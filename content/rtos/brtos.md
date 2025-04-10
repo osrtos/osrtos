@@ -6,10 +6,8 @@ code-url: https://github.com/brtos/brtos
 site-url: https://github.com/brtos/brtos
 date: "2016-11-29 11:36:57"
 last-updated: "2018-03-01"
-star: 75
+star: 78
 components:
-    - None
-libraries:
     - None
 licenses:
     - MIT

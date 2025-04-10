@@ -6,10 +6,8 @@ code-url: https://github.com/kmilo17pet/QuarkTS
 site-url: https://github.com/kmilo17pet/QuarkTS/wiki
 date: "2019-02-27 08:49:25"
 last-updated: "2024-10-28"
-star: 311
+star: 318
 components:
-    - None
-libraries:
     - None
 licenses:
     - LGPL

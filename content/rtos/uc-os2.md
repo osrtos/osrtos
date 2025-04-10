@@ -6,7 +6,7 @@ code-url: https://github.com/SiliconLabs/uC-OS2
 site-url: https://doc.micrium.com/display/ucos/
 date: 2020-05-04 10:22:58+08:00
 last-updated: "2023-01-05"
-star: 580
+star: 615
 components:
     - FileSystem
     - Network
@@ -16,8 +16,6 @@ components:
     - Modbus
     - GUI
     - CAN
-libraries:
-    - None
 licenses:
     - Apache License 2.0
 platforms:

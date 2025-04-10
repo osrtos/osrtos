@@ -6,7 +6,7 @@ code-url: https://github.com/apache/mynewt-nffs
 site-url: https://github.com/apache/mynewt-nffs
 date: "2017-01-05 13:26:05"
 last-updated: "2024-07-31"
-star: 28
+star: 29
 licenses:
     - Apache License
 ---

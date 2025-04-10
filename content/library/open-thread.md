@@ -5,8 +5,8 @@ version: thread-reference-20230706
 code-url: https://github.com/openthread/openthread
 site-url: https://openthread.io/
 date: "2018-02-02 09:19:51"
-last-updated: "2024-12-28"
-star: 3557
+last-updated: "2025-04-08"
+star: 3632
 licenses:
     - BSD
 ---

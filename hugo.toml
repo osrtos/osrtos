@@ -3,7 +3,9 @@ languageCode = "en-us"
 title = "OSRTOS"
 theme = "blowfish"
 
-googleAnalytics = "UA-46054378-1"
+[services]
+  [services.googleAnalytics]
+    id = 'G-19HMY2DH6K'
 
 [taxonomies]
 

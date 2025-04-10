@@ -5,36 +5,74 @@ version: 2.20.0
 code-url: https://github.com/cesanta/mongoose-os
 site-url: https://mongoose-os.com/
 date: "2018-01-24 01:43:59"
-last-updated: "2023-02-23"
-star: 2519
+last-updated: "2025-04-08"
+star: 2547
 components:
-    - FileSystem
-    - Network
-    - TLS/SSL
-libraries:
-    - None
+    - scheduler
+    - task-management
+    - timer-management
+    - network-stack
+    - wifi
+    - http-client
+    - http-server
+    - mqtt-client
+    - tls-ssl
+    - filesystem
+    - ota-update
+    - shell-cli
+    - logging
 licenses:
-    - GPL v2
+    - Apache-2.0
+    - Commercial
 platforms:
-    - ARM
-    - Xtensa
+    - arm-cortex-m
+    - xtensa
 ---
-Mongoose OS - an open source Operating System for Internet of Things. Supported microcontrollers: ESP32, ESP8266, CC3220, CC3200, STM32F4. Amazon AWS IoT & Google IoT Core integrated. Code in C or JavaScript.
+Mongoose OS is an open-source IoT firmware development framework designed for resource-constrained microcontrollers like ESP32, ESP8266, STM32, and TI CC32xx series. It enables rapid development with support for both C/C++ and JavaScript (via its embedded mJS engine). Key features include reliable Over-the-Air (OTA) updates with rollback, built-in security features like flash encryption and TLS, and seamless integration with major cloud platforms (AWS IoT, Google Cloud IoT, Azure IoT) and MQTT servers. It comes with the `mos` command-line tool for simplified building, flashing, and device management.
 
 <!--more-->
 
-### Features
+Mongoose OS provides a comprehensive environment for building connected embedded products. It aims to reduce development time and complexity by offering pre-built libraries, a configuration framework, remote procedure call (RPC) capabilities, and integrated device management through its companion cloud service, mDash.
 
-- Over-The-Air updates and remote management - OTA firmware updates with rollback on failures; RPC infrastructure for the full remote control;
-- Security - built in flash encryption, crypto chip support ARM mbedTLS optimized for small memory footprint;
-- Device management dashboard service	- for tracking your fleet. On-prem option is available;
-- Supported microcontrollers: CC3220, CC3200, ESP32, ESP8266, STM32F4;
-- Recommended dev kits: ESP32-DevKitC for AWS IoT, ESP32 Kit for Google IoT Core;
-- IoT cloud integration. Built in support for: AWS IoT, Google IoT Core, Microsoft Azure, Samsung Artik, Adafruit IO, Generic MQTT/Restful;
-- Code in C or JavaScript;
-- Ready to go Apps and Libraries;
-- Embedded JavaScript engine - mJS;
+The framework is built upon a real-time kernel (FreeRTOS for most ports, except ESP32 which uses its specific version) providing standard OS services. Developers can leverage the `mos` tool, which offers both a command-line interface and a web UI, to manage the entire development lifecycle: cloning example projects, building firmware, flashing devices, configuring settings (like Wi-Fi credentials), and interacting with device services remotely.
 
+Security is a core aspect, with support for encrypted file systems, secure boot, crypto-chip integration, and an optimized mbedTLS library for secure communication. The OTA update mechanism is designed for reliability, ensuring devices can be updated securely and efficiently in the field, with automatic rollback if an update fails.
+
+Mongoose OS supports development in both C/C++ for performance-critical tasks and JavaScript (using the lightweight `mJS` engine) for application logic, offering flexibility to developers. It has built-in support for popular communication protocols like MQTT, HTTP, and WebSockets, facilitating easy connection to cloud services and backend systems.
+
+The project is dual-licensed, offering a free Apache 2.0 licensed Community Edition and a commercially licensed Enterprise Edition with additional features and support options. It's recognized and recommended by major industry players like AWS, Google Cloud, Microsoft Azure, Texas Instruments, and STMicroelectronics.
+
+## Features
+
+-   **Multi-Language Development:** Supports application development in both C/C++ and JavaScript (via embedded mJS engine).
+-   **Over-The-Air (OTA) Updates:** Reliable OTA firmware updates with rollback capability.
+-   **Security:** Built-in support for flash encryption, crypto chips, and optimized mbedTLS.
+-   **Cloud Integration:** Native support for AWS IoT, Google Cloud IoT Core, Microsoft Azure IoT, Adafruit IO, and generic MQTT/REST backends.
+-   **Remote Management:** Device management via mDash cloud service or custom solutions using RPC.
+-   **Cross-Platform:** Supports popular MCUs including ESP32, ESP8266, STM32 (F4, L4, F7), TI CC3200/CC3220.
+-   **Rich Connectivity:** Includes libraries for WiFi, MQTT, HTTP, WebSockets, DNS, SNTP.
+-   **Configuration Management:** Flexible device configuration system accessible via CLI or RPC.
+-   **RPC Framework:** Enables remote invocation of device functions over serial, MQTT, HTTP.
+-   **Filesystem Support:** On-device filesystem for storing configuration and assets.
+-   **`mos` Tool:** Unified command-line tool (with optional Web UI) for build, flash, configuration, and communication.
+-   **Embedded JavaScript Engine (mJS):** Lightweight engine for scripting device logic.
+-   **Dual Licensing:** Available under Apache 2.0 (Community) or Commercial (Enterprise) licenses.
+
+## Components
+
+-   **scheduler:** Core task scheduling (provided by underlying RTOS like FreeRTOS).
+-   **task-management:** Task creation and management primitives.
+-   **timer-management:** Software timers for scheduling events.
+-   **network-stack:** Integrated networking capabilities (likely leveraging Mongoose library).
+-   **wifi:** Configuration and management of Wi-Fi connectivity.
+-   **http-client:** Making HTTP(S) requests.
+-   **http-server:** Serving web content from the device.
+-   **mqtt-client:** Connecting and communicating with MQTT brokers.
+-   **tls-ssl:** Secure communication using mbedTLS.
+-   **filesystem:** Managing files on the device's storage.
+-   **ota-update:** Core component for firmware updates.
+-   **shell-cli:** Interaction via the `mos` command-line tool.
+-   **logging:** System and application logging framework.
 
 ### Sample projects and resources
 <!--github-projects-->
