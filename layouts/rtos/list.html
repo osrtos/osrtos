@@ -76,7 +76,7 @@
             <tr>
               <th class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200 sm:pl-0">Name</th>
               <th class="px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200">License</th>
-              <th class="px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200 hidden md:table-cell">Platforms</th>
+              <th class="min-w-40 px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200 hidden md:table-cell">Platforms</th>
               <th class="px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200 hidden md:table-cell">Components</th>
               <th class="px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200">Version</th>
               <th class="min-w-28 px-3 py-3.5 text-left text-sm font-semibold text-neutral-900 dark:text-neutral-200">Links</th>
@@ -104,13 +104,15 @@
                 </td>
                 <td class="px-3 py-4 md:px-4 md:py-5 text-sm text-neutral-500 dark:text-neutral-400 hidden md:table-cell">
                   {{ with .Params.platforms }}
-                    <div class="flex flex-wrap gap-2">
+                    <ul class="list-none p-0 m-0 space-y-2">
                       {{ range . }}
                         {{ if (ne . "None")}}
-                          <span class="bg-neutral-200 dark:bg-neutral-600 text-neutral-800 dark:text-neutral-200 text-xs px-2 py-1 rounded">{{ . }}</span>
+                          <li>
+                            <span class="bg-neutral-200 dark:bg-neutral-600 text-neutral-800 dark:text-neutral-200 text-xs px-2 py-1 rounded">{{ . }}</span>
+                          </li>
                         {{ end }}
                       {{ end }}
-                    </div>
+                    </ul>
                   {{ end }}
                 </td>
                 <td class="px-3 py-4 md:px-4 md:py-5 text-sm text-neutral-500 dark:text-neutral-400 hidden md:table-cell">

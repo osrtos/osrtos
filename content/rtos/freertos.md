@@ -5,57 +5,89 @@ version: "202411.00"
 code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2025-04-08"
-star: 5863
+last-updated: "2025-04-21"
+star: 5918
 components:
-    - FileSystem
-    - Network
-    - TLS/SSL
-    - Command Line Interface
-    - Runtime Analysis
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - network-stack
+    - mqtt-client
+    - http-client
+    - tls-ssl
+    - ota-update
+    - logging
+    - runtime-analysis
+    - smp-support
 licenses:
     - MIT
 platforms:
-    - MSP430
-    - ARM
-    - AVR
-    - ColdFire
-    - PIC
+    - arm-cortex-m
+    - arm-cortex-a
+    - arm-cortex-r
+    - risc-v
+    - xtensa
     - x86
+    - mips
+    - powerpc
+    - avr
+    - pic
+    - "8051"
+    - msp430
+    - posix
+    - qemu
 ---
-FreeRTOS is a market leading RTOS from Amazon Web Services that supports more than 35 architectures. It is distributed under the MIT license.
+FreeRTOS is a market-leading real-time operating system (RTOS) for microcontrollers and small microprocessors. Distributed freely under the MIT open source license, it includes a kernel and a growing set of libraries suitable for use across industry sectors and applications. Amazon Web Services (AWS) took stewardship of the FreeRTOS kernel in 2016, ensuring its continued development and support. FreeRTOS is built with an emphasis on reliability, ease of use, and includes numerous libraries for connectivity, security, and over-the-air (OTA) updates, making it a popular choice for IoT and embedded systems development.
 
 <!--more-->
 
-### Features
+Originally developed by Richard Barry around 2003, FreeRTOS has become a de facto standard in the embedded industry. Since AWS took stewardship, FreeRTOS development continues openly on GitHub, with contributions from a large community and AWS engineers. It remains hardware, development tool, and cloud-neutral.
 
-- Free RTOS scheduler - preemptive, cooperative and hybrid configuration options, with optional time slicing.
-- The SafeRTOS derivative product provides a high level of confidence in the code integrity.
-- Includes a tickless mode for low power applications.
-- RTOS objects (tasks, queues, semaphores, software timers, mutexes and event groups) can be created using either dynamically or statically allocated RAM.
-- Tiny footprint.
-- Official support for >30 embedded system architectures (counting ARM7 and ARM Cortex-M3 as one architecture each).
-- FreeRTOS-MPU supports the ARM Cortex-M3 Memory Protection Unit (MPU).
-- Designed to be small, simple and easy to use. Typically a RTOS kernel binary image will be in the region of 4K to 9K bytes.
-- Very portable source code structure, predominantly written in C.
-- Supports both real time tasks and co-routines.
-- Direct to task notifications, queues, binary semaphores, counting semaphores, recursive semaphores and mutexes for communication and synchronisation between tasks, or between real time tasks - and interrupts.
-- Innovative event group (or event flag) implementation.
-- Mutexes with priority inheritance.
-- Efficient software timers.
-- Powerful execution trace functionality.
-- Stack overflow detection options.
-- Pre-configured RTOS demo applications for selected single board computers allowing 'out of the box' operation and fast learning curve.
-- Free monitored forum support, or optional commercial support and licensing.
-- No software restriction on the number of real time tasks that can be created.
-- No software restriction on the number of task priorities that can be used.
-- No restrictions imposed on task priority assignment - more than one real time task can be assigned the same priority.
-- Free development tools for many supported architectures.
-- Free embedded software source code.
-- Royalty free.
-- Cross development from a standard Windows host.
+The FreeRTOS kernel provides core RTOS functionality including task scheduling (pre-emptive, co-operative, time-sliced), inter-task communication (queues, semaphores, mutexes, event groups, task notifications), timer management, and memory management (with multiple heap implementations). It supports a vast number of microcontroller architectures.
 
-### Sample projects and resources
+Beyond the kernel, the FreeRTOS ecosystem includes libraries such as FreeRTOS+TCP (a lightweight TCP/IP stack), coreMQTT, coreHTTP, corePKCS11, and integrations with security libraries like Mbed TLS and wolfSSL. AWS provides libraries for seamless integration with AWS IoT services, covering OTA updates, Device Shadow, Device Defender, and more. FreeRTOS also supports Symmetric Multiprocessing (SMP) on multi-core processors.
+
+The project emphasizes quality control, robustness, and long-term support (LTS) releases. Commercial licensing and support options are available through strategic partners like WITTENSTEIN high integrity systems (OpenRTOS/SafeRTOS) for users requiring additional guarantees or indemnification.
+
+## Features
+
+-   **Choice of Scheduling Algorithms:** Supports pre-emptive, co-operative, and optional time-slicing configurations.
+-   **Flexible Task Management:** Includes creation, deletion, priority assignment, and state management (Ready, Running, Blocked, Suspended).
+-   **Rich Inter-Task Communication (ITC):** Provides Queues, Binary Semaphores, Counting Semaphores, Mutexes (with Priority Inheritance), Recursive Mutexes, Event Groups, Stream Buffers, and Message Buffers.
+-   **Direct-to-Task Notifications:** Offers a lightweight and fast alternative for ITC and synchronization.
+-   **Software Timers:** Supports one-shot and auto-reload software timers managed by a dedicated timer service task.
+-   **Flexible Memory Management:** Offers both static and dynamic memory allocation options, including five sample heap implementations (heap_1 to heap_5).
+-   **Interrupt Management:** Provides interrupt-safe API functions, deferred interrupt processing mechanisms, and support for interrupt nesting on capable ports.
+-   **Symmetric Multiprocessing (SMP) Support:** Enables scheduling tasks across multiple identical processor cores.
+-   **Resource Management:** Includes features like critical sections, scheduler suspension (locking), and support for the Gatekeeper task pattern to manage shared resources.
+-   **Low Power Support:** Features include the Idle task hook for custom power saving and a tickless idle mode to stop the tick interrupt during idle periods.
+-   **Stack Overflow Detection:** Offers multiple mechanisms to detect task stack overflows during runtime.
+-   **Optional MPU Support:** Provides support for Memory Protection Units on certain architectures to enhance application safety and robustness.
+-   **Runtime Analysis and Tracing:** Includes hooks for tracing kernel events and gathering task run-time statistics.
+-   **Thread Local Storage:** Supports standard C library reentrancy (newlib, picolibc) and application-specific thread local storage pointers.
+-   **Extensive Platform Support:** Officially supports over 40 microcontroller architectures and multiple compilers.
+
+## Components
+
+The FreeRTOS distribution includes the kernel and various supplementary libraries:
+
+-   **FreeRTOS Kernel:** The core real-time scheduler and task management component.
+-   **Inter-Task Communication:** Queues, Semaphores (Binary, Counting, Mutex, Recursive), Event Groups, Task Notifications, Stream Buffers, Message Buffers.
+-   **Memory Management:** Various heap implementations (heap_1 through heap_5).
+-   **Software Timers:** Kernel-managed software timers.
+-   **FreeRTOS+TCP:** A lightweight, embedded TCP/IP stack (IPv4 and IPv6).
+-   **coreMQTT:** Client implementation for the MQTT 3.1.1 specification.
+-   **coreHTTP:** Client implementation for HTTP/1.1.
+-   **coreJSON:** Parser for JSON documents.
+-   **corePKCS11:** API for cryptographic objects based on the PKCS#11 standard.
+-   **AWS IoT Libraries:** Components for Over-the-air Updates (OTA), Device Shadow, Jobs, Device Defender, Fleet Provisioning.
+-   **Security:** Integrations with Mbed TLS and wolfSSL for TLS/SSL functionality.
+-   **Other Utilities:** Backoff Algorithm, coreSNTP, SigV4 client, Logging.
+-   **Cellular Interface:** Library for interfacing with cellular modems.
+
+## Resources
 
 - [FreeRTOS Ported to Raspberry Pi](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS). This project provides a very basic port of FreeRTOS to Raspberry pi. It includes a demo application that use 2 FreeRTOS tasks to flash the LED on and off.
 - [DuinOS](https://code.google.com/p/duinos/). DuinOS is a small multithreading real time operating system (RTOS), based on the FreeRTOS kernel, for Arduino compatible boards.It's installed as an Arduino core, and currently supports the following AVR processors:

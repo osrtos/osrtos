@@ -5,40 +5,103 @@ version: v5.2.0
 code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2025-04-10"
-star: 10984
+last-updated: "2025-04-27"
+star: 11054
 components:
-    - FileSystem
-    - Network
-    - AT Commands
-    - Command Line Interface
-    - Runtime Analysis
-    - USBHost
-    - USBDevice
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - filesystem
+    - shell-cli
+    - network-stack
+    - http-client
+    - mqtt-client
+    - tls-ssl
+    - usb-host
+    - usb-device
+    - can
+    - modbus
+    - gui
+    - logging
+    - ota-update
+    - runtime-analysis
+    - simulation
+    - at-command
+    - wifi
+    - ble
+    - lorawan
+    - 6lowpan
+    - coap
+    - ftp-client
+    - dns-client
+    - dhcp-client
 licenses:
     - Apache-2.0
+    - GPL-2.0
 platforms:
-    - ARM
+    - arm-cortex-m
+    - arm-cortex-r
+    - arm-cortex-a
+    - risc-v
+    - mips
+    - xtensa
     - x86
-    - MIPS
-    - PowerPC
-    - RISC-V
-    - Andes
+    - qemu
+    - posix
 ---
-RT-Thread is an open source real-time operating system for embedded devices from China. RT-Thread RTOS is a scalable real-time operating system: a tiny kernel for ARM Cortex-M0, Cortex-M3/4, or a full feature system in ARM Cortex-A8, ARM Cortex-A9 DualCor
+RT-Thread is an open-source, community-driven embedded real-time operating system (RTOS) established in 2006, primarily targeting IoT and diverse embedded applications. It offers both a standard version for feature-rich devices and a lightweight Nano version requiring minimal resources (3KB Flash, 1.2KB RAM). RT-Thread features a modular architecture with a real-time kernel, extensive middleware components (like filesystems, networking, GUI), and a rich package ecosystem. It emphasizes ease of porting across various MCU architectures (ARM, RISC-V, MIPS, etc.) and provides development tools like RT-Thread Studio and Env for configuration and building.
 
 <!--more-->
 
-### Features
+RT-Thread is designed as a comprehensive platform for embedded systems, particularly in the Internet of Things (IoT) domain. Born in 2006, it has evolved from a pure real-time kernel into a feature-rich operating system with a strong emphasis on components and connectivity.
 
-- Object oriented real-time core (while remaining the elegant and flexible style of C Programming Language);
-- 8, 32 or 256 priority scheduling multi-thread scheduling; Using the round-robin policy ensures that all threads having the same priority level will be scheduled equally;
-- Synchronization of threads: semaphore and mutual exclusion semaphore (mutex) to prevent priority inversion;
-- Complete and efficient support for communication between threads, including mailbox, message queues, event flag;
-- Static memory management supports thread suspend/resume when it allocates/frees a memory block and thread-safe dynamic heap management;
-- A device driver framework to provide standard interface to high level application;
+**Architecture:**
 
-### Sample projects and resources
+RT-Thread's architecture is layered:
+
+1.  **Kernel Layer:** Provides core RTOS functionalities including multi-threading scheduling (priority-based preemptive and time-slicing), clock management, memory management (static pools, dynamic heaps with multiple algorithms like small memory and SLAB), and inter-thread communication (semaphores, mutexes with priority inheritance, event sets, mailboxes, message queues, signals). It also includes the CPU porting layer (libcpu) and Board Support Packages (BSP) for hardware adaptation.
+2.  **Components & Service Layer:** Builds upon the kernel, offering essential middleware like the Device Virtual File System (DFS), FinSH command-line interface, networking frameworks (e.g., LwIP), a unified device driver framework, logging, and more. These components are designed with modularity and low coupling.
+3.  **Software Packages:** A crucial part of the RT-Thread ecosystem, offering over 450 reusable software components for various domains like IoT protocols (MQTT, CoAP, HTTP), scripting (MicroPython, JerryScript), multimedia, tools (EasyFlash, SystemView), system utilities (RTGUI, Persimmon UI, SQLite), and peripheral libraries. These packages can be managed and integrated using RT-Thread's tools.
+
+**Versions:**
+
+*   **Standard Version:** For resource-rich devices, leveraging the full component and package ecosystem.
+*   **Nano Version:** A highly configurable, minimal kernel footprint version (as low as 3KB Flash, 1.2KB RAM) suitable for resource-constrained MCUs.
+
+**Development Tools:**
+
+*   **RT-Thread Studio:** A dedicated one-stop IDE based on Eclipse, offering project creation, graphical configuration (replacing manual rtconfig.h editing), code editing, SDK management, building, debugging, and package management.
+*   **Env Tool:** A command-line based auxiliary tool providing configuration (menuconfig), package management (`pkgs`), and project generation for GCC, Keil MDK, and IAR environments.
+
+**Licensing:** Since version 3.1.0, RT-Thread follows the permissive Apache License 2.0, making it suitable for commercial applications without requiring source code disclosure. Earlier versions used the GPLv2 license.
+
+## Features
+
+- **Small Footprint:** Nano version requires only 1.2KB RAM and 3KB Flash.
+- **Real-time Kernel:** Priority-based preemptive scheduler, 256 priorities (configurable), time-slicing for same-priority threads.
+- **Rich Components:** Includes Filesystem (DFS), Command-line Interface (FinSH), Network Stack (LwIP), Device Driver Framework.
+- **Extensive Package Ecosystem:** Over 450+ packages for IoT, scripting, multimedia, tools, system, and peripherals.
+- **Memory Management:** Supports static memory pools and dynamic memory heaps (multiple algorithms like small memory, SLAB, memheap).
+- **Inter-Thread Communication:** Provides Semaphores, Mutexes (with priority inheritance), Event Sets, Mailboxes, Message Queues, Signals.
+- **Timer Management:** Offers one-shot and periodic timers, supporting HARD (interrupt context) and SOFT (thread context) modes.
+- **Device Management:** Unified device model for peripherals like UART, SPI, I2C, USB, CAN etc.
+- **POSIX Compatibility:** Provides a standard POSIX API layer (pthreads, semaphore, message queue).
+- **Wide Architecture Support:** Runs on ARM Cortex-M/R/A, RISC-V, MIPS, Xtensa, x86, and more.
+- **Development Tools:** Includes RT-Thread Studio IDE and Env command-line tool with menuconfig.
+- **Licensing:** Apache License 2.0 (commercial friendly).
+
+## Components
+
+- **Kernel:** scheduler, task-management, inter-task-communication, memory-management, timer-management
+- **File System:** filesystem (DFS, FAT, LittleFS, etc.), database (SQLite via package)
+- **Networking:** network-stack (LwIP), http-client, http-server, mqtt-client, coap, ftp-client, ftp-server, dhcp-client, dns-client, tls-ssl, wifi, ble, lorawan, 6lowpan
+- **Peripherals:** can, modbus, usb-host, usb-device, at-command
+- **Tools:** shell-cli (FinSH), logging, ota-update, runtime-analysis (SystemView integration), simulation (QEMU)
+- **GUI:** gui (RTGUI, Persimmon UI)
+
+## Resources
 
 - [ART](https://github.com/RT-Thread/ART). ART is an Arduino like board with STM32F407VGT6 (ARM Cortex-M4) chip. RT-Thread RTOS is running as a platform in this board. Arduino hardware/software compatible. 32bit ARM Cortex-M4 with FPU. Running multi-Arduino Program in parallel.
 <!--github-projects-->

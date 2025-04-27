@@ -5,28 +5,75 @@ version: 13.0.0
 code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 date: "2017-04-29 08:18:58"
-last-updated: "2025-04-04"
-star: 4878
+last-updated: "2025-04-27"
+star: 4894
 components:
-    - None
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - smp-support
+    - runtime-analysis
+    - simulation
+    - logging
 licenses:
-    - GPL v2
+    - GPL-2.0-only
+    - BSD-2-Clause
 platforms:
-    - ARM
+    - aarch32
+    - aarch64
+    - arm-cortex-a
     - x86
-    - RISC-V
+    - x86-64
+    - risc-v
+    - qemu
 ---
-The world's first operating-system kernel with an end-to-end proof of implementation correctness and security enforcement is available as open source.
+seL4 is the world's first operating system kernel with a formal proof of implementation correctness and security enforcement (confidentiality, integrity, availability). It is a high-assurance, high-performance microkernel designed for security and safety-critical systems. Its minimal kernel design minimizes the attack surface, and its capability-based access control mechanism provides fine-grained control over system resources, enabling strong isolation between components. seL4 is developed and maintained by the seL4 Foundation as an open-source project.
 
 <!--more-->
 
-### Features
+seL4 stands out in the embedded OS landscape due to its rigorous focus on formal verification. It belongs to the L4 family of microkernels, emphasizing minimality, high performance, and flexible user-level construction of system services. The core kernel provides fundamental mechanisms for scheduling, inter-process communication (IPC), memory management via capabilities, and interrupt handling. All other system services, like device drivers, file systems, and network stacks, run as isolated user-level processes.
 
-- seL4 is a high-assurance, high-performance microkernel developed, maintained and formally verified by NICTA (now the Trustworthy Systems Group at Data61) and owned by General Dynamics C4 Systems. It is a member of the L4 family of microkernels, and is the world's most advanced, highest-assured operating-system microkernel.
-- seL4's implementation is formally (mathematically) proved correct (bug-free) against its specification, is proved to enforce strong security properties, and its operations have proved save upper bounds on their worst-case execution times.
+The formal verification proofs cover functional correctness (the C code behaves exactly as specified), integrity (enforcement of kernel data structure invariants), and confidentiality (information cannot leak between isolated components). This provides an unprecedented level of assurance against bugs and security vulnerabilities within the kernel itself.
 
+Key features include:
+*   **Capability-Based Security:** Objects and access rights are managed through unforgeable capabilities, preventing unauthorized access by default.
+*   **High Performance:** Optimized IPC paths and minimal kernel overhead ensure efficient communication and execution.
+*   **Mixed-Criticality Systems (MCS):** Extensions allow for guaranteed scheduling budgets and periods, enabling the co-existence of critical and non-critical tasks on the same hardware.
+*   **Virtualization Support:** Includes support for ARM HYP mode and Intel VTX, allowing secure hosting of virtual machines. IOMMU (ARM SMMU, Intel VT-d) support is available through user-level components like the CAmkES VMM.
+*   **Multi-core (SMP) Support:** Allows seL4 systems to leverage multi-core processors.
 
-### Sample projects and resources
+The seL4 ecosystem includes user-level libraries, device drivers, the CAmkES component framework for building static systems, and the Microkit framework for simplified system construction. It supports ARM (32/64-bit), x86 (32/64-bit), and RISC-V (32/64-bit) architectures, along with QEMU simulation targets.
+
+## Features
+
+- **Formally Verified Kernel:** Guarantees implementation correctness, security enforcement (confidentiality, integrity), and binary correctness against its specification.
+- **Capability-Based Security:** Provides fine-grained access control and strong isolation through unforgeable capabilities.
+- **High Performance:** Optimized IPC mechanisms and minimal kernel overhead.
+- **Microkernel Design:** Reduces attack surface by implementing most services in user space.
+- **Mixed Criticality Systems (MCS):** Supports time and resource partitioning for tasks with different criticality levels (verified for specific configurations).
+- **Hardware Virtualization Support:** Enables secure execution of virtual machines (ARM HYP, x86 VTX).
+- **IOMMU Support:** User-level support for ARM SMMU and Intel VT-d via frameworks like CAmkES.
+- **Multi-core (SMP) Support:** Enables scheduling across multiple CPU cores.
+- **User-level Device Drivers:** Enhances system security and modularity.
+- **Architecture Support:** Runs on ARMv7/v8 (AArch32/AArch64), IA32/x86-64, and RISC-V (RV32/RV64) architectures.
+- **Open Source:** Kernel licensed under GPLv2, core libraries under BSD. Managed by the seL4 Foundation.
+- **Debugging and Benchmarking:** Includes kernel debugging features and performance benchmarking tools.
+
+## Components
+
+- **Scheduler:** Core scheduling mechanism, supports fixed-priority and MCS scheduling.
+- **Task Management:** Manages threads via TCB (Thread Control Block) objects.
+- **Inter-task Communication:** Synchronous IPC via Endpoints, asynchronous signaling via Notifications.
+- **Memory Management:** Capability-based management of memory (Untyped Memory, Frames, VSpaces).
+- **Timer Management:** Requires user-level timer drivers (e.g., via `libplatsupport`).
+- **SMP Support:** Kernel mechanisms for multi-core operation and synchronization.
+- **Runtime Analysis:** Benchmarking syscalls (`seL4_Benchmark*`) and debug syscalls (`seL4_Debug*`).
+- **Simulation:** Supported on QEMU for various architectures.
+- **Logging:** Basic kernel debug printing (`seL4_DebugPutChar`) and benchmark logging capabilities.
+
+## Resources
 
 <!--github-projects-->
 - [RISC-V-Guide](https://github.com/mikeroyal/RISC-V-Guide). RISC-V Guide. Learn all about the RISC-V computer architecture along with the Development Tools and Operating Systems to develop on RISC-V hardware..

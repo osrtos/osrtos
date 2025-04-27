@@ -6,7 +6,7 @@ code-url: https://github.com/ARMmbed/mbed-os
 site-url: https://www.mbed.com/
 date: "2016-11-29 11:36:58"
 last-updated: "2024-10-08"
-star: 4735
+star: 4743
 components:
     - BLE
     - LoRaWAN

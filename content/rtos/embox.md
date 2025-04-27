@@ -1,12 +1,12 @@
 ---
 title: embox
 slug: embox
-version: v0.6.5
+version: v0.6.6
 code-url: https://github.com/embox/embox
 site-url: https://github.com/embox/embox
 date: "2017-03-18 01:28:16"
-last-updated: "2025-04-09"
-star: 1361
+last-updated: "2025-04-26"
+star: 1368
 components:
     - scheduler
     - task-management

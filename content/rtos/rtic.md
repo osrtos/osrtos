@@ -5,33 +5,65 @@ version: v2.1.1
 code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-03"
-star: 1941
+last-updated: "2025-04-07"
+star: 1960
+components:
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - logging
+    - runtime-analysis
+    - simulation
 licenses:
-    - Apache License, Version 2.0
-    - MIT license
+    - Apache-2.0
+    - MIT
 platforms:
-    - ARM
+    - arm-cortex-m
+    - risc-v
+    - qemu
 ---
-RIOT, the hardware accelerated Rust RTOS. A concurrency framework for building real-time systems.
+RTIC (Real-Time Interrupt-driven Concurrency) is a concurrency framework for Rust designed for building real-time embedded systems. It leverages hardware features like the NVIC (on ARM Cortex-M) or CLIC (on RISC-V) for highly efficient, preemptive task scheduling, minimizing software overhead. Built upon the Stack Resource Policy (SRP), RTIC provides compile-time guarantees against data races and deadlocks for shared resources. It features distinct hardware tasks (interrupt handlers) and asynchronous software tasks (`async`/`await`), promoting efficient memory usage through a shared stack and static allocation focus. RTIC offers a zero-cost abstraction for safe and predictable concurrency on microcontrollers.
 
 <!--more-->
 
-### Features
+RTIC, standing for Real-Time Interrupt-driven Concurrency, positions itself as a "hardware-accelerated Rust RTOS" or concurrency framework, depending on perspective. Unlike traditional RTOS kernels that rely heavily on software for scheduling, RTIC utilizes underlying hardware mechanisms (like ARM Cortex-M's NVIC or RISC-V's interrupt controllers) to manage task scheduling and preemption based on static priorities. This approach leads to minimal scheduling overhead and predictable performance.
 
-- Tasks as the unit of concurrency 1. Tasks can be event triggered (fired in response to asynchronous stimuli) or spawned by the application on demand.
-- Message passing between tasks. Specifically, messages can be passed to software tasks at spawn time.
-- A timer queue 2. Software tasks can be scheduled to run at some time in the future. This feature can be used to implement periodic tasks.
-- Support for prioritization of tasks and, thus, preemptive multitasking.
-- Efficient and data race free memory sharing through fine-grained priority based critical sections 1.
-- Deadlock free execution guaranteed at compile time. This is a stronger guarantee than what's provided by the standard Mutex abstraction.
-- Minimal scheduling overhead. The task scheduler has minimal software footprint; the hardware does the bulk of the scheduling.
-- Highly efficient memory usage: All the tasks share a single call stack and there's no hard dependency on a dynamic memory allocator.
-- All Cortex-M devices are fully supported.
-- This task model is amenable to known WCET (Worst Case Execution Time) analysis and scheduling analysis techniques.
+The core of RTIC's safety model is the Stack Resource Policy (SRP). By analyzing task priorities and resource usage at compile time, RTIC enforces SRP rules to guarantee deadlock-free and data-race-free access to shared resources without requiring complex runtime locking mechanisms in many cases. Resource access is managed through priority-based critical sections (`lock` API), ensuring bounded priority inversion and maintaining system predictability.
 
+RTIC applications are structured around tasks:
+*   **`#[init]`**: Runs once at startup with interrupts disabled to initialize peripherals and resources.
+*   **`#[idle]`**: The lowest priority task, runs when no other task is ready. Often used for power saving (`wfi`).
+*   **Hardware Tasks**: Functions bound directly to hardware interrupt vectors (`#[task(binds = InterruptName)]`). They handle asynchronous hardware events.
+*   **Software Tasks**: Asynchronous functions (`async fn`) spawned programmatically (`task::spawn()`). They allow for sequential logic broken by `await` points (yields) and are scheduled by hardware interrupt dispatchers.
 
-### Sample projects and resources
+Resource management distinguishes between:
+*   **`#[local]` resources**: Owned exclusively by a single task, allowing direct, lock-free access.
+*   **`#[shared]` resources**: Can be accessed by multiple tasks. Access requires using the `lock` API, which creates a priority ceiling-based critical section, or can be lock-free if only accessed by tasks of the same priority or accessed immutably.
+
+RTIC integrates seamlessly with Rust's `async`/`await` syntax for software tasks, providing ergonomic ways to handle delays, timeouts, and inter-task communication. Time management is handled by the `rtic-monotonics` crate, offering implementations for various hardware timers (like Systick) conforming to the `rtic-time::Monotonic` trait. Inter-task communication and asynchronous synchronization are facilitated by primitives in the `rtic-sync` crate, such as `Channel` for message passing.
+
+Designed for resource-constrained environments, RTIC applications typically share a single call stack and avoid dynamic memory allocation by default, promoting high memory efficiency. It supports all ARM Cortex-M variants (with specific handling for architectures lacking `BASEPRI`) and provides multiple backends for the heterogeneous RISC-V ecosystem.
+
+## Features
+
+- **Hardware-Accelerated Scheduling**: Utilizes NVIC/CLIC for low-overhead, preemptive task scheduling based on static priorities.
+- **Stack Resource Policy (SRP)**: Provides compile-time guarantees against deadlocks and data races for shared resources.
+- **Preemptive Multitasking**: Supports task preemption based on fixed priorities.
+- **Memory Efficient**: Tasks share a single call stack; promotes static memory allocation (`heapless`).
+- **Asynchronous Software Tasks**: Leverages Rust's `async`/`await` for ergonomic concurrency in software tasks.
+- **Hardware Tasks**: Direct binding of tasks to hardware interrupt handlers.
+- **Flexible Resource Management**: Clear distinction and safe access mechanisms for `local` and `shared` resources.
+- **Priority Ceiling Emulation**: Guarantees bounded priority inversion via `lock` API critical sections (ICPP/SRP).
+- **Lock-Free Optimizations**: Allows lock-free access to shared resources under specific conditions (same priority, immutable access).
+- **Monotonic Timers**: Integration with `rtic-monotonics` for precise scheduling (`delay`, `delay_until`) and timeouts (`timeout_after`, `timeout_at`).
+- **Cross-Architecture Support**: Full support for ARM Cortex-M (v6/v7/v8-M) and broad support for RISC-V via dedicated backends.
+- **Zero-Cost Abstraction**: Aims to introduce minimal runtime overhead compared to equivalent hand-written interrupt-safe code.
+- **Inter-Task Communication**: Provides `rtic-sync::Channel` for robust message passing between tasks.
+- **Compile-Time Safety**: Catches many concurrency errors during compilation rather than at runtime.
+
+## Resources
 
 - [STM32WL Lightswitch Demo](https://github.com/newAM/stm32wl-lightswitch-demo). This is a demo project for the stm32wl-hal.
 <!--github-projects-->

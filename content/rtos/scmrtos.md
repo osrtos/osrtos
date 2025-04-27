@@ -6,7 +6,7 @@ code-url: https://github.com/scmrtos/scmrtos
 site-url: https://github.com/scmrtos/scmrtos
 date: "2016-11-29 11:36:58"
 last-updated: "2021-02-04"
-star: 227
+star: 231
 components:
     - None
 licenses:

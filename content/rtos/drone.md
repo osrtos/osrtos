@@ -6,7 +6,7 @@ code-url: https://github.com/drone-os/drone-core
 site-url: https://www.drone-os.com/
 date: 2020-02-25 11:37:19+08:00
 last-updated: "2022-11-20"
-star: 479
+star: 481
 components:
     - None
 licenses:

@@ -5,41 +5,82 @@ version: release-2.2
 code-url: https://github.com/tock/tock
 site-url: https://github.com/tock/tock
 date: "2019-02-12 05:45:10"
-last-updated: "2025-04-09"
-star: 5725
+last-updated: "2025-04-23"
+star: 5751
 components:
-    - None
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - logging
+    - dynamic-loading
+    - filesystem
 licenses:
-    - Apache License 2.0
+    - Apache-2.0
+    - MIT
 platforms:
-    - ARM
-    - RISC-V
+    - arm-cortex-m
+    - risc-v
 ---
-Tock is a secure embedded operating system designed for Cortex-M and RISC-V microcontrollers. It focuses on providing isolation between components, ensuring safety and security. The Tock kernel and its extensions, known as capsules, are written in Rust, a systems programming language known for its memory safety and type safety features. Tock supports multiple, independent untrusted processes, which can be written in any language. The system is designed to be preemptive, using a round-robin scheduling policy, and offers a microkernel architecture.
+Tock is an embedded operating system designed for running multiple concurrent, mutually distrustful applications on ARM Cortex-M and RISC-V microcontrollers. Its core design prioritizes safety and reliability, utilizing Rust's compile-time guarantees to protect the kernel and drivers, and hardware Memory Protection Units (MPUs) to isolate applications. Tock introduces a unique architecture dividing components into kernel-space "capsules" (Rust-based, cooperatively scheduled, minimal overhead) and user-space "processes" (MPU-isolated, preemptively scheduled, can be written in any language and loaded dynamically). This approach enables robust, secure applications on resource-constrained devices like wearables and IoT nodes.
 
 <!--more-->
 
-### Features
+## Architecture and Core Concepts
 
-- Language-Based Isolation: Tock uses Rust for the kernel and capsules, ensuring compile-time memory safety and type safety. This prevents many common vulnerabilities like buffer overflows.
+Tock's architecture aims to provide strong isolation guarantees suitable for embedded systems where resources are scarce, and reliability is paramount. It achieves this through a combination of language features and hardware protection:
 
-- Hardware-Based Protection: For user-space processes, Tock employs hardware protection mechanisms like the Memory Protection Unit (MPU) to ensure isolation.
+1.  **Rust-Based Kernel and Capsules:** The core kernel, device drivers, and virtualization layers ("capsules") are written in Rust. Rust's ownership and borrowing system provides compile-time memory safety and type safety, preventing common errors like null pointer dereferences, buffer overflows, and data races within the kernel space. This allows fine-grained isolation between kernel components with virtually no runtime overhead. Capsules run in privileged mode but are cooperatively scheduled within a single-threaded event loop. While safe in terms of memory, a misbehaving capsule could potentially block the system.
 
-- Capsules: These are Rust-based kernel extensions that provide system calls and other functionalities. They are memory-safe and cannot use unsafe Rust features.
+2.  **MPU-Protected Processes:** Applications run as user-space "processes". Each process is isolated from the kernel and other processes using the hardware Memory Protection Unit (MPU). This allows processes to be written in any language (commonly C/C++) and loaded dynamically at runtime without recompiling the kernel. Processes are preemptively scheduled, ensuring that one process cannot monopolize the CPU indefinitely.
 
-- Processes: Independent applications that run with reduced privileges. They can be written in any language and are isolated from the kernel using the MPU.
+3.  **Grants Mechanism:** To allow safe sharing of memory between untrusted user-space processes and trusted kernel capsules (e.g., for driver buffers or asynchronous operation context), Tock uses a "grant" mechanism. Processes allocate a specific memory region that the kernel can manage on their behalf. Capsules can safely allocate typed data within this grant region without violating memory safety, even if the process crashes or terminates.
 
-- Cooperative Scheduling in Kernel: Tock's kernel uses a cooperative scheduling model, ensuring efficient resource utilization.
+4.  **Asynchronous Event-Driven Model:** Tock employs an asynchronous, event-driven model based on callbacks (upcalls). Processes register callbacks for driver events (e.g., timer expiry, data reception) using the `subscribe` system call and then yield execution using the `yield` system call. The kernel wakes the process only when a subscribed event occurs, enabling efficient low-power operation.
 
-- Preemptive Scheduling for Processes: Processes are scheduled preemptively, ensuring system responsiveness.
+## System Calls
 
-- Memory Grants: A mechanism that allows capsules to dynamically allocate memory from a process, ensuring safety and efficient memory utilization.
+Processes interact with the kernel via a minimal set of system calls:
+*   `subscribe`: Register a callback function for a driver event.
+*   `command`: Issue a synchronous command to a driver.
+*   `allow`: Share a read-only or read-write buffer from process memory with a driver.
+*   `memop`: Perform operations related to process memory management (e.g., requesting more memory).
+*   `yield`: Relinquish control to the kernel, waiting for the next pending callback.
 
-- System Calls: Tock provides four major system calls - command, subscribe, allow, and yield, facilitating interaction between processes and the kernel.
+## Target Applications
 
-- Extensible Architecture: Tock is designed to be modular, allowing for the addition of new capsules and processes as needed.
+Tock is well-suited for applications requiring high security and reliability on low-power microcontrollers, such as:
+*   Secure IoT devices
+*   Wearable technology
+*   Wireless sensor nodes
+*   Systems requiring secure third-party application support
 
-- Support for Multiple Platforms: Tock supports various hardware platforms and can be configured to use different scheduling algorithms.
+## Features
+
+- **Memory Safety:** Kernel and drivers written in Rust for compile-time memory safety.
+- **Hardware Isolation:** Uses Memory Protection Units (MPU) to isolate processes from the kernel and each other.
+- **Dual Component Model:**
+    - **Capsules:** Kernel-space, Rust-based, type-safe, cooperative scheduling, fine-grained isolation.
+    - **Processes:** User-space, MPU-isolated, preemptive scheduling, language-agnostic, dynamic loading.
+- **Concurrency:** Supports multiple concurrent applications (processes) and kernel tasks (capsules).
+- **Grant Mechanism:** Safe dynamic memory allocation for kernel capsules from process memory.
+- **Asynchronous Operations:** Callback-based system calls (`subscribe`/`yield`) for efficient, event-driven execution.
+- **Resource Constrained:** Designed specifically for MCUs like ARM Cortex-M and RISC-V with limited memory.
+- **Modularity:** Clear separation between chip support, board support, kernel core, and capsules.
+- **Minimal System Call Interface:** Reduces attack surface and complexity.
+
+## Components
+
+- **Scheduler:** Manages both cooperative scheduling for capsules and preemptive scheduling for processes.
+- **Task Management:** Handles creation, scheduling, and lifecycle of processes and capsules.
+- **Memory Management:** Enforces MPU regions for processes, manages kernel memory, and implements the Grant mechanism.
+- **Inter-task Communication:** Primarily via system calls (`command`, `subscribe`, `allow`) and the Grant mechanism. Kernel includes an IPC service.
+- **Timer Management:** Provides virtualized timers and alarms accessible by processes and capsules.
+- **Hardware Abstraction Layer (HIL):** Defines traits for abstracting hardware peripherals (GPIO, UART, SPI, Timers, etc.).
+- **Dynamic Loading:** Supports loading new processes at runtime without kernel modification.
+- **Logging:** Provides debugging macros (`debug!`) for kernel-level logging.
+- **Storage Management:** Mechanisms for managing access permissions to non-volatile storage areas.
 
 ### Resources
 <!--github-projects-->

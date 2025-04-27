@@ -5,8 +5,8 @@ version: "2025.01"
 code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-10"
-star: 5497
+last-updated: "2025-04-26"
+star: 5506
 components:
     - scheduler
     - task-management

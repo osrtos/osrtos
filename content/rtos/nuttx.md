@@ -1,57 +1,115 @@
 ---
 title: NuttX
 slug: nuttx
-version: nuttx-12.9.0-RC0
+version: nuttx-12.9.0
 code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2025-04-10"
-star: 3218
+last-updated: "2025-04-26"
+star: 3264
 components:
-    - FileSystem
-    - Network
-    - 6LoWPAN
-    - Command Line Interface
-    - USBHost
-    - USBDevice
-    - GUI
+    - scheduler
+    - task-management
+    - inter-task-communication
+    - memory-management
+    - timer-management
+    - network-stack
+    - ble
+    - wifi
+    - lorawan
+    - 6lowpan
+    - http-client
+    - http-server
+    - mqtt-client
+    - coap
+    - ftp-client
+    - ftp-server
+    - snmp-agent
+    - dhcp-client
+    - dhcp-server
+    - dns-client
+    - tls-ssl
+    - filesystem
+    - usb-host
+    - usb-device
+    - can
+    - modbus
+    - at-command
+    - shell-cli
+    - logging
+    - ota-update
+    - dynamic-loading
+    - smp-support
+    - gui
+    - runtime-analysis
+    - simulation
 licenses:
-    - Apache License 2.0
+    - Apache-2.0
 platforms:
-    - ARM
-    - AVR
-    - "8051"
-    - PIC
+    - aarch32
+    - aarch64
+    - arm-cortex-a
+    - arm-cortex-r
+    - arm-cortex-m
     - x86
-    - MIPS
-    - Xtensa
-    - RISC-V
-    - Freescale HCS12
-    - Zilog
+    - x86_64
+    - risc-v
+    - mips
+    - avr
+    - hcs12
+    - sparc
+    - superh
+    - z80
+    - xtensa
+    - qemu
+    - posix
 ---
-NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 32-bit microcontroller environments, the primary governing standards in NuttX are Posix and ANSI standards.
+Apache NuttX is a real-time operating system (RTOS) emphasizing standards compliance (POSIX, ANSI) and a small footprint. Highly scalable, it operates on microcontrollers from 8-bit to 64-bit architectures. NuttX provides a rich, multi-threaded development environment suitable for deeply embedded systems. Its architecture includes a preemptible core, extensive networking capabilities (including IPv6 and 6LoWPAN), various filesystems, USB host/device support, a graphical subsystem, and options for protected builds using MPU/MMU. Licensed under Apache 2.0, it fosters an open development environment supported by GNU toolchains and simulation capabilities.
 
 <!--more-->
 
-### Features
+Apache NuttX is a highly flexible and scalable Real-Time Operating System (RTOS) designed for embedded systems ranging from tiny 8-bit microcontrollers to powerful 64-bit platforms. Its core design philosophy centers around strict adherence to standards, primarily POSIX and ANSI, making it familiar to developers accustomed to Unix-like environments such as Linux. This standards compliance facilitates easier porting of existing software to NuttX.
 
-- Standards Compliant.
-- Core Task Management.
-- Modular, micro-kernel.
-- Fully pre-emptible.
-- Naturally scalable.
-- Highly configurable.
-- Easily extensible to new processor architectures, SoC architecture, or board architectures. See Porting Guide.
-- FIFO and round-robin scheduling.
-- Realtime, deterministic, with support for priority inheritance.
-- POSIX/ANSI-like task controls, named message queues, counting semaphores, clocks/timers, signals, pthreads, environment variables, filesystem.
-- VxWorks-like task management and watchdog timers.
-- BSD socket interface.
-- Extensions to manage pre-emption.
-- Optional tasks with address environments (Processes).
-- Inheritable
+NuttX distinguishes itself with its scalability. Through extensive configuration options (using Kconfig) and a modular architecture with many small source files linked from static libraries, developers can tailor the RTOS footprint precisely to their needs. This allows NuttX to run efficiently on resource-constrained devices while still offering a rich feature set for more complex applications.
 
-### Sample projects and resources
+Key architectural features include a fully preemptible kernel with multiple scheduling policies (FIFO, Round-Robin, Sporadic), support for priority inheritance to mitigate priority inversion issues, and optional tickless operation for power efficiency. NuttX supports different memory configurations: a simple flat build, a protected build leveraging an MPU for memory isolation between kernel and user space, and a full kernel build using an MMU for virtual memory support, enabling process-like environments.
+
+The RTOS boasts a comprehensive set of subsystems:
+*   **Networking:** A robust network stack supporting IPv4, IPv6, TCP/IP, UDP, ICMP, and various protocols like HTTP, FTP, MQTT, CoAP, and network services like DHCP and DNS. It includes support for different link layers including Ethernet, WiFi, Bluetooth LE, and 6LoWPAN over IEEE 802.15.4 radios.
+*   **File System:** A Virtual File System (VFS) supporting numerous underlying filesystems such as FAT, ROMFS, CROMFS, NFS client, and several Flash file systems (LittleFS, SPIFFS, NXFFS, SmartFS). It also supports TMPFS, ProcFS, and UnionFS.
+*   **Device Drivers:** A well-defined driver model for character, block, and specialized drivers, covering peripherals like USB (Host & Device), CAN (SocketCAN), I2C, SPI, Audio, Display, Sensors, MTD (NAND, SPI Flash), Power Management and more.
+*   **Dynamic Loading:** Support for loading and running applications dynamically using ELF or the custom NXFLAT binary format.
+*   **Graphics:** The NX Graphics subsystem provides a lightweight windowing system (NxWM), widget toolkit (NxWidgets), font rendering, and support for various framebuffer and LCD/OLED display types.
+*   **Shell:** The NuttShell (NSH) offers a powerful command-line interface resembling Bash for system interaction and scripting.
+
+NuttX also includes support for Symmetric Multiprocessing (SMP) on multi-core processors, a simulation environment for host-based development and testing (Linux, Cygwin, macOS, Renode), experimental support for modern languages like Rust, OpenAMP for heterogeneous systems, and integrated cryptography support via libraries like Mbed TLS and wolfSSL. Its permissive Apache 2.0 license encourages broad adoption and contribution within the open-source community.
+
+## Features
+
+*   **Standards Compliant:** High conformance to POSIX, ANSI, and other common standards (VxWorks APIs, BSD Sockets).
+*   **Scalable:** Suitable for 8-bit to 64-bit MCUs and MPUs, configurable footprint.
+*   **Real-Time Kernel:** Fully preemptible, deterministic scheduling (FIFO, RR, Sporadic), optional tickless mode for low power.
+*   **Memory Configurations:** Flat Build, Protected Build (MPU), Kernel Build (MMU).
+*   **Memory Management:** Standard heap allocators (malloc, free), Granule allocator (for aligned memory like DMA), Page allocator (for MMU), Shared Memory support.
+*   **Tasking Model:** Tasks, Pthreads, Kernel Threads, optional Processes with address environments (similar to Linux processes).
+*   **Rich IPC:** POSIX Semaphores (Counting, Binary), Mutexes (with Priority Inheritance), POSIX Message Queues, Signals, Pipes, FIFOs.
+*   **Virtual File System (VFS):** Supports FAT12/16/32, ROMFS, CROMFS, TMPFS, NFS Client, ProcFS, UnionFS, UserFS, and Flash Filesystems (NXFFS, LittleFS, SPIFFS, SmartFS).
+*   **Networking Stack:** Built-in IPv4/IPv6 stack, TCP/IP, UDP, ICMP, ICMPv6, IGMPv2, MLDv1/v2, Sockets (TCP, UDP, Raw, Packet, Local Unix Domain, Netlink), 6LoWPAN, SLIP, PPP, IP Forwarding, NAT, IP Filtering.
+*   **Network Services:** DHCP Client/Server, DNS Client, FTP Client/Server, HTTP Client/Server (THTTPD with CGI), Telnet Client/Server, NTP Client, MQTT Client, CoAP, SNMP Agent.
+*   **Wireless Support:** IEEE 802.11 (WiFi FullMac), Bluetooth LE, IEEE 802.15.4 (Generic Packet Radio, 6LoWPAN), LoRaWAN (via apps).
+*   **Device Drivers:** Extensive framework including USB Host/Device, Serial, I2C, SPI, CAN (SocketCAN), ADC, DAC, PWM, Quadrature Encoder, Audio Subsystem, Graphics (Framebuffer, LCD/OLED), Sensors, MTD (NAND, SPI FLASH/FRAM), Power Management Framework, Crypto API.
+*   **USB Stack:** Host (Mass Storage, CDC/ACM Serial, HID Keyboard/Mouse, Hub support) and Device (Mass Storage, CDC/ACM Serial, PL2303 Emulation, RNDIS & CDC/ECM Networking, DFU, Composite Device support). Built-in USB trace functionality.
+*   **Dynamic Loading:** Supports loading applications from filesystems via standard ELF and custom NXFLAT (XIP-capable) binary formats.
+*   **Shell:** NuttShell (NSH) provides a feature-rich, Bash-like command-line interface.
+*   **Graphics:** NX Graphics library, NXWM tiny Windowing System, NxWidgets C++ Widget library, Font management subsystem, VNC Server support.
+*   **Security:** Protected build mode via MPU restricts user-space access to kernel resources through a syscall interface.
+*   **Simulation:** Runs as a process on Linux, macOS, Cygwin for development and testing; supports Renode simulator integration.
+*   **SMP Support:** Supports Symmetric Multiprocessing on multi-core systems (pthreads, scheduling, spinlocks).
+*   **OpenAMP Support:** Facilitates communication in heterogeneous multi-core systems (AMP).
+*   **Language Support:** Primarily C/C++, includes standard C library, optional uClibc++, and experimental Rust integration (including std support).
+*   **Licensing:** Permissive Apache 2.0 License for the core OS.
+
+## Resources
 
 - [PX4](http://pixhawk.org/choice). PX4 is an independent, open-source, open-hardware project aiming at providing a high-end autopilot to the academic, hobby and industrial communities (BSD licensed) at low costs and high availability.
 - [HOWTO: Installing NuttX on the STM32F4 Discovery board (using Debian Linux)](http://fob.po8.org/node/613). Installed the NuttX RTOS on a new STM32F4 Discovery board.

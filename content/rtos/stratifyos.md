@@ -6,7 +6,7 @@ code-url: https://github.com/StratifyLabs/StratifyOS
 site-url: https://stratifylabs.co/
 date: "2016-11-29 11:36:57"
 last-updated: "2024-06-07"
-star: 138
+star: 142
 components:
     - None
 licenses:

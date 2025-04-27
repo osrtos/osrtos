@@ -6,7 +6,7 @@ code-url: https://github.com/tinyos/tinyos-main
 site-url: http://webs.cs.berkeley.edu/tos/
 date: "2019-02-12 06:21:04"
 last-updated: "2021-04-22"
-star: 1439
+star: 1444
 components:
     - None
 licenses:
