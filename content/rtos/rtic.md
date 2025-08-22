@@ -5,8 +5,8 @@ version: v2.1.1
 code-url: https://github.com/rtic-rs/rtic
 site-url: https://rtic.rs/
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-07"
-star: 1960
+last-updated: "2025-07-02"
+star: 2081
 components:
     - scheduler
     - task-management

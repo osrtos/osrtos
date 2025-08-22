@@ -5,8 +5,8 @@ version: release-2.2
 code-url: https://github.com/tock/tock
 site-url: https://github.com/tock/tock
 date: "2019-02-12 05:45:10"
-last-updated: "2025-04-23"
-star: 5751
+last-updated: "2025-08-16"
+star: 5965
 components:
     - scheduler
     - task-management

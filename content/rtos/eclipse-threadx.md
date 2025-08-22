@@ -5,8 +5,8 @@ version: v6.4.2_rel
 code-url: https://github.com/eclipse-threadx/threadx
 site-url: hhttps://threadx.io/ttps://azure.microsoft.com/en-us/services/rtos/
 date: 2020-05-27 09:25:57+08:00
-last-updated: "2025-02-27"
-star: 3114
+last-updated: "2025-07-29"
+star: 3248
 components:
     - scheduler
     - task-management

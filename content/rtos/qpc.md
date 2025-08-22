@@ -1,12 +1,12 @@
 ---
 title: qpc
 slug: qpc
-version: v8.0.3
+version: v8.0.4
 code-url: https://github.com/QuantumLeaps/qpc
 site-url: https://www.state-machine.com/products/qp
 date: "2024-12-30"
-last-updated: "2025-04-26"
-star: 1073
+last-updated: "2025-07-29"
+star: 1147
 components:
     - scheduler
     - task-management
@@ -24,7 +24,7 @@ platforms:
     - arm-cortex-r
     - arm-cortex-a
     - msp430
-    - 8051
+    - "8051"
     - risc-v
     - x86
     - avr

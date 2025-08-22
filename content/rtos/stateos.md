@@ -6,7 +6,7 @@ code-url: https://github.com/stateos/StateOS
 site-url: https://github.com/stateos/StateOS
 date: "2016-11-29 11:36:58"
 last-updated: "2024-04-23"
-star: 197
+star: 201
 components:
     - None
 licenses:

@@ -5,8 +5,8 @@ version: release/v5.0
 code-url: https://github.com/contiki-ng/contiki-ng
 site-url: https://github.com/contiki-ng/contiki-ng
 date: 2020-05-22 08:43:25+08:00
-last-updated: "2025-04-16"
-star: 1386
+last-updated: "2025-07-10"
+star: 1422
 components:
     - FileSystem
     - Network

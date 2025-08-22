@@ -5,8 +5,8 @@ version: 13.0.0
 code-url: https://github.com/seL4/seL4
 site-url: http://sel4.systems/
 date: "2017-04-29 08:18:58"
-last-updated: "2025-04-27"
-star: 4894
+last-updated: "2025-08-20"
+star: 5036
 components:
     - scheduler
     - task-management

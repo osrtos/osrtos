@@ -1,12 +1,12 @@
 ---
 title: RT-Thread
 slug: rt-thread
-version: v5.2.0
+version: v5.2.1
 code-url: https://github.com/RT-Thread/rt-thread
 site-url: http://www.rt-thread.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2025-04-27"
-star: 11054
+last-updated: "2025-08-21"
+star: 11359
 components:
     - scheduler
     - task-management

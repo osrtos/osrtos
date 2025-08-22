@@ -5,8 +5,8 @@ version: 3.0_GBM
 code-url: https://github.com/Samsung/TizenRT
 site-url: https://github.com/Samsung/TizenRT
 date: "2018-02-11 06:48:49"
-last-updated: "2025-04-24"
-star: 613
+last-updated: "2025-08-21"
+star: 629
 components:
     - scheduler
     - task-management

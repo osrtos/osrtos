@@ -1,12 +1,12 @@
 ---
 title: RIOT
 slug: riot
-version: "2025.01"
+version: "2025.07"
 code-url: https://github.com/RIOT-OS/RIOT
 site-url: http://riot-os.org/
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-26"
-star: 5506
+last-updated: "2025-08-21"
+star: 5573
 components:
     - scheduler
     - task-management

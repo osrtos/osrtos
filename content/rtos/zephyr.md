@@ -1,12 +1,12 @@
 ---
 title: Zephyr
 slug: zephyr
-version: v4.1.0
+version: v4.2.0
 code-url: https://github.com/zephyrproject-rtos/zephyr
 site-url: https://www.zephyrproject.org
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-26"
-star: 11962
+last-updated: "2025-08-22"
+star: 12948
 components:
     - scheduler
     - task-management

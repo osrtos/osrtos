@@ -5,8 +5,8 @@ version: ver21.11.3
 code-url: https://github.com/ChibiOS/ChibiOS
 site-url: http://www.chibios.org/dokuwiki/doku.php
 date: "2016-11-29 11:36:57"
-last-updated: "2025-04-22"
-star: 753
+last-updated: "2025-08-20"
+star: 790
 components:
     - scheduler
     - task-management
@@ -29,7 +29,7 @@ licenses:
     - Apache-2.0
     - Commercial
 platforms:
-    - arm-cortex-m 
+    - arm-cortex-m
     - arm-cortex-a
     - risc-v
     - avr

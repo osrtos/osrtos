@@ -5,8 +5,8 @@ version: "202411.00"
 code-url: https://github.com/FreeRTOS/FreeRTOS
 site-url: http://www.freertos.org/
 date: "2016-11-29 11:36:57"
-last-updated: "2025-04-21"
-star: 5918
+last-updated: "2025-08-15"
+star: 6336
 components:
     - scheduler
     - task-management

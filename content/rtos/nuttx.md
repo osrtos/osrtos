@@ -1,12 +1,12 @@
 ---
 title: NuttX
 slug: nuttx
-version: nuttx-12.9.0
+version: nuttx-12.10.0
 code-url: https://github.com/apache/nuttx
 site-url: https://nuttx.apache.org/
 date: 2016-11-29 11:36:57+00:00
-last-updated: "2025-04-26"
-star: 3264
+last-updated: "2025-08-21"
+star: 3439
 components:
     - scheduler
     - task-management

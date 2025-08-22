@@ -6,7 +6,7 @@ code-url: https://github.com/ENGaliyasser/RA3-RTOS
 site-url: https://engaliyasser.github.io/RA3-RTOS/
 date: "2024-12-30"
 last-updated: "2024-11-04"
-star: 2
+star: 4
 components:
     - Task Management
     - Scheduling

@@ -5,8 +5,8 @@ version: 2.20.0
 code-url: https://github.com/cesanta/mongoose-os
 site-url: https://mongoose-os.com/
 date: "2018-01-24 01:43:59"
-last-updated: "2025-04-24"
-star: 2554
+last-updated: "2025-08-06"
+star: 2593
 components:
     - scheduler
     - task-management

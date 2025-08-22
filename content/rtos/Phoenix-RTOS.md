@@ -5,8 +5,8 @@ version: v3.3.2
 code-url: https://github.com/phoenix-rtos/phoenix-rtos-kernel
 site-url: https://phoenix-rtos.com/
 date: "2019-02-12 06:00:17"
-last-updated: "2025-04-18"
-star: 135
+last-updated: "2025-08-21"
+star: 146
 components:
     - scheduler
     - task-management

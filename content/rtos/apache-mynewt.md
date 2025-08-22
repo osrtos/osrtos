@@ -5,8 +5,8 @@ version: pre_sterly_refactor
 code-url: https://github.com/apache/mynewt-core
 site-url: https://mynewt.apache.org/
 date: "2016-11-29 11:36:58"
-last-updated: "2025-04-24"
-star: 863
+last-updated: "2025-08-20"
+star: 873
 components:
     - scheduler
     - task-management

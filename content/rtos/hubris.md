@@ -1,12 +1,12 @@
 ---
 title: Hubris
 slug: hubris
-version: sidecar-v1.0.37
+version: all-sp-v1.0.45
 code-url: https://github.com/oxidecomputer/hubris
 site-url: https://github.com/oxidecomputer/hubris
 date: "2023-08-20 11:36:57"
-last-updated: "2025-04-24"
-star: 3146
+last-updated: "2025-08-21"
+star: 3249
 components:
     - scheduler
     - task-management
